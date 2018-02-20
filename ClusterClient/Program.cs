@@ -18,8 +18,11 @@ namespace ClusterClient
 
             string[] replicaAddresses;
             if (!TryGetReplicaAddresses(args, out replicaAddresses))
+            {
+                Console.ReadKey();
                 return;
-
+            }
+            Console.WriteLine("Started");
             try
             {
                 var clients = new ClusterClientBase[]
@@ -27,7 +30,7 @@ namespace ClusterClient
                                   new RandomClusterClient(replicaAddresses)
                               };
                 var queries = new[] { "От", "топота", "копыт", "пыль", "по", "полю", "летит", "На", "дворе", "трава", "на", "траве", "дрова" };
-
+                
                 foreach (var client in clients)
                 {
                     Console.WriteLine("Testing {0} started", client.GetType());
@@ -53,6 +56,9 @@ namespace ClusterClient
             {
                 Log.Fatal(e);
             }
+
+            Console.WriteLine("Finished");
+            Console.ReadKey();
         }
 
         private static bool TryGetReplicaAddresses(string[] args, out string[] replicaAddresses)
@@ -63,7 +69,7 @@ namespace ClusterClient
             argumentsParser.Setup<string>('f', "file")
                 .WithDescription("Path to the file with replica addresses")
                 .Callback(fileName => result = File.ReadAllLines(fileName))
-                .Required();
+                .SetDefault(Environment.CurrentDirectory + "/../../ServerAddresses.txt");
 
             argumentsParser.SetupHelp("?", "h", "help")
                 .Callback(text => Console.WriteLine(text));

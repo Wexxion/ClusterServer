@@ -17,8 +17,12 @@ namespace ClusterServer
 
 			try
 			{
-			    if(!ServerArguments.TryGetArguments(args, out var parsedArguments))
-					return;
+			    if (!ServerArguments.TryGetArguments(args, out var parsedArguments))
+			    {
+			        Console.ReadKey();
+			        return;
+                }
+					
 
 				var listener = new HttpListener
 				{
@@ -30,7 +34,10 @@ namespace ClusterServer
 
 				log.InfoFormat("Server is starting listening prefixes: {0}", string.Join(";", listener.Prefixes));
 
-				if(parsedArguments.Async)
+			    Console.WriteLine($"Adress: http://127.0.0.1:{parsedArguments.Port}/{parsedArguments.MethodName}/\n" +
+			                      $"async: {parsedArguments.Async}, delay: {parsedArguments.MethodDuration}");
+
+                if (parsedArguments.Async)
 				{
 					log.InfoFormat("Press ENTER to stop listening");
 					listener.StartProcessingRequestsAsync(CreateAsyncCallback(parsedArguments));

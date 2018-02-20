@@ -1,0 +1,109 @@
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:40:55.652 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:40:55.659 INFO     1 Press ENTER to stop listening  
+20.02.2018 23:40:57.494 INFO     1 Server stopped!  
+[Start of logging]
+20.02.2018 23:41:27.146 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:41:27.156 FATAL    1 System.Net.HttpListenerException (0x80004005): ќтказано в доступе
+   в System.Net.HttpListener.AddAllPrefixes()
+   в System.Net.HttpListener.Start()
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 50
+   в ClusterServer.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 46  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:42:10.294 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:42:10.304 FATAL    1 System.Net.HttpListenerException (0x80004005): ќтказано в доступе
+   в System.Net.HttpListener.AddAllPrefixes()
+   в System.Net.HttpListener.Start()
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 50
+   в ClusterServer.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 46  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:42:11.462 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:42:11.472 FATAL    1 System.Net.HttpListenerException (0x80004005): ќтказано в доступе
+   в System.Net.HttpListener.AddAllPrefixes()
+   в System.Net.HttpListener.Start()
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 50
+   в ClusterServer.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 46  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:42:22.248 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:42:22.258 FATAL    1 System.Net.HttpListenerException (0x80004005): ќтказано в доступе
+   в System.Net.HttpListener.AddAllPrefixes()
+   в System.Net.HttpListener.Start()
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 50
+   в ClusterServer.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 46  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:42:32.026 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:42:32.037 FATAL    1 System.Net.HttpListenerException (0x80004005): ќтказано в доступе
+   в System.Net.HttpListener.AddAllPrefixes()
+   в System.Net.HttpListener.Start()
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 50
+   в ClusterServer.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 46  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:43:02.331 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:43:02.339 FATAL    1 System.Net.HttpListenerException (0x80004005): ќтказано в доступе
+   в System.Net.HttpListener.AddAllPrefixes()
+   в System.Net.HttpListener.Start()
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 50
+   в ClusterServer.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 46  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:43:58.031 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:43:58.038 INFO     1 Press ENTER to stop listening  
+20.02.2018 23:44:01.744 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:44:32.929 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:44:32.938 INFO     1 Press ENTER to stop listening  
+[Start of logging]
+20.02.2018 23:45:24.818 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:45:24.826 INFO     1 Press ENTER to stop listening  
+20.02.2018 23:45:31.775 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:48:06.580 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:48:06.589 INFO     1 Press ENTER to stop listening  
+20.02.2018 23:48:09.202 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:48:39.185 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:48:39.195 INFO     1 Press ENTER to stop listening  
+20.02.2018 23:48:41.364 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+20.02.2018 23:49:02.657 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:49:02.668 INFO     1 Press ENTER to stop listening  
+[Start of logging]
+20.02.2018 23:50:27.290 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:50:27.301 INFO     1 Press ENTER to stop listening  
+[Start of logging]
+20.02.2018 23:56:08.492 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+20.02.2018 23:56:08.500 INFO     1 Press ENTER to stop listening  

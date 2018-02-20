@@ -10,7 +10,7 @@ namespace ClusterClient.Clients
 {
     public abstract class ClusterClientBase
     {
-        protected string[] ReplicaAddresses { get; set; }
+        protected string[] ReplicaAddresses { get; }
 
         protected ClusterClientBase(string[] replicaAddresses)
         {

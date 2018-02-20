@@ -9,34 +9,33 @@ namespace ClusterServer
 	{
 		private static readonly ILog Log = LogManager.GetLogger(typeof(HttpListenerExtensions));
 
-		public async static Task StartProcessingRequestsAsync(this HttpListener listener, Func<HttpListenerContext, Task> callbackAsync)
+		public static async Task StartProcessingRequestsAsync(this HttpListener listener, Func<HttpListenerContext, Task> callbackAsync)
 		{
 			listener.Start();
-
 			while (true)
 			{
 				try
 				{
 					var context = await listener.GetContextAsync();
 
-					Task.Run(
-						async () =>
-								{
-									var ctx = context;
-									try
-									{
-										await callbackAsync(ctx);
-									}
-									catch (Exception e)
-									{
-										Log.Error(e);
-									}
-									finally
-									{
-										ctx.Response.Close();
-									}
-								}
-						);
+                    await Task.Run(
+                        async () =>
+                                {
+                                    var ctx = context;
+                                    try
+                                    {
+                                        await callbackAsync(ctx);
+                                    }
+                                    catch (Exception e)
+                                    {
+                                        Log.Error(e);
+                                    }
+                                    finally
+                                    {
+                                        ctx.Response.Close();
+                                    }
+                                }
+                        );
 				}
 				catch (Exception e)
 				{
