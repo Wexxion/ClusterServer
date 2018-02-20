@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9860057D-6294-41B2-8A55-D329F24DC385}</ProjectGuid>
+    <ProjectGuid>{5746BB27-3B52-4A00-8E39-515EACC07128}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClusterServer</RootNamespace>
-    <AssemblyName>ClusterServer</AssemblyName>
+    <RootNamespace>ClusterClient</RootNamespace>
+    <AssemblyName>ClusterClient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,14 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HttpListenerExtensions.cs" />
+    <Compile Include="Clients\ClusterClientBase.cs" />
+    <Compile Include="Clients\RandomClusterClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServerArguments.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ServerAddresses.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
