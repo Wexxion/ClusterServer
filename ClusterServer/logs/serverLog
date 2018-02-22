@@ -1,12 +1,138 @@
 [Start of logging]
-21.02.2018 00:23:58.105 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
-21.02.2018 00:23:58.132 INFO     1 Press ENTER to stop listening  
+23.02.2018 00:00:49.089 INFO     1 Thread #1 received request #21 at 00:00:49.0898481  
+23.02.2018 00:00:51.503 INFO     1 Thread #1 sent response #21 at 00:00:51.5031679  
+23.02.2018 00:00:55.240 INFO     1 Thread #1 received request #22 at 00:00:55.2407163  
+23.02.2018 00:00:57.641 INFO     1 Thread #1 sent response #22 at 00:00:57.6419924  
+23.02.2018 00:00:57.642 INFO     1 Thread #1 received request #23 at 00:00:57.6423136  
+23.02.2018 00:01:00.042 INFO     1 Thread #1 sent response #23 at 00:01:00.0428394  
+23.02.2018 00:01:00.042 INFO     1 Thread #1 received request #24 at 00:01:00.0428394  
+23.02.2018 00:01:02.443 ERROR    1 System.Net.HttpListenerException (0x80004005): ѕопытка выполнить операцию дл€ несуществующего сетевого подключени€
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+23.02.2018 00:01:06.057 INFO     1 Thread #1 received request #25 at 00:01:06.0574518  
+23.02.2018 00:01:08.458 INFO     1 Thread #1 sent response #25 at 00:01:08.4580971  
+23.02.2018 00:01:08.458 INFO     1 Thread #1 received request #26 at 00:01:08.4580971  
+23.02.2018 00:01:10.858 INFO     1 Thread #1 sent response #26 at 00:01:10.8585954  
+23.02.2018 00:01:10.858 INFO     1 Thread #1 received request #27 at 00:01:10.8585954  
+23.02.2018 00:01:13.258 INFO     1 Thread #1 sent response #27 at 00:01:13.2589247  
+23.02.2018 00:01:13.258 INFO     1 Thread #1 received request #28 at 00:01:13.2589247  
+23.02.2018 00:01:15.659 INFO     1 Thread #1 sent response #28 at 00:01:15.6599794  
+23.02.2018 00:01:15.659 INFO     1 Thread #1 received request #29 at 00:01:15.6599794  
+23.02.2018 00:01:18.060 INFO     1 Thread #1 sent response #29 at 00:01:18.0604452  
+23.02.2018 00:01:18.060 INFO     1 Thread #1 received request #30 at 00:01:18.0604452  
+23.02.2018 00:01:20.461 ERROR    1 System.Net.HttpListenerException (0x80004005): ѕопытка выполнить операцию дл€ несуществующего сетевого подключени€
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+23.02.2018 00:02:57.486 INFO     1 Thread #1 received request #31 at 00:02:57.4869179  
+23.02.2018 00:02:59.887 INFO     1 Thread #1 sent response #31 at 00:02:59.8873975  
+23.02.2018 00:02:59.887 INFO     1 Thread #1 received request #32 at 00:02:59.8878996  
+23.02.2018 00:03:02.288 INFO     1 Thread #1 sent response #32 at 00:03:02.2883569  
+23.02.2018 00:03:03.590 INFO     1 Thread #1 received request #33 at 00:03:03.5900661  
+23.02.2018 00:03:05.990 INFO     1 Thread #1 sent response #33 at 00:03:05.9905403  
+23.02.2018 00:03:05.990 INFO     1 Thread #1 received request #34 at 00:03:05.9905403  
+23.02.2018 00:03:08.391 INFO     1 Thread #1 sent response #34 at 00:03:08.3912082  
+23.02.2018 00:03:08.391 INFO     1 Thread #1 received request #35 at 00:03:08.3912082  
+23.02.2018 00:03:10.791 INFO     1 Thread #1 sent response #35 at 00:03:10.7919272  
+23.02.2018 00:03:10.791 INFO     1 Thread #1 received request #36 at 00:03:10.7919272  
+23.02.2018 00:03:13.192 INFO     1 Thread #1 sent response #36 at 00:03:13.1929378  
+23.02.2018 00:03:13.193 INFO     1 Thread #1 received request #37 at 00:03:13.1932601  
+23.02.2018 00:03:15.593 ERROR    1 System.Net.HttpListenerException (0x80004005): ѕопытка выполнить операцию дл€ несуществующего сетевого подключени€
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+23.02.2018 00:03:40.091 INFO     1 Thread #1 received request #38 at 00:03:40.0912632  
+23.02.2018 00:03:42.492 INFO     1 Thread #1 sent response #38 at 00:03:42.4923701  
+23.02.2018 00:03:42.492 INFO     1 Thread #1 received request #39 at 00:03:42.4923701  
+23.02.2018 00:03:44.893 INFO     1 Thread #1 sent response #39 at 00:03:44.8932650  
+23.02.2018 00:04:10.486 INFO     1 Thread #1 received request #40 at 00:04:10.4863248  
+23.02.2018 00:04:12.886 INFO     1 Thread #1 sent response #40 at 00:04:12.8869891  
+23.02.2018 00:04:23.723 INFO     1 Thread #1 received request #41 at 00:04:23.7234137  
+23.02.2018 00:04:26.123 INFO     1 Thread #1 sent response #41 at 00:04:26.1239814  
+23.02.2018 00:04:26.123 INFO     1 Thread #1 received request #42 at 00:04:26.1239814  
+23.02.2018 00:04:28.524 ERROR    1 System.Net.HttpListenerException (0x80004005): ѕопытка выполнить операцию дл€ несуществующего сетевого подключени€
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+23.02.2018 00:07:43.642 INFO     1 Thread #1 received request #43 at 00:07:43.6421789  
+23.02.2018 00:07:46.043 INFO     1 Thread #1 sent response #43 at 00:07:46.0436151  
+23.02.2018 00:07:46.044 INFO     1 Thread #1 received request #44 at 00:07:46.0441159  
+23.02.2018 00:07:48.444 INFO     1 Thread #1 sent response #44 at 00:07:48.4445090  
+23.02.2018 00:07:48.444 INFO     1 Thread #1 received request #45 at 00:07:48.4445090  
+23.02.2018 00:07:50.845 INFO     1 Thread #1 sent response #45 at 00:07:50.8451935  
+23.02.2018 00:07:50.845 INFO     1 Thread #1 received request #46 at 00:07:50.8451935  
+23.02.2018 00:07:53.245 INFO     1 Thread #1 sent response #46 at 00:07:53.2456850  
+23.02.2018 00:07:53.245 INFO     1 Thread #1 received request #47 at 00:07:53.2456850  
+23.02.2018 00:07:55.646 INFO     1 Thread #1 sent response #47 at 00:07:55.6463444  
+23.02.2018 00:07:55.646 INFO     1 Thread #1 received request #48 at 00:07:55.6463444  
+23.02.2018 00:07:58.046 ERROR    1 System.Net.HttpListenerException (0x80004005): ѕопытка выполнить операцию дл€ несуществующего сетевого подключени€
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+23.02.2018 00:08:22.992 INFO     1 Thread #1 received request #49 at 00:08:22.9923496  
+23.02.2018 00:08:25.392 INFO     1 Thread #1 sent response #49 at 00:08:25.3928129  
+23.02.2018 00:08:25.392 INFO     1 Thread #1 received request #50 at 00:08:25.3928129  
+23.02.2018 00:08:27.793 INFO     1 Thread #1 sent response #50 at 00:08:27.7933835  
+23.02.2018 00:08:27.793 INFO     1 Thread #1 received request #51 at 00:08:27.7937012  
+23.02.2018 00:08:30.193 INFO     1 Thread #1 sent response #51 at 00:08:30.1937929  
+23.02.2018 00:08:30.193 INFO     1 Thread #1 received request #52 at 00:08:30.1937929  
+23.02.2018 00:08:32.594 INFO     1 Thread #1 sent response #52 at 00:08:32.5948444  
+23.02.2018 00:08:32.594 INFO     1 Thread #1 received request #53 at 00:08:32.5948444  
+23.02.2018 00:08:34.995 ERROR    1 System.Net.HttpListenerException (0x80004005): ѕопытка выполнить операцию дл€ несуществующего сетевого подключени€
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
 [Start of logging]
-21.02.2018 00:24:29.656 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
-21.02.2018 00:24:29.676 INFO     1 Press ENTER to stop listening  
+23.02.2018 00:15:18.977 INFO     1 Server is starting listening prefixes: http://+:8081/qqq/  
+23.02.2018 00:15:21.531 INFO     1 Thread #1 received request #1 at 00:15:21.5312270  
+23.02.2018 00:15:23.933 INFO     1 Thread #1 sent response #1 at 00:15:23.9339274  
+23.02.2018 00:15:23.933 INFO     1 Thread #1 received request #2 at 00:15:23.9339274  
+23.02.2018 00:15:26.334 INFO     1 Thread #1 sent response #2 at 00:15:26.3344922  
+23.02.2018 00:15:26.334 INFO     1 Thread #1 received request #3 at 00:15:26.3344922  
+23.02.2018 00:15:28.735 INFO     1 Thread #1 sent response #3 at 00:15:28.7352204  
+23.02.2018 00:15:28.735 INFO     1 Thread #1 received request #4 at 00:15:28.7352204  
+23.02.2018 00:15:31.135 INFO     1 Thread #1 sent response #4 at 00:15:31.1356809  
+23.02.2018 00:15:31.135 INFO     1 Thread #1 received request #5 at 00:15:31.1356809  
+23.02.2018 00:15:33.537 ERROR    1 System.Net.HttpListenerException (0x80004005): ѕопытка выполнить операцию дл€ несуществующего сетевого подключени€
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+23.02.2018 00:15:43.022 INFO     1 Thread #1 received request #6 at 00:15:43.0222557  
+23.02.2018 00:15:45.422 INFO     1 Thread #1 sent response #6 at 00:15:45.4225488  
+23.02.2018 00:15:45.423 INFO     1 Thread #1 received request #7 at 00:15:45.4230505  
+23.02.2018 00:15:47.823 INFO     1 Thread #1 sent response #7 at 00:15:47.8232106  
+23.02.2018 00:15:47.823 INFO     1 Thread #1 received request #8 at 00:15:47.8232106  
+23.02.2018 00:15:50.223 ERROR    1 System.Net.HttpListenerException (0x80004005): ѕопытка выполнить операцию дл€ несуществующего сетевого подключени€
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
 [Start of logging]
-21.02.2018 00:25:16.026 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
-21.02.2018 00:25:16.041 INFO     1 Press ENTER to stop listening  
-[Start of logging]
-21.02.2018 00:25:31.102 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
-21.02.2018 00:25:31.130 INFO     1 Press ENTER to stop listening  
+23.02.2018 00:17:37.032 INFO     1 Server is starting listening prefixes: http://+:8081/qqq/  
+23.02.2018 00:17:37.046 INFO     1 Press ENTER to stop listening  
+23.02.2018 00:17:41.315 INFO     5 Thread #5 received request #1 at 00:17:41.3154256  
+23.02.2018 00:17:41.321 INFO     6 Thread #6 received request #2 at 00:17:41.3214408  
+23.02.2018 00:17:41.336 INFO     7 Thread #7 received request #3 at 00:17:41.3364814  
+23.02.2018 00:17:41.347 INFO     8 Thread #8 received request #4 at 00:17:41.3470098  
+23.02.2018 00:17:41.358 INFO     6 Thread #6 received request #5 at 00:17:41.3580386  
+23.02.2018 00:17:41.358 INFO     6 Thread #6 received request #7 at 00:17:41.3580386  
+23.02.2018 00:17:41.358 INFO     6 Thread #6 received request #8 at 00:17:41.3580386  
+23.02.2018 00:17:41.358 INFO     6 Thread #6 received request #9 at 00:17:41.3580386  
+23.02.2018 00:17:41.358 INFO     6 Thread #6 received request #10 at 00:17:41.3580386  
+23.02.2018 00:17:41.358 INFO     6 Thread #6 received request #11 at 00:17:41.3580386  
+23.02.2018 00:17:41.358 INFO     6 Thread #6 received request #12 at 00:17:41.3580386  
+23.02.2018 00:17:41.358 INFO     6 Thread #6 received request #13 at 00:17:41.3580386  
+23.02.2018 00:17:41.358 INFO     5 Thread #5 received request #6 at 00:17:41.3580386  
+23.02.2018 00:17:41.960 INFO     6 Thread #6 sent response #6 at 00:17:41.9601395  
+23.02.2018 00:17:41.960 INFO     5 Thread #5 sent response #13 at 00:17:41.9601395  
+23.02.2018 00:17:41.960 INFO     6 Thread #6 sent response #10 at 00:17:41.9606409  
+23.02.2018 00:17:41.960 INFO     5 Thread #5 sent response #9 at 00:17:41.9606409  
+23.02.2018 00:17:41.960 INFO     6 Thread #6 sent response #8 at 00:17:41.9606409  
+23.02.2018 00:17:41.960 INFO     5 Thread #5 sent response #7 at 00:17:41.9606409  
+23.02.2018 00:17:41.960 INFO     6 Thread #6 sent response #5 at 00:17:41.9606409  
+23.02.2018 00:17:41.960 INFO     5 Thread #5 sent response #2 at 00:17:41.9606409  
+23.02.2018 00:17:41.960 INFO     6 Thread #6 sent response #1 at 00:17:41.9606409  
+23.02.2018 00:17:41.961 INFO     8 Thread #8 sent response #11 at 00:17:41.9616434  
+23.02.2018 00:17:41.961 INFO     7 Thread #7 sent response #12 at 00:17:41.9616434  
+23.02.2018 00:17:41.983 INFO     8 Thread #8 sent response #3 at 00:17:41.9832017  
+23.02.2018 00:17:41.983 INFO     5 Thread #5 sent response #4 at 00:17:41.9837020  

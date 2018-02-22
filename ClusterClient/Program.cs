@@ -16,21 +16,18 @@ namespace ClusterClient
         {
             XmlConfigurator.Configure();
 
-            string[] replicaAddresses;
-            if (!TryGetReplicaAddresses(args, out replicaAddresses))
-            {
-                Console.ReadKey();
+            if (!TryGetReplicaAddresses(args, out var replicaAddresses))
                 return;
-            }
-            Console.WriteLine("Started");
+
             try
             {
                 var clients = new ClusterClientBase[]
                               {
-                                  new RandomClusterClient(replicaAddresses)
+                                  //new RandomClusterClient(replicaAddresses),
+                                  new ParallelClusterClient(replicaAddresses) 
                               };
                 var queries = new[] { "От", "топота", "копыт", "пыль", "по", "полю", "летит", "На", "дворе", "трава", "на", "траве", "дрова" };
-                
+
                 foreach (var client in clients)
                 {
                     Console.WriteLine("Testing {0} started", client.GetType());
@@ -57,7 +54,6 @@ namespace ClusterClient
                 Log.Fatal(e);
             }
 
-            Console.WriteLine("Finished");
             Console.ReadKey();
         }
 

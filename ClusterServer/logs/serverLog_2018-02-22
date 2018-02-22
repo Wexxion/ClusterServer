@@ -1,0 +1,1035 @@
+[Start of logging]
+22.02.2018 00:06:12.638 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 00:06:12.654 INFO     1 Press ENTER to stop listening  
+[Start of logging]
+22.02.2018 00:13:47.311 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 00:13:47.341 INFO     1 Press ENTER to stop listening  
+[Start of logging]
+22.02.2018 21:03:28.595 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 21:03:28.608 INFO     1 Press ENTER to stop listening  
+[Start of logging]
+22.02.2018 21:41:31.461 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 21:41:31.482 INFO     1 Press ENTER to stop listening  
+[Start of logging]
+22.02.2018 22:29:58.574 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:29:58.593 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:30:08.834 INFO     5 Thread #5 received request #1 at 22:30:08.8337440  
+22.02.2018 22:30:10.346 INFO     6 Thread #6 sent response #1 at 22:30:10.3463497  
+22.02.2018 22:30:10.346 INFO     5 Thread #5 received request #2 at 22:30:10.3468155  
+22.02.2018 22:30:11.847 INFO     6 Thread #6 sent response #2 at 22:30:11.8475853  
+22.02.2018 22:30:11.849 INFO     5 Thread #5 received request #3 at 22:30:11.8494947  
+22.02.2018 22:30:13.349 INFO     6 Thread #6 sent response #3 at 22:30:13.3497390  
+22.02.2018 22:30:13.349 INFO     5 Thread #5 received request #4 at 22:30:13.3497390  
+22.02.2018 22:30:14.850 INFO     6 Thread #6 sent response #4 at 22:30:14.8508575  
+22.02.2018 22:30:14.851 INFO     6 Thread #6 received request #5 at 22:30:14.8513590  
+22.02.2018 22:30:16.356 INFO     8 Thread #8 sent response #5 at 22:30:16.3568887  
+22.02.2018 22:30:16.357 INFO     5 Thread #5 received request #6 at 22:30:16.3568887  
+22.02.2018 22:30:17.858 INFO     6 Thread #6 sent response #6 at 22:30:17.8582734  
+22.02.2018 22:30:17.858 INFO     8 Thread #8 received request #7 at 22:30:17.8582734  
+22.02.2018 22:30:19.359 INFO     5 Thread #5 sent response #7 at 22:30:19.3592470  
+22.02.2018 22:30:19.359 INFO     6 Thread #6 received request #8 at 22:30:19.3592470  
+22.02.2018 22:30:20.860 INFO     5 Thread #5 sent response #8 at 22:30:20.8600633  
+22.02.2018 22:30:20.860 INFO     8 Thread #8 received request #9 at 22:30:20.8604893  
+22.02.2018 22:30:22.360 INFO     6 Thread #6 sent response #9 at 22:30:22.3609918  
+22.02.2018 22:30:22.360 INFO     5 Thread #5 received request #10 at 22:30:22.3609918  
+22.02.2018 22:30:23.861 INFO     8 Thread #8 sent response #10 at 22:30:23.8615591  
+22.02.2018 22:30:23.861 INFO     6 Thread #6 received request #11 at 22:30:23.8615591  
+22.02.2018 22:30:25.362 INFO     8 Thread #8 sent response #11 at 22:30:25.3626057  
+22.02.2018 22:30:25.363 INFO     5 Thread #5 received request #12 at 22:30:25.3636085  
+22.02.2018 22:30:26.864 INFO     8 Thread #8 sent response #12 at 22:30:26.8644675  
+22.02.2018 22:30:26.864 INFO     6 Thread #6 received request #13 at 22:30:26.8644675  
+22.02.2018 22:30:28.365 INFO     9 Thread #9 sent response #13 at 22:30:28.3653832  
+22.02.2018 22:31:16.256 INFO    11 Thread #11 received request #14 at 22:31:16.2568619  
+22.02.2018 22:31:17.763 INFO    11 Thread #11 sent response #14 at 22:31:17.7637760  
+22.02.2018 22:31:17.764 INFO    12 Thread #12 received request #15 at 22:31:17.7642753  
+22.02.2018 22:31:19.265 INFO    11 Thread #11 sent response #15 at 22:31:19.2650772  
+22.02.2018 22:31:19.266 INFO    11 Thread #11 received request #16 at 22:31:19.2665793  
+22.02.2018 22:31:20.767 INFO    12 Thread #12 sent response #16 at 22:31:20.7677807  
+22.02.2018 22:31:20.768 INFO    11 Thread #11 received request #17 at 22:31:20.7682140  
+22.02.2018 22:31:22.269 INFO    12 Thread #12 sent response #17 at 22:31:22.2690198  
+22.02.2018 22:31:22.269 INFO    12 Thread #12 received request #18 at 22:31:22.2690198  
+22.02.2018 22:31:23.769 INFO    11 Thread #11 sent response #18 at 22:31:23.7699800  
+22.02.2018 22:31:23.770 INFO    13 Thread #13 received request #19 at 22:31:23.7704077  
+22.02.2018 22:31:25.271 INFO    12 Thread #12 sent response #19 at 22:31:25.2715657  
+22.02.2018 22:31:25.272 INFO    12 Thread #12 received request #20 at 22:31:25.2720674  
+22.02.2018 22:31:26.773 INFO    11 Thread #11 sent response #20 at 22:31:26.7734627  
+22.02.2018 22:31:26.773 INFO    13 Thread #13 received request #21 at 22:31:26.7738746  
+22.02.2018 22:31:28.274 INFO    12 Thread #12 sent response #21 at 22:31:28.2748313  
+22.02.2018 22:31:28.274 INFO    11 Thread #11 received request #22 at 22:31:28.2748313  
+22.02.2018 22:31:29.775 INFO    13 Thread #13 sent response #22 at 22:31:29.7756761  
+22.02.2018 22:31:29.775 INFO    12 Thread #12 received request #23 at 22:31:29.7756761  
+22.02.2018 22:31:31.276 INFO    12 Thread #12 sent response #23 at 22:31:31.2768549  
+22.02.2018 22:31:31.277 INFO    12 Thread #12 received request #24 at 22:31:31.2773581  
+22.02.2018 22:31:32.778 INFO    14 Thread #14 sent response #24 at 22:31:32.7780602  
+22.02.2018 22:31:32.778 INFO    11 Thread #11 received request #25 at 22:31:32.7785637  
+22.02.2018 22:31:34.279 INFO    13 Thread #13 sent response #25 at 22:31:34.2793373  
+22.02.2018 22:31:34.279 INFO    11 Thread #11 received request #26 at 22:31:34.2793373  
+22.02.2018 22:31:35.780 INFO    14 Thread #14 sent response #26 at 22:31:35.7801956  
+22.02.2018 22:34:56.652 INFO    16 Thread #16 received request #27 at 22:34:56.6524789  
+22.02.2018 22:34:58.158 INFO    16 Thread #16 sent response #27 at 22:34:58.1584198  
+22.02.2018 22:34:58.158 INFO    17 Thread #17 received request #28 at 22:34:58.1584198  
+22.02.2018 22:34:59.659 INFO    16 Thread #16 sent response #28 at 22:34:59.6597287  
+22.02.2018 22:34:59.661 INFO    17 Thread #17 received request #29 at 22:34:59.6616645  
+22.02.2018 22:35:01.162 INFO    16 Thread #16 sent response #29 at 22:35:01.1623384  
+22.02.2018 22:35:01.162 INFO    17 Thread #17 received request #30 at 22:35:01.1628391  
+22.02.2018 22:35:02.663 INFO    16 Thread #16 sent response #30 at 22:35:02.6638525  
+22.02.2018 22:35:02.663 INFO    18 Thread #18 received request #31 at 22:35:02.6638525  
+22.02.2018 22:35:04.165 INFO    17 Thread #17 sent response #31 at 22:35:04.1655243  
+22.02.2018 22:35:04.165 INFO    16 Thread #16 received request #32 at 22:35:04.1659418  
+22.02.2018 22:35:05.666 INFO    17 Thread #17 sent response #32 at 22:35:05.6664157  
+22.02.2018 22:35:05.666 INFO    18 Thread #18 received request #33 at 22:35:05.6664157  
+22.02.2018 22:35:07.166 INFO    17 Thread #17 sent response #33 at 22:35:07.1669982  
+22.02.2018 22:35:07.167 INFO    16 Thread #16 received request #34 at 22:35:07.1674563  
+22.02.2018 22:35:08.667 INFO    18 Thread #18 sent response #34 at 22:35:08.6679944  
+22.02.2018 22:35:08.667 INFO    17 Thread #17 received request #35 at 22:35:08.6679944  
+22.02.2018 22:35:10.168 INFO    18 Thread #18 sent response #35 at 22:35:10.1684933  
+22.02.2018 22:35:10.168 INFO    16 Thread #16 received request #36 at 22:35:10.1684933  
+22.02.2018 22:35:11.669 INFO    17 Thread #17 sent response #36 at 22:35:11.6695314  
+22.02.2018 22:35:11.669 INFO    18 Thread #18 received request #37 at 22:35:11.6695314  
+22.02.2018 22:35:13.170 INFO    17 Thread #17 sent response #37 at 22:35:13.1700589  
+22.02.2018 22:35:13.170 INFO    16 Thread #16 received request #38 at 22:35:13.1700589  
+22.02.2018 22:35:14.670 INFO    18 Thread #18 sent response #38 at 22:35:14.6709775  
+22.02.2018 22:35:14.670 INFO    17 Thread #17 received request #39 at 22:35:14.6709775  
+22.02.2018 22:35:16.171 INFO    18 Thread #18 sent response #39 at 22:35:16.1716270  
+22.02.2018 22:35:16.171 INFO    18 Thread #18 received request #40 at 22:35:16.1716270  
+22.02.2018 22:35:17.672 INFO    16 Thread #16 sent response #40 at 22:35:17.6728369  
+22.02.2018 22:35:17.672 INFO    17 Thread #17 received request #41 at 22:35:17.6728369  
+22.02.2018 22:35:19.174 INFO    18 Thread #18 sent response #41 at 22:35:19.1740079  
+22.02.2018 22:35:19.174 INFO    16 Thread #16 received request #42 at 22:35:19.1740079  
+22.02.2018 22:35:20.675 INFO    18 Thread #18 sent response #42 at 22:35:20.6750199  
+22.02.2018 22:35:20.675 INFO    17 Thread #17 received request #43 at 22:35:20.6750199  
+22.02.2018 22:35:22.175 INFO    18 Thread #18 sent response #43 at 22:35:22.1758697  
+22.02.2018 22:35:22.176 INFO    16 Thread #16 received request #44 at 22:35:22.1763736  
+22.02.2018 22:35:23.676 INFO    18 Thread #18 sent response #44 at 22:35:23.6768144  
+22.02.2018 22:35:57.681 INFO    20 Thread #20 received request #45 at 22:35:57.6815327  
+22.02.2018 22:35:59.188 INFO    20 Thread #20 sent response #45 at 22:35:59.1880385  
+22.02.2018 22:35:59.194 INFO    20 Thread #20 received request #46 at 22:35:59.1940552  
+22.02.2018 22:36:00.696 INFO    21 Thread #21 sent response #46 at 22:36:00.6968162  
+22.02.2018 22:36:00.696 INFO    20 Thread #20 received request #47 at 22:36:00.6968162  
+22.02.2018 22:36:02.197 INFO    21 Thread #21 sent response #47 at 22:36:02.1976332  
+22.02.2018 22:36:02.197 INFO    22 Thread #22 received request #48 at 22:36:02.1976332  
+22.02.2018 22:36:03.698 INFO    20 Thread #20 sent response #48 at 22:36:03.6985758  
+22.02.2018 22:36:03.699 INFO    21 Thread #21 received request #49 at 22:36:03.6990775  
+22.02.2018 22:36:05.200 INFO    20 Thread #20 sent response #49 at 22:36:05.2005173  
+22.02.2018 22:36:05.200 INFO    20 Thread #20 received request #50 at 22:36:05.2005173  
+22.02.2018 22:36:06.701 INFO    21 Thread #21 sent response #50 at 22:36:06.7015141  
+22.02.2018 22:36:06.701 INFO    20 Thread #20 received request #51 at 22:36:06.7015141  
+22.02.2018 22:36:08.202 INFO    21 Thread #21 sent response #51 at 22:36:08.2027370  
+22.02.2018 22:36:08.203 INFO    21 Thread #21 received request #52 at 22:36:08.2032381  
+22.02.2018 22:36:09.704 INFO    22 Thread #22 sent response #52 at 22:36:09.7040699  
+22.02.2018 22:36:09.704 INFO    20 Thread #20 received request #53 at 22:36:09.7040699  
+22.02.2018 22:36:11.204 INFO    22 Thread #22 sent response #53 at 22:36:11.2049944  
+22.02.2018 22:36:11.205 INFO    21 Thread #21 received request #54 at 22:36:11.2054264  
+22.02.2018 22:36:12.707 ERROR   22 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в ClusterServer.Program.<>c__DisplayClass1_0.<<CreateAsyncCallback>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 69
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterServer.HttpListenerExtensions.<>c__DisplayClass1_1.<<StartProcessingRequestsAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 27  
+22.02.2018 22:36:13.572 INFO    21 Thread #21 received request #55 at 22:36:13.5725523  
+22.02.2018 22:36:15.073 INFO    20 Thread #20 sent response #55 at 22:36:15.0735428  
+22.02.2018 22:36:15.074 INFO    21 Thread #21 received request #56 at 22:36:15.0745463  
+22.02.2018 22:36:16.575 INFO    21 Thread #21 sent response #56 at 22:36:16.5755435  
+22.02.2018 22:36:16.575 INFO    22 Thread #22 received request #57 at 22:36:16.5755435  
+22.02.2018 22:36:18.076 INFO    21 Thread #21 sent response #57 at 22:36:18.0764741  
+22.02.2018 22:36:18.076 INFO    20 Thread #20 received request #58 at 22:36:18.0769219  
+22.02.2018 22:36:19.578 INFO    21 Thread #21 sent response #58 at 22:36:19.5780425  
+22.02.2018 22:36:19.578 INFO    22 Thread #22 received request #59 at 22:36:19.5780425  
+22.02.2018 22:36:21.078 INFO    21 Thread #21 sent response #59 at 22:36:21.0785916  
+22.02.2018 22:36:21.079 INFO    20 Thread #20 received request #60 at 22:36:21.0790958  
+22.02.2018 22:36:22.579 INFO    21 Thread #21 sent response #60 at 22:36:22.5795313  
+22.02.2018 22:36:22.580 INFO    22 Thread #22 received request #61 at 22:36:22.5800355  
+22.02.2018 22:36:24.080 INFO    21 Thread #21 sent response #61 at 22:36:24.0807284  
+22.02.2018 22:36:24.081 INFO    20 Thread #20 received request #62 at 22:36:24.0811576  
+22.02.2018 22:36:25.581 INFO    22 Thread #22 sent response #62 at 22:36:25.5819076  
+22.02.2018 22:36:25.582 INFO    21 Thread #21 received request #63 at 22:36:25.5823399  
+22.02.2018 22:36:27.082 INFO    22 Thread #22 sent response #63 at 22:36:27.0829284  
+22.02.2018 22:36:27.083 INFO    20 Thread #20 received request #64 at 22:36:27.0829284  
+22.02.2018 22:36:28.583 INFO    22 Thread #22 sent response #64 at 22:36:28.5839933  
+22.02.2018 22:36:28.584 INFO    21 Thread #21 received request #65 at 22:36:28.5843149  
+22.02.2018 22:36:30.084 INFO    20 Thread #20 sent response #65 at 22:36:30.0847775  
+22.02.2018 22:36:30.084 INFO    22 Thread #22 received request #66 at 22:36:30.0847775  
+22.02.2018 22:36:31.585 INFO    20 Thread #20 sent response #66 at 22:36:31.5853156  
+22.02.2018 22:36:31.585 INFO    21 Thread #21 received request #67 at 22:36:31.5853156  
+22.02.2018 22:36:33.086 INFO    21 Thread #21 sent response #67 at 22:36:33.0867888  
+22.02.2018 22:37:46.482 INFO    24 Thread #24 received request #68 at 22:37:46.4824326  
+22.02.2018 22:37:47.984 INFO    24 Thread #24 sent response #68 at 22:37:47.9848554  
+22.02.2018 22:37:47.984 INFO    25 Thread #25 received request #69 at 22:37:47.9848554  
+22.02.2018 22:37:49.485 INFO    26 Thread #26 sent response #69 at 22:37:49.4857000  
+22.02.2018 22:37:49.486 INFO    24 Thread #24 received request #70 at 22:37:49.4861136  
+22.02.2018 22:37:50.986 INFO    25 Thread #25 sent response #70 at 22:37:50.9862885  
+22.02.2018 22:37:50.986 INFO    26 Thread #26 received request #71 at 22:37:50.9866644  
+22.02.2018 22:37:52.487 INFO    25 Thread #25 sent response #71 at 22:37:52.4876781  
+22.02.2018 22:37:52.487 INFO    24 Thread #24 received request #72 at 22:37:52.4876781  
+22.02.2018 22:37:53.989 INFO    26 Thread #26 sent response #72 at 22:37:53.9895756  
+22.02.2018 22:37:53.989 INFO    24 Thread #24 received request #73 at 22:37:53.9895756  
+22.02.2018 22:37:55.490 INFO    26 Thread #26 sent response #73 at 22:37:55.4906860  
+22.02.2018 22:37:55.490 INFO    25 Thread #25 received request #74 at 22:37:55.4906860  
+22.02.2018 22:37:56.991 INFO    26 Thread #26 sent response #74 at 22:37:56.9915488  
+22.02.2018 22:37:56.991 INFO    24 Thread #24 received request #75 at 22:37:56.9919804  
+22.02.2018 22:37:58.493 INFO    25 Thread #25 sent response #75 at 22:37:58.4931370  
+22.02.2018 22:37:58.493 INFO    26 Thread #26 received request #76 at 22:37:58.4935605  
+22.02.2018 22:37:59.994 INFO    25 Thread #25 sent response #76 at 22:37:59.9941360  
+22.02.2018 22:37:59.994 INFO    24 Thread #24 received request #77 at 22:37:59.9946399  
+22.02.2018 22:38:01.495 INFO    26 Thread #26 sent response #77 at 22:38:01.4952287  
+22.02.2018 22:38:01.495 INFO    25 Thread #25 received request #78 at 22:38:01.4957294  
+22.02.2018 22:38:02.996 INFO    24 Thread #24 sent response #78 at 22:38:02.9965556  
+22.02.2018 22:38:02.996 INFO    26 Thread #26 received request #79 at 22:38:02.9965556  
+22.02.2018 22:38:04.497 INFO    25 Thread #25 sent response #79 at 22:38:04.4975253  
+22.02.2018 22:38:04.497 INFO    24 Thread #24 received request #80 at 22:38:04.4975253  
+22.02.2018 22:38:05.998 INFO    25 Thread #25 sent response #80 at 22:38:05.9984943  
+[Start of logging]
+22.02.2018 22:41:47.964 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:41:47.976 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:41:55.717 INFO     5 Thread #5 received request #1 at 22:41:55.7172320  
+22.02.2018 22:41:57.224 INFO     6 Thread #6 sent response #1 at 22:41:57.2248785  
+22.02.2018 22:41:57.226 INFO     5 Thread #5 received request #2 at 22:41:57.2263821  
+22.02.2018 22:41:58.727 INFO     6 Thread #6 sent response #2 at 22:41:58.7279681  
+22.02.2018 22:41:58.728 INFO     8 Thread #8 received request #3 at 22:41:58.7283074  
+22.02.2018 22:42:00.228 INFO     9 Thread #9 sent response #3 at 22:42:00.2287055  
+22.02.2018 22:42:00.228 INFO     6 Thread #6 received request #4 at 22:42:00.2287055  
+22.02.2018 22:42:01.729 INFO     5 Thread #5 sent response #4 at 22:42:01.7292485  
+22.02.2018 22:42:01.729 INFO     5 Thread #5 received request #5 at 22:42:01.7292485  
+22.02.2018 22:42:03.239 INFO     6 Thread #6 sent response #5 at 22:42:03.2391581  
+22.02.2018 22:42:03.239 INFO     5 Thread #5 received request #6 at 22:42:03.2396658  
+22.02.2018 22:42:04.740 INFO     8 Thread #8 sent response #6 at 22:42:04.7404578  
+22.02.2018 22:42:04.740 INFO     9 Thread #9 received request #7 at 22:42:04.7404578  
+22.02.2018 22:42:06.241 INFO     5 Thread #5 sent response #7 at 22:42:06.2414226  
+22.02.2018 22:42:06.241 INFO     5 Thread #5 received request #8 at 22:42:06.2419229  
+22.02.2018 22:42:07.744 ERROR    9 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в ClusterServer.Program.<>c__DisplayClass1_0.<<CreateAsyncCallback>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 69
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterServer.HttpListenerExtensions.<>c__DisplayClass1_1.<<StartProcessingRequestsAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 27  
+[Start of logging]
+22.02.2018 22:42:42.414 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:42:42.428 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:42:44.884 INFO     5 Thread #5 received request #1 at 22:42:44.8837570  
+22.02.2018 22:42:46.391 INFO     6 Thread #6 sent response #1 at 22:42:46.3914938  
+22.02.2018 22:42:46.392 INFO     5 Thread #5 received request #2 at 22:42:46.3929984  
+22.02.2018 22:42:47.893 INFO     6 Thread #6 sent response #2 at 22:42:47.8935471  
+22.02.2018 22:42:47.894 INFO     5 Thread #5 received request #3 at 22:42:47.8940510  
+22.02.2018 22:42:49.395 INFO     8 Thread #8 sent response #3 at 22:42:49.3951832  
+22.02.2018 22:42:49.396 INFO     5 Thread #5 received request #4 at 22:42:49.3969689  
+22.02.2018 22:42:50.900 INFO     6 Thread #6 sent response #4 at 22:42:50.9004644  
+22.02.2018 22:42:50.900 INFO     8 Thread #8 received request #5 at 22:42:50.9009662  
+22.02.2018 22:42:52.403 INFO     9 Thread #9 sent response #5 at 22:42:52.4033340  
+22.02.2018 22:42:52.403 INFO     8 Thread #8 received request #6 at 22:42:52.4036566  
+22.02.2018 22:42:53.904 INFO     6 Thread #6 sent response #6 at 22:42:53.9040413  
+22.02.2018 22:42:53.904 INFO     5 Thread #5 received request #7 at 22:42:53.9040413  
+22.02.2018 22:42:55.404 INFO     8 Thread #8 sent response #7 at 22:42:55.4048153  
+22.02.2018 22:42:55.404 INFO     5 Thread #5 received request #8 at 22:42:55.4048153  
+22.02.2018 22:42:56.905 INFO     9 Thread #9 sent response #8 at 22:42:56.9055022  
+22.02.2018 22:42:56.905 INFO     6 Thread #6 received request #9 at 22:42:56.9055022  
+22.02.2018 22:42:58.407 ERROR    5 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в ClusterServer.Program.<>c__DisplayClass1_0.<<CreateAsyncCallback>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 69
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterServer.HttpListenerExtensions.<>c__DisplayClass1_1.<<StartProcessingRequestsAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 27  
+[Start of logging]
+22.02.2018 22:43:07.190 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:43:07.206 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:43:09.264 INFO     5 Thread #5 received request #1 at 22:43:09.2645768  
+22.02.2018 22:43:09.266 INFO     5 Thread #5 sent response #1 at 22:43:09.2665825  
+22.02.2018 22:43:09.299 INFO     6 Thread #6 received request #2 at 22:43:09.2996703  
+22.02.2018 22:43:09.300 INFO     6 Thread #6 sent response #2 at 22:43:09.3001721  
+22.02.2018 22:43:09.320 INFO     6 Thread #6 received request #3 at 22:43:09.3207353  
+22.02.2018 22:43:09.321 INFO     6 Thread #6 sent response #3 at 22:43:09.3212279  
+22.02.2018 22:43:09.330 INFO     6 Thread #6 received request #4 at 22:43:09.3307570  
+22.02.2018 22:43:09.331 INFO     6 Thread #6 sent response #4 at 22:43:09.3317556  
+22.02.2018 22:43:09.334 INFO     6 Thread #6 received request #5 at 22:43:09.3347634  
+22.02.2018 22:43:09.335 INFO     6 Thread #6 sent response #5 at 22:43:09.3357765  
+22.02.2018 22:43:09.336 INFO     6 Thread #6 received request #6 at 22:43:09.3362677  
+22.02.2018 22:43:09.336 INFO     6 Thread #6 sent response #6 at 22:43:09.3367694  
+22.02.2018 22:43:09.336 INFO     6 Thread #6 received request #7 at 22:43:09.3367694  
+22.02.2018 22:43:09.336 INFO     6 Thread #6 sent response #7 at 22:43:09.3367694  
+22.02.2018 22:43:09.336 INFO     6 Thread #6 received request #8 at 22:43:09.3367694  
+22.02.2018 22:43:09.337 INFO     6 Thread #6 sent response #8 at 22:43:09.3372705  
+22.02.2018 22:43:09.337 INFO     6 Thread #6 received request #9 at 22:43:09.3377719  
+22.02.2018 22:43:09.337 INFO     6 Thread #6 sent response #9 at 22:43:09.3377719  
+22.02.2018 22:43:09.337 INFO     6 Thread #6 received request #10 at 22:43:09.3377719  
+22.02.2018 22:43:09.338 INFO     6 Thread #6 sent response #10 at 22:43:09.3382734  
+22.02.2018 22:43:09.386 INFO     7 Thread #7 received request #11 at 22:43:09.3864006  
+22.02.2018 22:43:09.386 INFO     7 Thread #7 sent response #11 at 22:43:09.3869017  
+22.02.2018 22:43:09.386 INFO     7 Thread #7 received request #12 at 22:43:09.3869017  
+22.02.2018 22:43:09.386 INFO     7 Thread #7 sent response #12 at 22:43:09.3869017  
+22.02.2018 22:43:09.394 INFO     5 Thread #5 received request #13 at 22:43:09.3949234  
+22.02.2018 22:43:09.395 INFO     5 Thread #5 sent response #13 at 22:43:09.3959262  
+[Start of logging]
+22.02.2018 22:43:49.718 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:43:49.733 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:43:54.317 INFO     5 Thread #5 received request #1 at 22:43:54.3168621  
+22.02.2018 22:43:54.319 INFO     5 Thread #5 sent response #1 at 22:43:54.3193685  
+22.02.2018 22:43:54.331 INFO     6 Thread #6 received request #2 at 22:43:54.3314005  
+22.02.2018 22:43:54.332 INFO     6 Thread #6 sent response #2 at 22:43:54.3324037  
+22.02.2018 22:43:54.336 INFO     5 Thread #5 received request #3 at 22:43:54.3369161  
+22.02.2018 22:43:54.338 INFO     5 Thread #5 sent response #3 at 22:43:54.3384218  
+22.02.2018 22:43:54.338 INFO     5 Thread #5 received request #4 at 22:43:54.3389208  
+22.02.2018 22:43:54.338 INFO     5 Thread #5 sent response #4 at 22:43:54.3389208  
+22.02.2018 22:43:54.344 INFO     8 Thread #8 received request #5 at 22:43:54.3449378  
+22.02.2018 22:43:54.345 INFO     8 Thread #8 sent response #5 at 22:43:54.3454389  
+22.02.2018 22:43:54.345 INFO     8 Thread #8 received request #6 at 22:43:54.3454389  
+22.02.2018 22:43:54.345 INFO     8 Thread #8 sent response #6 at 22:43:54.3459396  
+22.02.2018 22:43:54.355 INFO     8 Thread #8 received request #7 at 22:43:54.3559740  
+22.02.2018 22:43:54.356 INFO     8 Thread #8 sent response #7 at 22:43:54.3564677  
+22.02.2018 22:43:54.362 INFO     8 Thread #8 received request #8 at 22:43:54.3624840  
+22.02.2018 22:43:54.362 INFO     8 Thread #8 sent response #8 at 22:43:54.3629851  
+22.02.2018 22:43:54.362 INFO     8 Thread #8 received request #9 at 22:43:54.3629851  
+22.02.2018 22:43:54.363 INFO     8 Thread #8 sent response #9 at 22:43:54.3639879  
+22.02.2018 22:43:54.365 INFO     7 Thread #7 received request #10 at 22:43:54.3659933  
+22.02.2018 22:43:54.366 INFO     7 Thread #7 sent response #10 at 22:43:54.3664943  
+22.02.2018 22:43:54.371 INFO     7 Thread #7 received request #11 at 22:43:54.3715075  
+22.02.2018 22:43:54.371 INFO     7 Thread #7 sent response #11 at 22:43:54.3715075  
+22.02.2018 22:43:54.406 INFO     5 Thread #5 received request #12 at 22:43:54.4066010  
+22.02.2018 22:43:54.407 INFO     5 Thread #5 sent response #12 at 22:43:54.4071024  
+22.02.2018 22:43:54.409 INFO     5 Thread #5 received request #13 at 22:43:54.4091077  
+22.02.2018 22:43:54.409 INFO     5 Thread #5 sent response #13 at 22:43:54.4096088  
+[Start of logging]
+22.02.2018 22:44:18.096 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:44:18.116 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:44:20.102 INFO     5 Thread #5 received request #1 at 22:44:20.1026407  
+22.02.2018 22:44:21.134 INFO     6 Thread #6 sent response #1 at 22:44:21.1343843  
+22.02.2018 22:44:21.136 INFO     6 Thread #6 received request #2 at 22:44:21.1363911  
+22.02.2018 22:44:22.138 INFO     5 Thread #5 sent response #2 at 22:44:22.1381263  
+22.02.2018 22:44:22.138 INFO     5 Thread #5 received request #3 at 22:44:22.1381263  
+22.02.2018 22:44:23.146 INFO     5 Thread #5 sent response #3 at 22:44:23.1461783  
+22.02.2018 22:44:23.146 INFO     6 Thread #6 received request #4 at 22:44:23.1464992  
+22.02.2018 22:44:24.146 INFO     8 Thread #8 sent response #4 at 22:44:24.1469068  
+22.02.2018 22:44:24.146 INFO     5 Thread #5 received request #5 at 22:44:24.1469068  
+22.02.2018 22:44:25.148 INFO     8 Thread #8 sent response #5 at 22:44:25.1481170  
+22.02.2018 22:44:25.148 INFO     6 Thread #6 received request #6 at 22:44:25.1484400  
+22.02.2018 22:44:26.149 INFO     8 Thread #8 sent response #6 at 22:44:26.1498868  
+22.02.2018 22:44:26.149 INFO     8 Thread #8 received request #7 at 22:44:26.1498868  
+22.02.2018 22:44:27.151 INFO     8 Thread #8 sent response #7 at 22:44:27.1510275  
+22.02.2018 22:44:27.151 INFO     6 Thread #6 received request #8 at 22:44:27.1515293  
+22.02.2018 22:44:28.151 INFO     8 Thread #8 sent response #8 at 22:44:28.1519768  
+22.02.2018 22:44:28.152 INFO     8 Thread #8 received request #9 at 22:44:28.1524775  
+22.02.2018 22:44:29.153 INFO     8 Thread #8 sent response #9 at 22:44:29.1531224  
+22.02.2018 22:44:29.153 INFO     5 Thread #5 received request #10 at 22:44:29.1531224  
+22.02.2018 22:44:30.154 INFO     6 Thread #6 sent response #10 at 22:44:30.1548925  
+22.02.2018 22:44:30.155 INFO     6 Thread #6 received request #11 at 22:44:30.1553943  
+22.02.2018 22:44:31.156 INFO     6 Thread #6 sent response #11 at 22:44:31.1561017  
+22.02.2018 22:44:31.156 INFO     6 Thread #6 received request #12 at 22:44:31.1561017  
+22.02.2018 22:44:32.157 INFO     5 Thread #5 sent response #12 at 22:44:32.1571771  
+22.02.2018 22:44:32.157 INFO     8 Thread #8 received request #13 at 22:44:32.1571771  
+22.02.2018 22:44:33.157 INFO     6 Thread #6 sent response #13 at 22:44:33.1577748  
+[Start of logging]
+22.02.2018 22:44:55.866 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:44:55.877 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:44:57.938 INFO     5 Thread #5 received request #1 at 22:44:57.9384839  
+22.02.2018 22:44:58.365 INFO     6 Thread #6 sent response #1 at 22:44:58.3651188  
+22.02.2018 22:44:58.373 INFO     5 Thread #5 received request #2 at 22:44:58.3736412  
+22.02.2018 22:44:58.808 INFO     6 Thread #6 sent response #2 at 22:44:58.8083006  
+22.02.2018 22:44:58.808 INFO     6 Thread #6 received request #3 at 22:44:58.8083006  
+22.02.2018 22:44:59.209 INFO     5 Thread #5 sent response #3 at 22:44:59.2093630  
+22.02.2018 22:44:59.209 INFO     5 Thread #5 received request #4 at 22:44:59.2093630  
+22.02.2018 22:44:59.620 INFO     9 Thread #9 sent response #4 at 22:44:59.6201189  
+22.02.2018 22:44:59.620 INFO     5 Thread #5 received request #5 at 22:44:59.6205505  
+22.02.2018 22:45:00.021 INFO     8 Thread #8 sent response #5 at 22:45:00.0211820  
+22.02.2018 22:45:00.021 INFO     8 Thread #8 received request #6 at 22:45:00.0216034  
+22.02.2018 22:45:00.433 INFO     5 Thread #5 sent response #6 at 22:45:00.4330694  
+22.02.2018 22:45:00.433 INFO     9 Thread #9 received request #7 at 22:45:00.4335021  
+22.02.2018 22:45:00.833 INFO     8 Thread #8 sent response #7 at 22:45:00.8337496  
+22.02.2018 22:45:00.833 INFO     5 Thread #5 received request #8 at 22:45:00.8337496  
+22.02.2018 22:45:01.244 INFO     6 Thread #6 sent response #8 at 22:45:01.2440457  
+22.02.2018 22:45:01.244 INFO     9 Thread #9 received request #9 at 22:45:01.2440457  
+22.02.2018 22:45:01.654 INFO     5 Thread #5 sent response #9 at 22:45:01.6541982  
+22.02.2018 22:45:01.654 INFO     6 Thread #6 received request #10 at 22:45:01.6541982  
+22.02.2018 22:45:02.054 INFO     9 Thread #9 sent response #10 at 22:45:02.0547028  
+22.02.2018 22:45:02.054 INFO     5 Thread #5 received request #11 at 22:45:02.0547028  
+22.02.2018 22:45:02.466 INFO     6 Thread #6 sent response #11 at 22:45:02.4665106  
+22.02.2018 22:45:02.466 INFO     9 Thread #9 received request #12 at 22:45:02.4668283  
+22.02.2018 22:45:02.867 INFO     8 Thread #8 sent response #12 at 22:45:02.8670765  
+22.02.2018 22:45:02.867 INFO     5 Thread #5 received request #13 at 22:45:02.8674996  
+22.02.2018 22:45:03.277 INFO     6 Thread #6 sent response #13 at 22:45:03.2771952  
+[Start of logging]
+22.02.2018 22:45:31.391 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:45:31.416 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:45:33.583 INFO     5 Thread #5 received request #1 at 22:45:33.5835476  
+22.02.2018 22:45:34.497 INFO     6 Thread #6 sent response #1 at 22:45:34.4979009  
+22.02.2018 22:45:34.510 INFO     6 Thread #6 received request #2 at 22:45:34.5109346  
+22.02.2018 22:45:35.413 INFO     5 Thread #5 sent response #2 at 22:45:35.4138522  
+22.02.2018 22:45:35.414 INFO     6 Thread #6 received request #3 at 22:45:35.4141724  
+22.02.2018 22:45:36.324 INFO     8 Thread #8 sent response #3 at 22:45:36.3244497  
+22.02.2018 22:45:36.324 INFO     8 Thread #8 received request #4 at 22:45:36.3248725  
+22.02.2018 22:45:37.225 INFO     8 Thread #8 sent response #4 at 22:45:37.2253965  
+22.02.2018 22:45:37.225 INFO     8 Thread #8 received request #5 at 22:45:37.2253965  
+22.02.2018 22:45:38.136 INFO     8 Thread #8 sent response #5 at 22:45:38.1364623  
+22.02.2018 22:45:38.136 INFO     5 Thread #5 received request #6 at 22:45:38.1364623  
+22.02.2018 22:45:39.037 INFO     6 Thread #6 sent response #6 at 22:45:39.0373728  
+22.02.2018 22:45:39.037 INFO     8 Thread #8 received request #7 at 22:45:39.0377945  
+22.02.2018 22:45:39.950 INFO     6 Thread #6 sent response #7 at 22:45:39.9505702  
+22.02.2018 22:45:39.951 INFO     5 Thread #5 received request #8 at 22:45:39.9510716  
+22.02.2018 22:45:40.853 INFO     6 Thread #6 sent response #8 at 22:45:40.8532645  
+22.02.2018 22:45:40.853 INFO     8 Thread #8 received request #9 at 22:45:40.8537377  
+22.02.2018 22:45:41.755 INFO     5 Thread #5 sent response #9 at 22:45:41.7551232  
+22.02.2018 22:45:41.755 INFO     5 Thread #5 received request #10 at 22:45:41.7556256  
+22.02.2018 22:45:42.666 INFO     6 Thread #6 sent response #10 at 22:45:42.6661283  
+22.02.2018 22:45:42.666 INFO     5 Thread #5 received request #11 at 22:45:42.6665522  
+22.02.2018 22:45:43.576 INFO     8 Thread #8 sent response #11 at 22:45:43.5761758  
+22.02.2018 22:45:43.576 INFO     6 Thread #6 received request #12 at 22:45:43.5761758  
+22.02.2018 22:45:44.477 INFO     5 Thread #5 sent response #12 at 22:45:44.4772936  
+22.02.2018 22:45:44.477 INFO     6 Thread #6 received request #13 at 22:45:44.4772936  
+22.02.2018 22:45:45.388 INFO     9 Thread #9 sent response #13 at 22:45:45.3885089  
+[Start of logging]
+22.02.2018 22:46:16.884 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:46:16.902 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:46:18.869 INFO     5 Thread #5 received request #1 at 22:46:18.8686375  
+22.02.2018 22:46:19.391 INFO     6 Thread #6 sent response #1 at 22:46:19.3912710  
+22.02.2018 22:46:19.400 INFO     5 Thread #5 received request #2 at 22:46:19.4007962  
+22.02.2018 22:46:19.903 INFO     6 Thread #6 sent response #2 at 22:46:19.9036340  
+22.02.2018 22:46:19.904 INFO     6 Thread #6 received request #3 at 22:46:19.9041355  
+22.02.2018 22:46:20.405 INFO     6 Thread #6 sent response #3 at 22:46:20.4057624  
+22.02.2018 22:46:20.406 INFO     6 Thread #6 received request #4 at 22:46:20.4062649  
+22.02.2018 22:46:20.906 INFO     6 Thread #6 sent response #4 at 22:46:20.9068446  
+22.02.2018 22:46:20.907 INFO     6 Thread #6 received request #5 at 22:46:20.9073422  
+22.02.2018 22:46:21.407 INFO     5 Thread #5 sent response #5 at 22:46:21.4079176  
+22.02.2018 22:46:21.408 INFO     8 Thread #8 received request #6 at 22:46:21.4084180  
+22.02.2018 22:46:21.909 INFO     6 Thread #6 sent response #6 at 22:46:21.9090450  
+22.02.2018 22:46:21.909 INFO     5 Thread #5 received request #7 at 22:46:21.9095005  
+22.02.2018 22:46:22.409 INFO     6 Thread #6 sent response #7 at 22:46:22.4097100  
+22.02.2018 22:46:22.409 INFO     8 Thread #8 received request #8 at 22:46:22.4097100  
+22.02.2018 22:46:22.910 INFO     6 Thread #6 sent response #8 at 22:46:22.9105594  
+22.02.2018 22:46:22.910 INFO     5 Thread #5 received request #9 at 22:46:22.9105594  
+22.02.2018 22:46:23.411 INFO     8 Thread #8 sent response #9 at 22:46:23.4111674  
+22.02.2018 22:46:23.411 INFO     8 Thread #8 received request #10 at 22:46:23.4111674  
+22.02.2018 22:46:23.911 INFO     6 Thread #6 sent response #10 at 22:46:23.9118578  
+22.02.2018 22:46:23.911 INFO     6 Thread #6 received request #11 at 22:46:23.9118578  
+22.02.2018 22:46:24.412 INFO     5 Thread #5 sent response #11 at 22:46:24.4126378  
+22.02.2018 22:46:24.412 INFO     8 Thread #8 received request #12 at 22:46:24.4126378  
+22.02.2018 22:46:24.914 INFO     6 Thread #6 sent response #12 at 22:46:24.9146844  
+22.02.2018 22:46:24.915 INFO     6 Thread #6 received request #13 at 22:46:24.9151861  
+22.02.2018 22:46:25.416 INFO     9 Thread #9 sent response #13 at 22:46:25.4162563  
+[Start of logging]
+22.02.2018 22:46:39.786 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:46:39.804 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:46:41.778 INFO     5 Thread #5 received request #1 at 22:46:41.7780055  
+22.02.2018 22:46:42.294 INFO     6 Thread #6 sent response #1 at 22:46:42.2945041  
+22.02.2018 22:46:42.302 INFO     6 Thread #6 received request #2 at 22:46:42.3025244  
+22.02.2018 22:46:42.804 INFO     5 Thread #5 sent response #2 at 22:46:42.8048601  
+22.02.2018 22:46:42.804 INFO     6 Thread #6 received request #3 at 22:46:42.8048601  
+22.02.2018 22:46:43.305 INFO     8 Thread #8 sent response #3 at 22:46:43.3057512  
+22.02.2018 22:46:43.305 INFO     5 Thread #5 received request #4 at 22:46:43.3057512  
+22.02.2018 22:46:43.806 INFO     6 Thread #6 sent response #4 at 22:46:43.8063256  
+22.02.2018 22:46:43.806 INFO     8 Thread #8 received request #5 at 22:46:43.8063256  
+22.02.2018 22:46:44.306 INFO     6 Thread #6 sent response #5 at 22:46:44.3069377  
+22.02.2018 22:46:44.306 INFO     5 Thread #5 received request #6 at 22:46:44.3069377  
+22.02.2018 22:46:44.808 INFO     8 Thread #8 sent response #6 at 22:46:44.8083224  
+22.02.2018 22:46:44.808 INFO     8 Thread #8 received request #7 at 22:46:44.8088232  
+22.02.2018 22:46:45.309 INFO     5 Thread #5 sent response #7 at 22:46:45.3096550  
+22.02.2018 22:46:45.310 INFO     5 Thread #5 received request #8 at 22:46:45.3101557  
+22.02.2018 22:46:45.810 INFO     5 Thread #5 sent response #8 at 22:46:45.8105619  
+22.02.2018 22:46:45.811 INFO     8 Thread #8 received request #9 at 22:46:45.8110633  
+22.02.2018 22:46:46.311 INFO     6 Thread #6 sent response #9 at 22:46:46.3113959  
+22.02.2018 22:46:46.311 INFO     6 Thread #6 received request #10 at 22:46:46.3113959  
+22.02.2018 22:46:46.813 INFO     8 Thread #8 sent response #10 at 22:46:46.8130549  
+22.02.2018 22:46:46.813 INFO     6 Thread #6 received request #11 at 22:46:46.8130549  
+22.02.2018 22:46:47.314 INFO     8 Thread #8 sent response #11 at 22:46:47.3140059  
+22.02.2018 22:46:47.314 INFO     5 Thread #5 received request #12 at 22:46:47.3143413  
+22.02.2018 22:46:47.815 INFO     6 Thread #6 sent response #12 at 22:46:47.8153797  
+22.02.2018 22:46:47.815 INFO     5 Thread #5 received request #13 at 22:46:47.8153797  
+22.02.2018 22:46:48.316 INFO     9 Thread #9 sent response #13 at 22:46:48.3160053  
+22.02.2018 22:46:55.281 INFO     6 Thread #6 received request #14 at 22:46:55.2812852  
+22.02.2018 22:46:55.782 INFO     5 Thread #5 sent response #14 at 22:46:55.7826184  
+22.02.2018 22:46:55.783 INFO     5 Thread #5 received request #15 at 22:46:55.7831202  
+22.02.2018 22:46:56.287 INFO     8 Thread #8 sent response #15 at 22:46:56.2874606  
+22.02.2018 22:46:56.287 INFO     8 Thread #8 received request #16 at 22:46:56.2879627  
+22.02.2018 22:46:56.793 INFO     6 Thread #6 sent response #16 at 22:46:56.7939353  
+22.02.2018 22:46:56.794 INFO     9 Thread #9 received request #17 at 22:46:56.7943585  
+22.02.2018 22:46:57.294 INFO     8 Thread #8 sent response #17 at 22:46:57.2948546  
+22.02.2018 22:46:57.294 INFO     5 Thread #5 received request #18 at 22:46:57.2948546  
+22.02.2018 22:46:57.795 INFO     9 Thread #9 sent response #18 at 22:46:57.7955859  
+22.02.2018 22:46:57.795 INFO     8 Thread #8 received request #19 at 22:46:57.7955859  
+22.02.2018 22:46:58.296 INFO     6 Thread #6 sent response #19 at 22:46:58.2963976  
+22.02.2018 22:46:58.296 INFO     5 Thread #5 received request #20 at 22:46:58.2963976  
+22.02.2018 22:46:58.797 INFO     8 Thread #8 sent response #20 at 22:46:58.7970461  
+22.02.2018 22:46:58.797 INFO     6 Thread #6 received request #21 at 22:46:58.7974654  
+22.02.2018 22:46:59.298 INFO     5 Thread #5 sent response #21 at 22:46:59.2984978  
+22.02.2018 22:46:59.298 INFO     8 Thread #8 received request #22 at 22:46:59.2988180  
+22.02.2018 22:46:59.798 INFO     6 Thread #6 sent response #22 at 22:46:59.7989792  
+22.02.2018 22:46:59.799 INFO     5 Thread #5 received request #23 at 22:46:59.7994823  
+22.02.2018 22:47:00.300 INFO     8 Thread #8 sent response #23 at 22:47:00.3000017  
+22.02.2018 22:47:00.300 INFO     9 Thread #9 received request #24 at 22:47:00.3000017  
+22.02.2018 22:47:00.800 INFO     5 Thread #5 sent response #24 at 22:47:00.8005155  
+22.02.2018 22:47:00.800 INFO     8 Thread #8 received request #25 at 22:47:00.8005155  
+22.02.2018 22:47:01.301 INFO     6 Thread #6 sent response #25 at 22:47:01.3011611  
+22.02.2018 22:47:01.301 INFO     6 Thread #6 received request #26 at 22:47:01.3016619  
+22.02.2018 22:47:01.804 INFO     5 Thread #5 sent response #26 at 22:47:01.8041700  
+[Start of logging]
+22.02.2018 22:51:30.996 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:51:31.009 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:51:34.936 INFO     5 Thread #5 received request #1 at 22:51:34.9362289  
+22.02.2018 22:51:35.461 INFO     6 Thread #6 sent response #1 at 22:51:35.4614882  
+22.02.2018 22:51:35.464 INFO     6 Thread #6 received request #2 at 22:51:35.4649947  
+22.02.2018 22:51:35.965 INFO     5 Thread #5 sent response #2 at 22:51:35.9658268  
+22.02.2018 22:51:35.966 INFO     5 Thread #5 received request #3 at 22:51:35.9663286  
+22.02.2018 22:51:36.466 INFO     5 Thread #5 sent response #3 at 22:51:36.4665229  
+22.02.2018 22:51:36.466 INFO     6 Thread #6 received request #4 at 22:51:36.4665229  
+22.02.2018 22:51:36.967 INFO     8 Thread #8 sent response #4 at 22:51:36.9673653  
+22.02.2018 22:51:36.967 INFO     5 Thread #5 received request #5 at 22:51:36.9678710  
+22.02.2018 22:51:37.468 INFO     8 Thread #8 sent response #5 at 22:51:37.4681270  
+22.02.2018 22:51:37.468 INFO     6 Thread #6 received request #6 at 22:51:37.4681270  
+22.02.2018 22:51:37.968 INFO     8 Thread #8 sent response #6 at 22:51:37.9687923  
+22.02.2018 22:51:37.969 INFO     5 Thread #5 received request #7 at 22:51:37.9692955  
+22.02.2018 22:51:38.469 INFO     6 Thread #6 sent response #7 at 22:51:38.4697772  
+22.02.2018 22:51:38.470 INFO     8 Thread #8 received request #8 at 22:51:38.4700967  
+22.02.2018 22:51:38.970 INFO     6 Thread #6 sent response #8 at 22:51:38.9709934  
+22.02.2018 22:51:38.971 INFO     5 Thread #5 received request #9 at 22:51:38.9713552  
+22.02.2018 22:51:39.471 INFO     8 Thread #8 sent response #9 at 22:51:39.4716320  
+22.02.2018 22:51:39.471 INFO     6 Thread #6 received request #10 at 22:51:39.4719543  
+22.02.2018 22:51:39.973 INFO     8 Thread #8 sent response #10 at 22:51:39.9732628  
+22.02.2018 22:51:39.973 INFO     5 Thread #5 received request #11 at 22:51:39.9732628  
+22.02.2018 22:51:40.473 INFO     6 Thread #6 sent response #11 at 22:51:40.4734945  
+22.02.2018 22:51:40.473 INFO     8 Thread #8 received request #12 at 22:51:40.4734945  
+22.02.2018 22:51:40.974 INFO     8 Thread #8 sent response #12 at 22:51:40.9741031  
+22.02.2018 22:51:40.974 INFO     8 Thread #8 received request #13 at 22:51:40.9746070  
+22.02.2018 22:51:41.475 INFO     9 Thread #9 sent response #13 at 22:51:41.4752731  
+[Start of logging]
+22.02.2018 22:58:48.656 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:58:48.667 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:58:51.477 INFO     5 Thread #5 received request #1 at 22:58:51.4774773  
+22.02.2018 22:58:51.991 INFO     6 Thread #6 sent response #1 at 22:58:51.9913436  
+22.02.2018 22:58:51.994 INFO     6 Thread #6 received request #2 at 22:58:51.9943511  
+22.02.2018 22:58:52.495 INFO     5 Thread #5 sent response #2 at 22:58:52.4951825  
+22.02.2018 22:58:52.495 INFO     5 Thread #5 received request #3 at 22:58:52.4956850  
+22.02.2018 22:58:52.996 INFO     5 Thread #5 sent response #3 at 22:58:52.9964678  
+22.02.2018 22:58:52.996 INFO     6 Thread #6 received request #4 at 22:58:52.9964678  
+22.02.2018 22:58:53.497 INFO     8 Thread #8 sent response #4 at 22:58:53.4972929  
+22.02.2018 22:58:53.497 INFO     5 Thread #5 received request #5 at 22:58:53.4972929  
+22.02.2018 22:58:53.998 INFO     8 Thread #8 sent response #5 at 22:58:53.9980384  
+22.02.2018 22:58:53.998 INFO     6 Thread #6 received request #6 at 22:58:53.9980384  
+22.02.2018 22:58:54.498 INFO     8 Thread #8 sent response #6 at 22:58:54.4986657  
+22.02.2018 22:58:54.499 INFO     5 Thread #5 received request #7 at 22:58:54.4991276  
+22.02.2018 22:58:54.999 INFO     6 Thread #6 sent response #7 at 22:58:54.9994753  
+22.02.2018 22:58:54.999 INFO     5 Thread #5 received request #8 at 22:58:54.9994753  
+22.02.2018 22:58:55.500 INFO     8 Thread #8 sent response #8 at 22:58:55.5000458  
+22.02.2018 22:58:55.500 INFO     6 Thread #6 received request #9 at 22:58:55.5004700  
+22.02.2018 22:58:56.000 INFO     8 Thread #8 sent response #9 at 22:58:56.0006541  
+22.02.2018 22:58:56.000 INFO     5 Thread #5 received request #10 at 22:58:56.0006541  
+22.02.2018 22:58:56.501 INFO     6 Thread #6 sent response #10 at 22:58:56.5012433  
+22.02.2018 22:58:56.501 INFO     8 Thread #8 received request #11 at 22:58:56.5012433  
+22.02.2018 22:58:57.002 INFO     6 Thread #6 sent response #11 at 22:58:57.0026569  
+22.02.2018 22:58:57.004 INFO     5 Thread #5 received request #12 at 22:58:57.0040639  
+22.02.2018 22:58:57.504 INFO     6 Thread #6 sent response #12 at 22:58:57.5047127  
+22.02.2018 22:58:57.505 INFO     8 Thread #8 received request #13 at 22:58:57.5050336  
+22.02.2018 22:58:58.005 INFO     6 Thread #6 sent response #13 at 22:58:58.0053866  
+[Start of logging]
+22.02.2018 22:59:17.347 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:59:17.360 INFO     1 Press ENTER to stop listening  
+[Start of logging]
+22.02.2018 22:59:25.344 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:59:25.359 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:59:27.361 INFO     5 Thread #5 received request #1 at 22:59:27.3612319  
+22.02.2018 22:59:27.866 INFO     6 Thread #6 sent response #1 at 22:59:27.8666742  
+22.02.2018 22:59:27.868 INFO     6 Thread #6 received request #2 at 22:59:27.8681816  
+22.02.2018 22:59:28.369 INFO     5 Thread #5 sent response #2 at 22:59:28.3695110  
+22.02.2018 22:59:28.369 INFO     6 Thread #6 received request #3 at 22:59:28.3695110  
+22.02.2018 22:59:28.870 INFO     8 Thread #8 sent response #3 at 22:59:28.8702049  
+22.02.2018 22:59:28.870 INFO     5 Thread #5 received request #4 at 22:59:28.8702049  
+22.02.2018 22:59:29.371 INFO     6 Thread #6 sent response #4 at 22:59:29.3711464  
+22.02.2018 22:59:29.371 INFO     8 Thread #8 received request #5 at 22:59:29.3711464  
+22.02.2018 22:59:29.872 INFO     6 Thread #6 sent response #5 at 22:59:29.8723806  
+22.02.2018 22:59:29.872 INFO     5 Thread #5 received request #6 at 22:59:29.8727007  
+22.02.2018 22:59:30.373 INFO     6 Thread #6 sent response #6 at 22:59:30.3735587  
+22.02.2018 22:59:30.373 INFO     8 Thread #8 received request #7 at 22:59:30.3735587  
+22.02.2018 22:59:30.874 INFO     5 Thread #5 sent response #7 at 22:59:30.8744000  
+22.02.2018 22:59:30.874 INFO     6 Thread #6 received request #8 at 22:59:30.8744000  
+22.02.2018 22:59:31.374 INFO     8 Thread #8 sent response #8 at 22:59:31.3749155  
+22.02.2018 22:59:31.375 INFO     5 Thread #5 received request #9 at 22:59:31.3754191  
+22.02.2018 22:59:31.875 INFO     8 Thread #8 sent response #9 at 22:59:31.8757692  
+22.02.2018 22:59:31.875 INFO     5 Thread #5 received request #10 at 22:59:31.8757692  
+22.02.2018 22:59:32.377 INFO     8 Thread #8 sent response #10 at 22:59:32.3770333  
+22.02.2018 22:59:32.377 INFO     8 Thread #8 received request #11 at 22:59:32.3775337  
+22.02.2018 22:59:32.878 INFO     8 Thread #8 sent response #11 at 22:59:32.8783743  
+22.02.2018 22:59:32.878 INFO     6 Thread #6 received request #12 at 22:59:32.8783743  
+22.02.2018 22:59:33.379 INFO     6 Thread #6 sent response #12 at 22:59:33.3797115  
+22.02.2018 22:59:33.380 INFO     8 Thread #8 received request #13 at 22:59:33.3802115  
+22.02.2018 22:59:33.880 INFO     6 Thread #6 sent response #13 at 22:59:33.8807563  
+[Start of logging]
+22.02.2018 22:59:54.721 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 22:59:54.739 INFO     1 Press ENTER to stop listening  
+22.02.2018 22:59:56.692 INFO     5 Thread #5 received request #1 at 22:59:56.6900357  
+22.02.2018 22:59:57.119 INFO     6 Thread #6 sent response #1 at 22:59:57.1194299  
+22.02.2018 22:59:57.155 INFO     6 Thread #6 received request #2 at 22:59:57.1550237  
+22.02.2018 22:59:57.572 INFO     5 Thread #5 sent response #2 at 22:59:57.5726341  
+22.02.2018 22:59:57.573 INFO     5 Thread #5 received request #3 at 22:59:57.5731359  
+22.02.2018 22:59:57.974 INFO     5 Thread #5 sent response #3 at 22:59:57.9749825  
+22.02.2018 22:59:57.974 INFO     6 Thread #6 received request #4 at 22:59:57.9749825  
+22.02.2018 22:59:58.385 INFO     8 Thread #8 sent response #4 at 22:59:58.3857426  
+22.02.2018 22:59:58.386 INFO     5 Thread #5 received request #5 at 22:59:58.3861640  
+22.02.2018 22:59:58.786 INFO     6 Thread #6 sent response #5 at 22:59:58.7864532  
+22.02.2018 22:59:58.786 INFO     8 Thread #8 received request #6 at 22:59:58.7864532  
+22.02.2018 22:59:59.196 INFO     6 Thread #6 sent response #6 at 22:59:59.1966589  
+22.02.2018 22:59:59.196 INFO     5 Thread #5 received request #7 at 22:59:59.1966589  
+22.02.2018 22:59:59.606 INFO     6 Thread #6 sent response #7 at 22:59:59.6066472  
+22.02.2018 22:59:59.606 INFO     6 Thread #6 received request #8 at 22:59:59.6066472  
+22.02.2018 23:00:00.009 INFO     6 Thread #6 sent response #8 at 23:00:00.0095002  
+22.02.2018 23:00:00.010 INFO     6 Thread #6 received request #9 at 23:00:00.0100023  
+22.02.2018 23:00:00.411 INFO     8 Thread #8 sent response #9 at 23:00:00.4115284  
+22.02.2018 23:00:00.411 INFO     6 Thread #6 received request #10 at 23:00:00.4119505  
+22.02.2018 23:00:00.821 INFO     8 Thread #8 sent response #10 at 23:00:00.8217906  
+22.02.2018 23:00:00.822 INFO     5 Thread #5 received request #11 at 23:00:00.8222222  
+22.02.2018 23:00:01.232 INFO     8 Thread #8 sent response #11 at 23:00:01.2324171  
+22.02.2018 23:00:01.234 INFO     8 Thread #8 received request #12 at 23:00:01.2343463  
+22.02.2018 23:00:01.635 INFO     5 Thread #5 sent response #12 at 23:00:01.6352366  
+22.02.2018 23:00:01.635 INFO     6 Thread #6 received request #13 at 23:00:01.6352366  
+22.02.2018 23:00:02.036 INFO     9 Thread #9 sent response #13 at 23:00:02.0360914  
+22.02.2018 23:03:54.365 INFO    10 Thread #10 received request #14 at 23:03:54.3657754  
+22.02.2018 23:03:54.771 INFO    10 Thread #10 sent response #14 at 23:03:54.7714158  
+22.02.2018 23:03:54.773 INFO    10 Thread #10 received request #15 at 23:03:54.7739219  
+22.02.2018 23:03:55.176 INFO    11 Thread #11 sent response #15 at 23:03:55.1769928  
+22.02.2018 23:03:55.176 INFO    10 Thread #10 received request #16 at 23:03:55.1769928  
+22.02.2018 23:03:55.589 INFO    11 Thread #11 sent response #16 at 23:03:55.5894525  
+22.02.2018 23:03:55.589 INFO    12 Thread #12 received request #17 at 23:03:55.5894525  
+22.02.2018 23:03:55.990 INFO    10 Thread #10 sent response #17 at 23:03:55.9900639  
+22.02.2018 23:03:55.990 INFO    11 Thread #11 received request #18 at 23:03:55.9904878  
+22.02.2018 23:03:56.400 INFO    12 Thread #12 sent response #18 at 23:03:56.4002743  
+22.02.2018 23:03:56.400 INFO    10 Thread #10 received request #19 at 23:03:56.4002743  
+22.02.2018 23:03:56.811 INFO    12 Thread #12 sent response #19 at 23:03:56.8113807  
+22.02.2018 23:03:56.811 INFO    11 Thread #11 received request #20 at 23:03:56.8113807  
+22.02.2018 23:03:57.212 INFO    10 Thread #10 sent response #20 at 23:03:57.2125292  
+22.02.2018 23:03:57.212 INFO    12 Thread #12 received request #21 at 23:03:57.2128511  
+22.02.2018 23:03:57.622 INFO    11 Thread #11 sent response #21 at 23:03:57.6227152  
+22.02.2018 23:03:57.623 INFO    10 Thread #10 received request #22 at 23:03:57.6230364  
+22.02.2018 23:03:58.023 INFO    11 Thread #11 sent response #22 at 23:03:58.0235276  
+22.02.2018 23:03:58.026 INFO    11 Thread #11 received request #23 at 23:03:58.0260372  
+22.02.2018 23:03:58.426 INFO    12 Thread #12 sent response #23 at 23:03:58.4268302  
+22.02.2018 23:03:58.427 INFO    12 Thread #12 received request #24 at 23:03:58.4272781  
+22.02.2018 23:03:58.839 INFO    13 Thread #13 sent response #24 at 23:03:58.8391535  
+22.02.2018 23:03:58.839 INFO    13 Thread #13 received request #25 at 23:03:58.8396292  
+22.02.2018 23:03:59.241 INFO    11 Thread #11 sent response #25 at 23:03:59.2411197  
+22.02.2018 23:03:59.241 INFO    12 Thread #12 received request #26 at 23:03:59.2411197  
+22.02.2018 23:03:59.651 INFO    13 Thread #13 sent response #26 at 23:03:59.6514598  
+[Start of logging]
+22.02.2018 23:05:22.300 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 23:05:22.315 INFO     1 Press ENTER to stop listening  
+22.02.2018 23:05:24.624 INFO     5 Thread #5 received request #1 at 23:05:24.6242720  
+22.02.2018 23:05:27.633 INFO     6 Thread #6 sent response #1 at 23:05:27.6338604  
+22.02.2018 23:05:27.637 INFO     5 Thread #5 received request #2 at 23:05:27.6378710  
+22.02.2018 23:05:30.642 INFO     6 Thread #6 sent response #2 at 23:05:30.6424748  
+22.02.2018 23:05:30.643 INFO     5 Thread #5 received request #3 at 23:05:30.6434776  
+22.02.2018 23:05:33.644 INFO     8 Thread #8 sent response #3 at 23:05:33.6447925  
+22.02.2018 23:05:33.645 INFO     5 Thread #5 received request #4 at 23:05:33.6451134  
+22.02.2018 23:05:36.645 INFO     5 Thread #5 sent response #4 at 23:05:36.6456000  
+22.02.2018 23:05:36.645 INFO     8 Thread #8 received request #5 at 23:05:36.6456000  
+22.02.2018 23:05:39.646 INFO     6 Thread #6 sent response #5 at 23:05:39.6465468  
+22.02.2018 23:05:39.646 INFO     6 Thread #6 received request #6 at 23:05:39.6465468  
+22.02.2018 23:05:42.647 INFO     5 Thread #5 sent response #6 at 23:05:42.6474058  
+22.02.2018 23:05:42.647 INFO     8 Thread #8 received request #7 at 23:05:42.6474058  
+22.02.2018 23:05:45.648 INFO     6 Thread #6 sent response #7 at 23:05:45.6483497  
+22.02.2018 23:05:45.648 INFO     5 Thread #5 received request #8 at 23:05:45.6483497  
+22.02.2018 23:05:48.649 INFO     6 Thread #6 sent response #8 at 23:05:48.6491019  
+22.02.2018 23:05:48.649 INFO     8 Thread #8 received request #9 at 23:05:48.6491019  
+22.02.2018 23:05:51.650 INFO     5 Thread #5 sent response #9 at 23:05:51.6504764  
+22.02.2018 23:05:51.650 INFO     6 Thread #6 received request #10 at 23:05:51.6507941  
+22.02.2018 23:05:54.651 INFO     5 Thread #5 sent response #10 at 23:05:54.6512913  
+22.02.2018 23:05:54.651 INFO     8 Thread #8 received request #11 at 23:05:54.6512913  
+22.02.2018 23:05:57.652 ERROR    8 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в ClusterServer.Program.<>c__DisplayClass1_0.<<CreateAsyncCallback>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 69
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterServer.HttpListenerExtensions.<>c__DisplayClass1_1.<<StartProcessingRequestsAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 27  
+22.02.2018 23:06:28.443 INFO    10 Thread #10 received request #12 at 23:06:28.4430002  
+22.02.2018 23:06:31.451 INFO    10 Thread #10 sent response #12 at 23:06:31.4519940  
+22.02.2018 23:06:31.454 INFO    10 Thread #10 received request #13 at 23:06:31.4549317  
+22.02.2018 23:06:34.458 INFO    11 Thread #11 sent response #13 at 23:06:34.4583228  
+22.02.2018 23:06:34.459 INFO    11 Thread #11 received request #14 at 23:06:34.4598274  
+22.02.2018 23:06:37.460 INFO    12 Thread #12 sent response #14 at 23:06:37.4602689  
+22.02.2018 23:06:37.460 INFO    12 Thread #12 received request #15 at 23:06:37.4607795  
+22.02.2018 23:06:40.462 INFO    12 Thread #12 sent response #15 at 23:06:40.4621836  
+22.02.2018 23:06:40.462 INFO    10 Thread #10 received request #16 at 23:06:40.4625200  
+22.02.2018 23:06:43.463 INFO    13 Thread #13 sent response #16 at 23:06:43.4635144  
+22.02.2018 23:06:43.463 INFO    13 Thread #13 received request #17 at 23:06:43.4639389  
+22.02.2018 23:06:46.469 INFO    10 Thread #10 sent response #17 at 23:06:46.4696344  
+22.02.2018 23:06:46.470 INFO    12 Thread #12 received request #18 at 23:06:46.4700660  
+22.02.2018 23:06:49.472 INFO    13 Thread #13 sent response #18 at 23:06:49.4725385  
+22.02.2018 23:06:49.473 INFO    13 Thread #13 received request #19 at 23:06:49.4730400  
+22.02.2018 23:06:52.474 INFO    12 Thread #12 sent response #19 at 23:06:52.4747650  
+22.02.2018 23:06:52.475 INFO    10 Thread #10 received request #20 at 23:06:52.4751966  
+22.02.2018 23:06:55.475 INFO    13 Thread #13 sent response #20 at 23:06:55.4758436  
+22.02.2018 23:06:55.476 INFO    11 Thread #11 received request #21 at 23:06:55.4762671  
+22.02.2018 23:06:58.477 INFO    10 Thread #10 sent response #21 at 23:06:58.4771807  
+22.02.2018 23:06:58.477 INFO    12 Thread #12 received request #22 at 23:06:58.4771807  
+22.02.2018 23:07:01.477 INFO    11 Thread #11 sent response #22 at 23:07:01.4779886  
+22.02.2018 23:07:01.477 INFO    10 Thread #10 received request #23 at 23:07:01.4779886  
+22.02.2018 23:07:04.479 INFO    11 Thread #11 sent response #23 at 23:07:04.4792703  
+22.02.2018 23:07:04.479 INFO    13 Thread #13 received request #24 at 23:07:04.4797023  
+22.02.2018 23:07:07.480 ERROR   10 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в ClusterServer.Program.<>c__DisplayClass1_0.<<CreateAsyncCallback>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 69
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterServer.HttpListenerExtensions.<>c__DisplayClass1_1.<<StartProcessingRequestsAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 27  
+22.02.2018 23:07:55.757 INFO    15 Thread #15 received request #25 at 23:07:55.7572001  
+22.02.2018 23:07:58.757 INFO    15 Thread #15 sent response #25 at 23:07:58.7579212  
+22.02.2018 23:07:58.758 INFO    16 Thread #16 received request #26 at 23:07:58.7583545  
+22.02.2018 23:08:01.759 INFO    15 Thread #15 sent response #26 at 23:08:01.7592530  
+22.02.2018 23:08:01.760 INFO    16 Thread #16 received request #27 at 23:08:01.7607262  
+22.02.2018 23:08:04.761 ERROR   15 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в ClusterServer.Program.<>c__DisplayClass1_0.<<CreateAsyncCallback>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 69
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterServer.HttpListenerExtensions.<>c__DisplayClass1_1.<<StartProcessingRequestsAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 27  
+22.02.2018 23:08:04.762 INFO    15 Thread #15 received request #28 at 23:08:04.7624805  
+22.02.2018 23:08:07.762 INFO    17 Thread #17 sent response #28 at 23:08:07.7629960  
+22.02.2018 23:08:07.763 INFO    16 Thread #16 received request #29 at 23:08:07.7634964  
+22.02.2018 23:08:10.764 INFO    17 Thread #17 sent response #29 at 23:08:10.7647937  
+22.02.2018 23:08:10.764 INFO    15 Thread #15 received request #30 at 23:08:10.7647937  
+22.02.2018 23:08:13.766 INFO    16 Thread #16 sent response #30 at 23:08:13.7662405  
+22.02.2018 23:08:13.766 INFO    15 Thread #15 received request #31 at 23:08:13.7662405  
+22.02.2018 23:08:16.767 INFO    16 Thread #16 sent response #31 at 23:08:16.7674298  
+22.02.2018 23:08:16.767 INFO    17 Thread #17 received request #32 at 23:08:16.7674298  
+22.02.2018 23:08:19.768 INFO    16 Thread #16 sent response #32 at 23:08:19.7685642  
+22.02.2018 23:08:19.768 INFO    15 Thread #15 received request #33 at 23:08:19.7685642  
+22.02.2018 23:08:22.769 INFO    17 Thread #17 sent response #33 at 23:08:22.7697899  
+22.02.2018 23:08:22.770 INFO    15 Thread #15 received request #34 at 23:08:22.7702934  
+22.02.2018 23:08:25.771 INFO    16 Thread #16 sent response #34 at 23:08:25.7711305  
+22.02.2018 23:08:25.771 INFO    17 Thread #17 received request #35 at 23:08:25.7711305  
+22.02.2018 23:08:28.772 INFO    16 Thread #16 sent response #35 at 23:08:28.7721884  
+22.02.2018 23:08:28.772 INFO    15 Thread #15 received request #36 at 23:08:28.7726112  
+22.02.2018 23:08:31.773 INFO    16 Thread #16 sent response #36 at 23:08:31.7732060  
+22.02.2018 23:08:31.773 INFO    17 Thread #17 received request #37 at 23:08:31.7735350  
+22.02.2018 23:08:34.774 INFO    16 Thread #16 sent response #37 at 23:08:34.7740456  
+22.02.2018 23:08:34.774 INFO    17 Thread #17 received request #38 at 23:08:34.7740456  
+22.02.2018 23:08:37.774 INFO    16 Thread #16 sent response #38 at 23:08:37.7749120  
+22.02.2018 23:08:37.774 INFO    15 Thread #15 received request #39 at 23:08:37.7749120  
+22.02.2018 23:08:40.776 INFO    17 Thread #17 sent response #39 at 23:08:40.7760767  
+22.02.2018 23:08:40.776 INFO    16 Thread #16 received request #40 at 23:08:40.7765009  
+22.02.2018 23:08:43.777 INFO    17 Thread #17 sent response #40 at 23:08:43.7771063  
+[Start of logging]
+22.02.2018 23:10:55.999 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 23:10:56.012 INFO     1 Press ENTER to stop listening  
+22.02.2018 23:10:58.926 INFO     5 Thread #5 received request #1 at 23:10:58.9260093  
+22.02.2018 23:11:01.935 INFO     5 Thread #5 sent response #1 at 23:11:01.9346865  
+22.02.2018 23:11:01.936 INFO     5 Thread #5 received request #2 at 23:11:01.9366912  
+22.02.2018 23:11:04.937 INFO     6 Thread #6 sent response #2 at 23:11:04.9377226  
+22.02.2018 23:11:04.938 INFO     5 Thread #5 received request #3 at 23:11:04.9382275  
+22.02.2018 23:11:07.939 INFO     8 Thread #8 sent response #3 at 23:11:07.9394610  
+22.02.2018 23:11:07.939 INFO     5 Thread #5 received request #4 at 23:11:07.9398848  
+22.02.2018 23:11:10.940 INFO     5 Thread #5 sent response #4 at 23:11:10.9405513  
+22.02.2018 23:11:10.940 INFO     6 Thread #6 received request #5 at 23:11:10.9405513  
+22.02.2018 23:11:13.941 INFO     5 Thread #5 sent response #5 at 23:11:13.9415121  
+22.02.2018 23:11:13.941 INFO     8 Thread #8 received request #6 at 23:11:13.9415121  
+22.02.2018 23:11:16.942 INFO     6 Thread #6 sent response #6 at 23:11:16.9424924  
+22.02.2018 23:11:16.942 INFO     5 Thread #5 received request #7 at 23:11:16.9429935  
+22.02.2018 23:11:19.944 INFO     8 Thread #8 sent response #7 at 23:11:19.9449632  
+22.02.2018 23:11:19.944 INFO     5 Thread #5 received request #8 at 23:11:19.9449632  
+22.02.2018 23:11:22.946 INFO     8 Thread #8 sent response #8 at 23:11:22.9462379  
+22.02.2018 23:11:22.946 INFO     6 Thread #6 received request #9 at 23:11:22.9462379  
+22.02.2018 23:11:25.947 INFO     5 Thread #5 sent response #9 at 23:11:25.9473610  
+22.02.2018 23:11:25.947 INFO     8 Thread #8 received request #10 at 23:11:25.9477834  
+22.02.2018 23:11:28.948 INFO     6 Thread #6 sent response #10 at 23:11:28.9484023  
+22.02.2018 23:11:28.948 INFO     5 Thread #5 received request #11 at 23:11:28.9484023  
+22.02.2018 23:11:31.949 INFO     8 Thread #8 sent response #11 at 23:11:31.9494090  
+22.02.2018 23:11:31.949 INFO     5 Thread #5 received request #12 at 23:11:31.9498304  
+22.02.2018 23:11:34.950 INFO     5 Thread #5 sent response #12 at 23:11:34.9502990  
+22.02.2018 23:11:34.950 INFO     6 Thread #6 received request #13 at 23:11:34.9508004  
+22.02.2018 23:11:37.952 ERROR    9 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в ClusterServer.Program.<>c__DisplayClass1_0.<<CreateAsyncCallback>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 69
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterServer.HttpListenerExtensions.<>c__DisplayClass1_1.<<StartProcessingRequestsAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 27  
+[Start of logging]
+22.02.2018 23:12:00.694 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 23:12:00.707 INFO     1 Press ENTER to stop listening  
+22.02.2018 23:12:03.037 INFO     5 Thread #5 received request #1 at 23:12:03.0374017  
+22.02.2018 23:12:06.061 INFO     5 Thread #5 sent response #1 at 23:12:06.0617562  
+22.02.2018 23:12:06.063 INFO     6 Thread #6 received request #2 at 23:12:06.0637231  
+22.02.2018 23:12:09.064 INFO     5 Thread #5 sent response #2 at 23:12:09.0642425  
+22.02.2018 23:12:09.064 INFO     6 Thread #6 received request #3 at 23:12:09.0642425  
+22.02.2018 23:12:12.065 INFO     8 Thread #8 sent response #3 at 23:12:12.0652154  
+22.02.2018 23:12:12.065 INFO     5 Thread #5 received request #4 at 23:12:12.0655486  
+22.02.2018 23:12:15.066 INFO     6 Thread #6 sent response #4 at 23:12:15.0660539  
+22.02.2018 23:12:15.066 INFO     8 Thread #8 received request #5 at 23:12:15.0665596  
+22.02.2018 23:12:18.067 INFO     5 Thread #5 sent response #5 at 23:12:18.0673646  
+22.02.2018 23:12:18.067 INFO     6 Thread #6 received request #6 at 23:12:18.0677884  
+22.02.2018 23:12:21.068 INFO     5 Thread #5 sent response #6 at 23:12:21.0681710  
+22.02.2018 23:12:21.068 INFO     8 Thread #8 received request #7 at 23:12:21.0681710  
+22.02.2018 23:12:24.069 INFO     5 Thread #5 sent response #7 at 23:12:24.0692169  
+22.02.2018 23:12:24.069 INFO     5 Thread #5 received request #8 at 23:12:24.0692169  
+22.02.2018 23:12:27.070 INFO     6 Thread #6 sent response #8 at 23:12:27.0702938  
+22.02.2018 23:12:27.070 INFO     5 Thread #5 received request #9 at 23:12:27.0707201  
+22.02.2018 23:12:30.071 INFO     6 Thread #6 sent response #9 at 23:12:30.0711126  
+22.02.2018 23:12:30.071 INFO     8 Thread #8 received request #10 at 23:12:30.0711126  
+22.02.2018 23:12:33.073 ERROR    5 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в ClusterServer.Program.<>c__DisplayClass1_0.<<CreateAsyncCallback>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 69
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterServer.HttpListenerExtensions.<>c__DisplayClass1_1.<<StartProcessingRequestsAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 27  
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+22.02.2018 23:13:42.052 INFO     1 Server is starting listening prefixes: http://+:8081/qqq/  
+22.02.2018 23:13:42.063 INFO     1 Press ENTER to stop listening  
+22.02.2018 23:13:46.359 INFO     5 Thread #5 received request #1 at 23:13:46.3586655  
+22.02.2018 23:13:49.372 INFO     6 Thread #6 sent response #1 at 23:13:49.3729254  
+22.02.2018 23:13:49.377 INFO     5 Thread #5 received request #2 at 23:13:49.3774367  
+22.02.2018 23:13:52.378 INFO     6 Thread #6 sent response #2 at 23:13:52.3787876  
+22.02.2018 23:13:52.378 INFO     5 Thread #5 received request #3 at 23:13:52.3787876  
+22.02.2018 23:13:55.380 INFO     5 Thread #5 sent response #3 at 23:13:55.3802041  
+22.02.2018 23:13:55.380 INFO     8 Thread #8 received request #4 at 23:13:55.3807062  
+22.02.2018 23:13:58.381 INFO     6 Thread #6 sent response #4 at 23:13:58.3814492  
+22.02.2018 23:13:58.381 INFO     8 Thread #8 received request #5 at 23:13:58.3814492  
+22.02.2018 23:14:01.383 ERROR    6 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в ClusterServer.Program.<>c__DisplayClass1_0.<<CreateAsyncCallback>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 65
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterServer.HttpListenerExtensions.<>c__DisplayClass1_1.<<StartProcessingRequestsAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 27  
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+22.02.2018 23:15:08.190 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 23:15:08.201 INFO     1 Press ENTER to stop listening  
+22.02.2018 23:15:14.060 INFO     5 Thread #5 received request #1 at 23:15:14.0602699  
+22.02.2018 23:15:14.060 INFO     6 Thread #6 received request #2 at 23:15:14.0602699  
+22.02.2018 23:15:14.069 INFO     8 Thread #8 received request #3 at 23:15:14.0697955  
+22.02.2018 23:15:14.079 INFO     7 Thread #7 received request #4 at 23:15:14.0798225  
+22.02.2018 23:15:14.118 INFO     6 Thread #6 received request #5 at 23:15:14.1184242  
+22.02.2018 23:15:14.118 INFO     6 Thread #6 received request #6 at 23:15:14.1184242  
+22.02.2018 23:15:14.118 INFO     6 Thread #6 received request #7 at 23:15:14.1184242  
+22.02.2018 23:15:14.118 INFO     6 Thread #6 received request #8 at 23:15:14.1184242  
+22.02.2018 23:15:14.118 INFO     6 Thread #6 received request #9 at 23:15:14.1184242  
+22.02.2018 23:15:14.118 INFO     5 Thread #5 received request #10 at 23:15:14.1184242  
+22.02.2018 23:15:14.119 INFO     8 Thread #8 received request #13 at 23:15:14.1194270  
+22.02.2018 23:15:14.118 INFO     6 Thread #6 received request #11 at 23:15:14.1184242  
+22.02.2018 23:15:14.118 INFO     7 Thread #7 received request #12 at 23:15:14.1189260  
+22.02.2018 23:15:17.092 INFO     6 Thread #6 sent response #1 at 23:15:17.0925767  
+22.02.2018 23:15:17.092 INFO     5 Thread #5 sent response #3 at 23:15:17.0925767  
+22.02.2018 23:15:17.093 INFO     7 Thread #7 sent response #2 at 23:15:17.0930778  
+22.02.2018 23:15:17.104 INFO     8 Thread #8 sent response #4 at 23:15:17.1040209  
+22.02.2018 23:15:17.118 INFO     5 Thread #5 sent response #9 at 23:15:17.1182853  
+22.02.2018 23:15:17.118 INFO     7 Thread #7 sent response #6 at 23:15:17.1186217  
+22.02.2018 23:15:17.118 INFO     8 Thread #8 sent response #8 at 23:15:17.1182853  
+22.02.2018 23:15:17.118 INFO     5 Thread #5 sent response #5 at 23:15:17.1186217  
+22.02.2018 23:15:17.119 INFO     6 Thread #6 sent response #7 at 23:15:17.1196245  
+22.02.2018 23:15:17.139 INFO     6 Thread #6 sent response #12 at 23:15:17.1391761  
+22.02.2018 23:15:17.139 INFO     7 Thread #7 sent response #11 at 23:15:17.1396778  
+22.02.2018 23:15:17.140 INFO     7 Thread #7 sent response #13 at 23:15:17.1401800  
+22.02.2018 23:15:17.140 INFO     7 Thread #7 sent response #10 at 23:15:17.1406810  
+22.02.2018 23:15:47.853 INFO    10 Thread #10 received request #14 at 23:15:47.8530166  
+22.02.2018 23:15:47.853 INFO    10 Thread #10 received request #15 at 23:15:47.8530166  
+22.02.2018 23:15:47.859 INFO    10 Thread #10 received request #17 at 23:15:47.8590330  
+22.02.2018 23:15:47.859 INFO    10 Thread #10 received request #18 at 23:15:47.8590330  
+22.02.2018 23:15:47.859 INFO    10 Thread #10 received request #19 at 23:15:47.8595340  
+22.02.2018 23:15:47.859 INFO    10 Thread #10 received request #20 at 23:15:47.8595340  
+22.02.2018 23:15:47.859 INFO    10 Thread #10 received request #21 at 23:15:47.8595340  
+22.02.2018 23:15:47.859 INFO    10 Thread #10 received request #22 at 23:15:47.8595340  
+22.02.2018 23:15:47.860 INFO    10 Thread #10 received request #23 at 23:15:47.8600351  
+22.02.2018 23:15:47.865 INFO    10 Thread #10 received request #24 at 23:15:47.8650490  
+22.02.2018 23:15:47.865 INFO    10 Thread #10 received request #25 at 23:15:47.8650490  
+22.02.2018 23:15:47.865 INFO    10 Thread #10 received request #26 at 23:15:47.8650490  
+22.02.2018 23:15:47.853 INFO    11 Thread #11 received request #16 at 23:15:47.8535184  
+22.02.2018 23:15:50.859 INFO    11 Thread #11 sent response #20 at 23:15:50.8590809  
+22.02.2018 23:15:50.859 INFO    11 Thread #11 sent response #18 at 23:15:50.8595823  
+22.02.2018 23:15:50.860 INFO    13 Thread #13 sent response #17 at 23:15:50.8600838  
+22.02.2018 23:15:50.865 INFO    13 Thread #13 sent response #14 at 23:15:50.8650966  
+22.02.2018 23:15:50.860 INFO    12 Thread #12 sent response #19 at 23:15:50.8605855  
+22.02.2018 23:15:50.860 INFO    11 Thread #11 sent response #15 at 23:15:50.8605855  
+22.02.2018 23:15:50.868 INFO    10 Thread #10 sent response #21 at 23:15:50.8686111  
+22.02.2018 23:15:50.902 INFO    12 Thread #12 sent response #25 at 23:15:50.9026971  
+22.02.2018 23:15:50.903 INFO    13 Thread #13 sent response #16 at 23:15:50.9031982  
+22.02.2018 23:15:50.903 INFO    10 Thread #10 sent response #24 at 23:15:50.9036993  
+22.02.2018 23:15:50.904 INFO    10 Thread #10 sent response #22 at 23:15:50.9047021  
+22.02.2018 23:15:50.904 INFO    13 Thread #13 sent response #23 at 23:15:50.9047021  
+22.02.2018 23:15:50.902 INFO    11 Thread #11 sent response #26 at 23:15:50.9026971  
+22.02.2018 23:16:07.540 INFO    11 Thread #11 received request #27 at 23:16:07.5409628  
+22.02.2018 23:16:07.540 INFO    13 Thread #13 received request #28 at 23:16:07.5409628  
+22.02.2018 23:16:07.540 INFO    12 Thread #12 received request #29 at 23:16:07.5409628  
+22.02.2018 23:16:07.540 INFO    14 Thread #14 received request #30 at 23:16:07.5409628  
+22.02.2018 23:16:07.546 INFO    10 Thread #10 received request #31 at 23:16:07.5464780  
+22.02.2018 23:16:07.546 INFO    10 Thread #10 received request #32 at 23:16:07.5464780  
+22.02.2018 23:16:07.578 INFO    10 Thread #10 received request #33 at 23:16:07.5785634  
+22.02.2018 23:16:07.588 INFO    10 Thread #10 received request #34 at 23:16:07.5880889  
+22.02.2018 23:16:07.594 INFO    11 Thread #11 received request #35 at 23:16:07.5946057  
+22.02.2018 23:16:07.627 INFO    12 Thread #12 received request #36 at 23:16:07.6271924  
+22.02.2018 23:16:07.630 INFO    13 Thread #13 received request #37 at 23:16:07.6307023  
+22.02.2018 23:16:07.640 INFO    14 Thread #14 received request #39 at 23:16:07.6407290  
+22.02.2018 23:16:07.640 INFO    12 Thread #12 received request #38 at 23:16:07.6407290  
+22.02.2018 23:16:10.550 INFO    13 Thread #13 sent response #31 at 23:16:10.5504478  
+22.02.2018 23:16:10.550 INFO    11 Thread #11 sent response #32 at 23:16:10.5504478  
+22.02.2018 23:16:10.550 INFO    13 Thread #13 sent response #29 at 23:16:10.5509499  
+22.02.2018 23:16:10.550 INFO    13 Thread #13 sent response #27 at 23:16:10.5509499  
+22.02.2018 23:16:10.551 INFO    11 Thread #11 sent response #28 at 23:16:10.5519524  
+22.02.2018 23:16:10.551 INFO    10 Thread #10 sent response #30 at 23:16:10.5519524  
+22.02.2018 23:16:10.592 INFO    14 Thread #14 sent response #33 at 23:16:10.5920591  
+22.02.2018 23:16:10.592 INFO    13 Thread #13 sent response #34 at 23:16:10.5920591  
+22.02.2018 23:16:10.607 INFO    11 Thread #11 sent response #35 at 23:16:10.6070989  
+22.02.2018 23:16:10.630 INFO    12 Thread #12 sent response #36 at 23:16:10.6307020  
+22.02.2018 23:16:10.630 INFO    10 Thread #10 sent response #37 at 23:16:10.6307020  
+22.02.2018 23:16:10.652 INFO    13 Thread #13 sent response #38 at 23:16:10.6522782  
+22.02.2018 23:16:10.652 INFO    14 Thread #14 sent response #39 at 23:16:10.6527758  
+22.02.2018 23:16:23.843 INFO    12 Thread #12 received request #40 at 23:16:23.8433941  
+22.02.2018 23:16:23.872 INFO    13 Thread #13 received request #41 at 23:16:23.8729730  
+22.02.2018 23:16:23.874 INFO    10 Thread #10 received request #42 at 23:16:23.8744769  
+22.02.2018 23:16:23.874 INFO    10 Thread #10 received request #44 at 23:16:23.8749783  
+22.02.2018 23:16:23.874 INFO    12 Thread #12 received request #43 at 23:16:23.8749783  
+22.02.2018 23:16:23.874 INFO    12 Thread #12 received request #45 at 23:16:23.8749783  
+22.02.2018 23:16:23.874 INFO    12 Thread #12 received request #46 at 23:16:23.8749783  
+22.02.2018 23:16:23.874 INFO    12 Thread #12 received request #47 at 23:16:23.8749783  
+22.02.2018 23:16:23.874 INFO    12 Thread #12 received request #48 at 23:16:23.8749783  
+22.02.2018 23:16:23.892 INFO    14 Thread #14 received request #49 at 23:16:23.8925245  
+22.02.2018 23:16:23.892 INFO    14 Thread #14 received request #50 at 23:16:23.8925245  
+22.02.2018 23:16:23.892 INFO    13 Thread #13 received request #51 at 23:16:23.8925245  
+22.02.2018 23:16:23.892 INFO    10 Thread #10 received request #52 at 23:16:23.8925245  
+22.02.2018 23:16:26.844 INFO    12 Thread #12 sent response #40 at 23:16:26.8441250  
+22.02.2018 23:16:26.874 INFO    14 Thread #14 sent response #41 at 23:16:26.8741232  
+22.02.2018 23:16:26.880 INFO    13 Thread #13 sent response #47 at 23:16:26.8806942  
+22.02.2018 23:16:26.880 INFO    10 Thread #10 sent response #48 at 23:16:26.8806942  
+22.02.2018 23:16:26.881 INFO    10 Thread #10 sent response #45 at 23:16:26.8811417  
+22.02.2018 23:16:26.888 INFO    10 Thread #10 sent response #42 at 23:16:26.8886616  
+22.02.2018 23:16:26.881 INFO    13 Thread #13 sent response #46 at 23:16:26.8811417  
+22.02.2018 23:16:26.883 INFO    12 Thread #12 sent response #43 at 23:16:26.8836488  
+22.02.2018 23:16:26.884 INFO    14 Thread #14 sent response #44 at 23:16:26.8846513  
+22.02.2018 23:16:26.910 INFO    13 Thread #13 sent response #52 at 23:16:26.9102192  
+22.02.2018 23:16:26.910 INFO    13 Thread #13 sent response #50 at 23:16:26.9107209  
+22.02.2018 23:16:26.911 INFO    14 Thread #14 sent response #51 at 23:16:26.9112224  
+22.02.2018 23:16:26.911 INFO    13 Thread #13 sent response #49 at 23:16:26.9117241  
+[Start of logging]
+22.02.2018 23:24:07.089 INFO     1 Server is starting listening prefixes: http://+:8081/qqq/  
+22.02.2018 23:24:10.926 INFO     1 Thread #1 received request #1 at 23:24:10.9259427  
+22.02.2018 23:24:13.933 INFO     1 Thread #1 sent response #1 at 23:24:13.9331583  
+22.02.2018 23:24:13.934 INFO     1 Thread #1 received request #2 at 23:24:13.9346643  
+22.02.2018 23:24:16.939 INFO     1 Thread #1 sent response #2 at 23:24:16.9398087  
+22.02.2018 23:24:16.939 INFO     1 Thread #1 received request #3 at 23:24:16.9398087  
+22.02.2018 23:24:19.940 INFO     1 Thread #1 sent response #3 at 23:24:19.9405816  
+22.02.2018 23:24:19.940 INFO     1 Thread #1 received request #4 at 23:24:19.9405816  
+22.02.2018 23:24:22.941 INFO     1 Thread #1 sent response #4 at 23:24:22.9414205  
+22.02.2018 23:24:22.941 INFO     1 Thread #1 received request #5 at 23:24:22.9414205  
+22.02.2018 23:24:25.942 INFO     1 Thread #1 sent response #5 at 23:24:25.9421479  
+22.02.2018 23:24:25.942 INFO     1 Thread #1 received request #6 at 23:24:25.9424921  
+22.02.2018 23:24:28.942 INFO     1 Thread #1 sent response #6 at 23:24:28.9429914  
+22.02.2018 23:24:28.942 INFO     1 Thread #1 received request #7 at 23:24:28.9429914  
+22.02.2018 23:24:31.944 INFO     1 Thread #1 sent response #7 at 23:24:31.9442181  
+22.02.2018 23:24:31.944 INFO     1 Thread #1 received request #8 at 23:24:31.9442181  
+22.02.2018 23:24:34.945 ERROR    1 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+[Start of logging]
+22.02.2018 23:24:50.137 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+22.02.2018 23:24:53.639 INFO     1 Thread #1 received request #1 at 23:24:53.6386210  
+22.02.2018 23:24:56.040 INFO     1 Thread #1 sent response #1 at 23:24:56.0409346  
+22.02.2018 23:24:56.041 INFO     1 Thread #1 received request #2 at 23:24:56.0414363  
+22.02.2018 23:24:58.442 INFO     1 Thread #1 sent response #2 at 23:24:58.4421243  
+22.02.2018 23:24:58.442 INFO     1 Thread #1 received request #3 at 23:24:58.4421243  
+22.02.2018 23:25:00.842 INFO     1 Thread #1 sent response #3 at 23:25:00.8427361  
+22.02.2018 23:25:00.842 INFO     1 Thread #1 received request #4 at 23:25:00.8427361  
+22.02.2018 23:25:03.243 INFO     1 Thread #1 sent response #4 at 23:25:03.2434064  
+22.02.2018 23:25:03.243 INFO     1 Thread #1 received request #5 at 23:25:03.2434064  
+22.02.2018 23:25:05.643 INFO     1 Thread #1 sent response #5 at 23:25:05.6438317  
+22.02.2018 23:25:05.643 INFO     1 Thread #1 received request #6 at 23:25:05.6438317  
+22.02.2018 23:25:08.044 INFO     1 Thread #1 sent response #6 at 23:25:08.0442894  
+22.02.2018 23:25:08.044 INFO     1 Thread #1 received request #7 at 23:25:08.0442894  
+22.02.2018 23:25:10.444 INFO     1 Thread #1 sent response #7 at 23:25:10.4446656  
+22.02.2018 23:25:10.444 INFO     1 Thread #1 received request #8 at 23:25:10.4446656  
+22.02.2018 23:25:12.845 INFO     1 Thread #1 sent response #8 at 23:25:12.8456561  
+22.02.2018 23:25:12.845 INFO     1 Thread #1 received request #9 at 23:25:12.8456561  
+22.02.2018 23:25:15.246 INFO     1 Thread #1 sent response #9 at 23:25:15.2461603  
+22.02.2018 23:25:15.246 INFO     1 Thread #1 received request #10 at 23:25:15.2461603  
+22.02.2018 23:25:17.647 ERROR    1 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+22.02.2018 23:42:26.323 INFO     1 Thread #1 received request #11 at 23:42:26.3235350  
+22.02.2018 23:42:28.724 INFO     1 Thread #1 sent response #11 at 23:42:28.7241655  
+22.02.2018 23:42:28.724 INFO     1 Thread #1 received request #12 at 23:42:28.7241655  
+22.02.2018 23:42:31.125 INFO     1 Thread #1 sent response #12 at 23:42:31.1255823  
+22.02.2018 23:42:31.125 INFO     1 Thread #1 received request #13 at 23:42:31.1255823  
+22.02.2018 23:42:33.526 INFO     1 Thread #1 sent response #13 at 23:42:33.5261003  
+22.02.2018 23:42:33.526 INFO     1 Thread #1 received request #14 at 23:42:33.5261003  
+22.02.2018 23:42:35.926 ERROR    1 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+22.02.2018 23:58:51.501 INFO     1 Thread #1 received request #15 at 23:58:51.5010296  
+22.02.2018 23:58:53.902 INFO     1 Thread #1 sent response #15 at 23:58:53.9029694  
+22.02.2018 23:58:53.902 INFO     1 Thread #1 received request #16 at 23:58:53.9029694  
+22.02.2018 23:58:56.303 INFO     1 Thread #1 sent response #16 at 23:58:56.3037529  
+22.02.2018 23:58:56.303 INFO     1 Thread #1 received request #17 at 23:58:56.3037529  
+22.02.2018 23:58:58.704 INFO     1 Thread #1 sent response #17 at 23:58:58.7041714  
+22.02.2018 23:58:58.704 INFO     1 Thread #1 received request #18 at 23:58:58.7041714  
+22.02.2018 23:59:01.104 INFO     1 Thread #1 sent response #18 at 23:59:01.1049941  
+22.02.2018 23:59:01.104 INFO     1 Thread #1 received request #19 at 23:59:01.1049941  
+22.02.2018 23:59:03.505 INFO     1 Thread #1 sent response #19 at 23:59:03.5054137  
+22.02.2018 23:59:03.505 INFO     1 Thread #1 received request #20 at 23:59:03.5054137  
+22.02.2018 23:59:05.905 ERROR    1 System.Net.HttpListenerException (0x80004005): Попытка выполнить операцию для несуществующего сетевого подключения
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass2_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 84
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 60  
+[End of logging]
+
