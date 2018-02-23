@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using log4net;
 
@@ -7,7 +8,7 @@ namespace ClusterClient.Clients
 {
     public class RoundRobinClusterClient : ClusterClientBase
     {
-        private Random rnd;
+        private readonly Random rnd;
         public RoundRobinClusterClient(string[] replicaAddresses) : base(replicaAddresses)
         {
             rnd = new Random();
@@ -17,15 +18,21 @@ namespace ClusterClient.Clients
         {
             var orderArray = Enumerable.Range(0, ReplicaAddresses.Length).OrderBy(x => rnd.Next()).ToArray();
             var newTimeout = TimeSpan.FromMilliseconds(timeout.TotalMilliseconds / ReplicaAddresses.Length);
-            while (true)
-                foreach (var i in orderArray)
-                {
-                    var webRequest = CreateRequest(ReplicaAddresses[i] + "?query=" + query);
-                    Log.InfoFormat("Processing {0}", webRequest.RequestUri);
-                    var task = ProcessRequestAsync(webRequest);
-                    if (await Task.WhenAny(task, Task.Delay(newTimeout)) == task)
-                        return await task;
-                }
+            var roundTask = Task.Run(async () =>
+            {
+                while (true)
+                    foreach (var i in orderArray)
+                    {
+                        var webRequest = CreateRequest(ReplicaAddresses[i] + "?query=" + query);
+                        Log.InfoFormat("Processing {0}", webRequest.RequestUri);
+                        var task = ProcessRequestAsync(webRequest);
+                        if (await Task.WhenAny(task, Task.Delay(newTimeout)) == task)
+                            return await task;
+                    }
+            });
+            if (await Task.WhenAny(roundTask, Task.Delay(timeout)) == roundTask)
+                return await roundTask;
+            throw new TimeoutException();
         }
 
         protected override ILog Log => LogManager.GetLogger(typeof(RoundRobinClusterClient));

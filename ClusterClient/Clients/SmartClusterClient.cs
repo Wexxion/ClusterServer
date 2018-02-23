@@ -9,44 +9,54 @@ namespace ClusterClient.Clients
 {
     public class SmartClusterClient : ClusterClientBase
     {
-        private Random rnd;
-        private List<Task<string>> tasks;
-        private AutoResetEvent autoResetEvent;
+        private readonly Random rnd;
         public SmartClusterClient(string[] replicaAddresses) : base(replicaAddresses)
         {
             rnd = new Random();
-            autoResetEvent = new AutoResetEvent(false);
         }
 
-        public override async Task<string> ProcessRequestAsync(string query, TimeSpan timeout)
+        public override async Task<string> ProcessRequestAsync(string query, TimeSpan totaltimeout)
         {   
-            tasks = new List<Task<string>>();
+            var tasks = new HashSet<Task<string>>();
 
             var orderArray = Enumerable.Range(0, ReplicaAddresses.Length).OrderBy(x => rnd.Next()).ToArray();
-            var newTimeout = TimeSpan.FromMilliseconds(timeout.TotalMilliseconds / ReplicaAddresses.Length);
-            
-            StartRound(orderArray, 0, query, newTimeout);
-            return await await Task.Run(() =>
-            {
-                autoResetEvent.WaitOne();
-                return Task.WhenAny(tasks);
-            });
-            //autoResetEvent.WaitOne();
-            //return await await Task.WhenAny(tasks);
+            var newTimeout = TimeSpan.FromMilliseconds(totaltimeout.TotalMilliseconds / ReplicaAddresses.Length);
+
+            var roundTask = StartRound(tasks, orderArray, query, newTimeout);
+            if (await Task.WhenAny(roundTask, Task.Delay(totaltimeout)) == roundTask)
+                return await roundTask;
+            throw new TimeoutException();
         }
 
-        private void StartRound(int[] orderArray, int i, string query, TimeSpan timeout)
+        private async Task<string> GetDelayStringTask(TimeSpan delay)
         {
-            Task.Run(async () =>
+            await Task.Delay(delay);
+            return null;
+        }
+
+        private async Task<string> StartRound(HashSet<Task<string>> tasks, int[] orderArray, string query, TimeSpan newTimeout)
+        {
+            return await Task.Run(async () =>
             {
-                var webRequest = CreateRequest(ReplicaAddresses[orderArray[i]] + "?query=" + query);
-                Log.InfoFormat("Processing {0}", webRequest.RequestUri);
-                var task = ProcessRequestAsync(webRequest);
-                tasks.Add(task);
-                if (await Task.WhenAny(task, Task.Delay(timeout)) == task)
-                    autoResetEvent.Set();
-                else
-                    StartRound(orderArray, (i + 1) % orderArray.Length, query, timeout);
+                var i = 0;
+                while (true)
+                {
+                    var webRequest =
+                        CreateRequest(ReplicaAddresses[orderArray[i++ % orderArray.Length]] + "?query=" + query);
+                    Log.InfoFormat("Processing {0}", webRequest.RequestUri);
+
+                    var task = ProcessRequestAsync(webRequest);
+                    var delayTask = GetDelayStringTask(newTimeout);
+
+                    tasks.Add(task);
+                    tasks.Add(delayTask);
+
+                    var first = await Task.WhenAny(tasks);
+                    if (first == delayTask)
+                        tasks.Remove(delayTask);
+                    else
+                        return await first;
+                }
             });
         }
 
