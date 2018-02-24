@@ -11,24 +11,28 @@ namespace ClusterServer
 {
     public static class Program
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(Program));
+
+        private static readonly byte[] Key = Encoding.UTF8.GetBytes("Контур.Шпора");
+        private static int RequestsCount;
+
+        private static readonly ILog Log = LogManager.GetLogger(typeof(Program));
+
         public static void Main(string[] args)
         {
             XmlConfigurator.Configure();
 
             try
             {
-                ServerArguments parsedArguments;
-                if (!ServerArguments.TryGetArguments(args, out parsedArguments))
+                if (!ServerArguments.TryGetArguments(args, out var parsedArguments))
                     return;
 
                 var listener = new HttpListener
                 {
                     Prefixes =
-                                {
-                                    string.Format("http://+:{0}/{1}/",
-                                        parsedArguments.Port,
-                                        parsedArguments.MethodName)
-                                }
+                    {
+                        $"http://+:{parsedArguments.Port}/{parsedArguments.MethodName}/"
+                    }
                 };
 
                 log.InfoFormat("Server is starting listening prefixes: {0}", string.Join(";", listener.Prefixes));
@@ -38,11 +42,12 @@ namespace ClusterServer
                     log.InfoFormat("Press ENTER to stop listening");
                     listener.StartProcessingRequestsAsync(CreateAsyncCallback(parsedArguments));
 
-                    Console.ReadLine();
                     log.InfoFormat("Server stopped!");
                 }
                 else
+                {
                     listener.StartProcessingRequestsSync(CreateSyncCallback(parsedArguments));
+                }
             }
             catch (Exception e)
             {
@@ -79,7 +84,7 @@ namespace ClusterServer
                     Thread.CurrentThread.ManagedThreadId, currentRequestId, DateTime.Now.TimeOfDay);
 
                 Thread.Sleep(parsedArguments.MethodDuration);
-
+                
                 var encryptedBytes = GetBase64HashBytes(context.Request.QueryString["query"], Encoding.UTF8);
                 context.Response.OutputStream.Write(encryptedBytes, 0, encryptedBytes.Length);
 
@@ -89,8 +94,6 @@ namespace ClusterServer
             };
         }
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(Program));
-
         private static byte[] GetBase64HashBytes(string query, Encoding encoding)
         {
             using (var hasher = new HMACMD5(Key))
@@ -99,10 +102,5 @@ namespace ClusterServer
                 return encoding.GetBytes(hash);
             }
         }
-
-        private static readonly byte[] Key = Encoding.UTF8.GetBytes("Контур.Шпора");
-        private static int RequestsCount;
-
-        private static readonly ILog Log = LogManager.GetLogger(typeof(Program));
     }
 }

@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net;
+using System.Threading;
 using System.Threading.Tasks;
 using log4net;
 
@@ -9,7 +11,7 @@ namespace ClusterServer
     {
         private static readonly ILog Log = LogManager.GetLogger(typeof(HttpListenerExtensions));
 
-        public async static Task StartProcessingRequestsAsync(this HttpListener listener, Func<HttpListenerContext, Task> callbackAsync)
+        public static async Task StartProcessingRequestsAsync(this HttpListener listener, Func<HttpListenerContext, Task> callbackAsync)
         {
             listener.Start();
 
@@ -17,7 +19,7 @@ namespace ClusterServer
             {
                 try
                 {
-                    var context = await listener.GetContextAsync();
+                    var context = listener.GetContext();
 
                     Task.Run(
                         async () =>
@@ -48,31 +50,58 @@ namespace ClusterServer
         public static void StartProcessingRequestsSync(this HttpListener listener, Action<HttpListenerContext> callbackSync)
         {
             listener.Start();
-
+            var taskQueue = new Queue<HttpListenerContext>();
+            StartTaskReciever(listener, taskQueue);
             while (true)
             {
+                HttpListenerContext context;
+                lock (taskQueue)
+                {
+                    if (taskQueue.Count == 0)
+                    {
+                        Monitor.Wait(taskQueue);
+                        continue;
+                    }
+                    context = taskQueue.Dequeue();
+                }
+                
                 try
                 {
-                    var context = listener.GetContext();
-
-                    try
-                    {
-                        callbackSync(context);
-                    }
-                    catch (Exception e)
-                    {
-                        Log.Error(e);
-                    }
-                    finally
-                    {
-                        context.Response.Close();
-                    }
+                    callbackSync(context);
                 }
                 catch (Exception e)
                 {
                     Log.Error(e);
                 }
+                finally
+                {
+                    context.Response.Close();
+                }
             }
+        }
+
+        private static void StartTaskReciever(HttpListener listener, Queue<HttpListenerContext> taskQueue)
+        {
+            Task.Run(async () =>
+            {
+                while (true)
+                {
+                    try
+                    {
+                        var context = await listener.GetContextAsync();
+                        lock (taskQueue)
+                        {
+                            taskQueue.Enqueue(context);
+                            if (taskQueue.Count == 1)
+                                Monitor.Pulse(taskQueue);
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Log.Error(e);
+                    }
+                }
+            });
         }
     }
 }
