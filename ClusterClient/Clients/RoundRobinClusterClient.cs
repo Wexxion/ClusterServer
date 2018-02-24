@@ -18,20 +18,14 @@ namespace ClusterClient.Clients
         {
             var orderArray = Enumerable.Range(0, ReplicaAddresses.Length).OrderBy(x => rnd.Next()).ToArray();
             var newTimeout = TimeSpan.FromMilliseconds(timeout.TotalMilliseconds / ReplicaAddresses.Length);
-            var roundTask = Task.Run(async () =>
+            foreach (var i in orderArray)
             {
-                while (true)
-                    foreach (var i in orderArray)
-                    {
-                        var webRequest = CreateRequest(ReplicaAddresses[i] + "?query=" + query);
-                        Log.InfoFormat("Processing {0}", webRequest.RequestUri);
-                        var task = ProcessRequestAsync(webRequest);
-                        if (await Task.WhenAny(task, Task.Delay(newTimeout)) == task)
-                            return await task;
-                    }
-            });
-            if (await Task.WhenAny(roundTask, Task.Delay(timeout)) == roundTask)
-                return await roundTask;
+                var webRequest = CreateRequest(ReplicaAddresses[i] + "?query=" + query);
+                Log.InfoFormat("Processing {0}", webRequest.RequestUri);
+                var task = ProcessRequestAsync(webRequest);
+                if (await Task.WhenAny(task, Task.Delay(newTimeout)) == task)
+                    return await task;
+            }
             throw new TimeoutException();
         }
 

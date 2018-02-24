@@ -24,16 +24,18 @@ namespace ClusterClient
             {
                 var clients = new ClusterClientBase[]
                               {
-                                  //new RandomClusterClient(replicaAddresses),
-                                  //new ParallelClusterClient(replicaAddresses),
-                                  //new RoundRobinClusterClient(replicaAddresses), 
-                                  new SmartClusterClient(replicaAddresses) 
+                                  new ParallelClusterClient(replicaAddresses),
+                                  new RandomClusterClient(replicaAddresses),
+                                  new RoundRobinClusterClient(replicaAddresses),
+                                  new SmartClusterClient(replicaAddresses)
+
                               };
                 var queries = new[] { "От", "топота", "копыт", "пыль", "по", "полю", "летит", "На", "дворе", "трава", "на", "траве", "дрова" };
 
                 foreach (var client in clients)
                 {
-                    Console.WriteLine("Testing {0} started", client.GetType());
+                    var clientName = client.GetType().ToString().Split('.').Last();
+                    Console.WriteLine("Testing {0} started", clientName);
                     Task.WaitAll(queries.Select(
                         async query =>
                         {
@@ -49,7 +51,9 @@ namespace ClusterClient
                                 Console.WriteLine("Query \"{0}\" timeout ({1} ms)", query, timer.ElapsedMilliseconds);
                             }
                         }).ToArray());
-                    Console.WriteLine("Testing {0} finished", client.GetType());
+                    Console.WriteLine("Testing {0} finished", clientName);
+                    Console.WriteLine("Waiting 3s to cool down");
+                    Thread.Sleep(3000);
                 }
             }
             catch (Exception e)

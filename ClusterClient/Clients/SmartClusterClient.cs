@@ -36,28 +36,25 @@ namespace ClusterClient.Clients
 
         private async Task<string> StartRound(HashSet<Task<string>> tasks, int[] orderArray, string query, TimeSpan newTimeout)
         {
-            return await Task.Run(async () =>
+            foreach (var i in orderArray)
             {
-                var i = 0;
-                while (true)
-                {
-                    var webRequest =
-                        CreateRequest(ReplicaAddresses[orderArray[i++ % orderArray.Length]] + "?query=" + query);
-                    Log.InfoFormat("Processing {0}", webRequest.RequestUri);
+                var webRequest = CreateRequest(ReplicaAddresses[i] + "?query=" + query);
+                Log.InfoFormat("Processing {0}", webRequest.RequestUri);
 
-                    var task = ProcessRequestAsync(webRequest);
-                    var delayTask = GetDelayStringTask(newTimeout);
+                var task = ProcessRequestAsync(webRequest);
+                var delayTask = GetDelayStringTask(newTimeout);
 
-                    tasks.Add(task);
-                    tasks.Add(delayTask);
+                tasks.Add(task);
+                tasks.Add(delayTask);
 
-                    var first = await Task.WhenAny(tasks);
-                    if (first == delayTask)
-                        tasks.Remove(delayTask);
-                    else
-                        return await first;
-                }
-            });
+                var first = await Task.WhenAny(tasks);
+                if (first == delayTask)
+                    tasks.Remove(delayTask);
+                else
+                    return await first;
+            }
+
+            throw new TimeoutException();
         }
 
         protected override ILog Log => LogManager.GetLogger(typeof(SmartClusterClient));
