@@ -17,13 +17,12 @@ namespace ClusterClient.Clients
 
         public override async Task<string> ProcessRequestAsync(string query, TimeSpan totaltimeout)
         {   
-            var tasks = new HashSet<Task<string>>();
+            var tasks = new Dictionary<Task<string>, string>();
 
-            var orderArray = Enumerable.Range(0, ReplicaAddresses.Length).OrderBy(x => rnd.Next()).ToArray();
-            var newTimeout = TimeSpan.FromMilliseconds(totaltimeout.TotalMilliseconds / ReplicaAddresses.Length);
-
-            var roundTask = StartRound(tasks, orderArray, query, newTimeout);
-            if (await Task.WhenAny(roundTask, Task.Delay(totaltimeout)) == roundTask)
+            var roundTask = StartRound(tasks, query, totaltimeout);
+            var first = await Task.WhenAny(roundTask, Task.Delay(totaltimeout));
+            AbortAllUncomopletedTasks(tasks);
+            if (first == roundTask)
                 return await roundTask;
             throw new TimeoutException();
         }
@@ -34,23 +33,23 @@ namespace ClusterClient.Clients
             return null;
         }
 
-        private async Task<string> StartRound(HashSet<Task<string>> tasks, int[] orderArray, string query, TimeSpan newTimeout)
+        private async Task<string> StartRound(Dictionary<Task<string>, string> tasks, string query, TimeSpan totaltimeout)
         {
+            var orderArray = Enumerable.Range(0, ReplicaAddresses.Length).OrderBy(x => rnd.Next()).ToArray();
+            var newTimeout = TimeSpan.FromMilliseconds(totaltimeout.TotalMilliseconds / ReplicaAddresses.Length);
+
             foreach (var i in orderArray)
             {
-                var webRequest = CreateRequest(ReplicaAddresses[i] + "?query=" + query);
-                Log.InfoFormat("Processing {0}", webRequest.RequestUri);
-
-                var task = ProcessRequestAsync(webRequest);
+                var queryString = $"{ReplicaAddresses[i]}?query={query}";
+                var task = GetRequestTask(queryString);
                 var delayTask = GetDelayStringTask(newTimeout);
 
-                tasks.Add(task);
-                tasks.Add(delayTask);
+                tasks.Add(task, queryString);
+                tasks.Add(delayTask, null);
 
-                var first = await Task.WhenAny(tasks);
-                if (first == delayTask)
-                    tasks.Remove(delayTask);
-                else
+                var first = await Task.WhenAny(tasks.Keys);
+                tasks.Remove(delayTask);
+                if (first != delayTask)
                     return await first;
             }
 

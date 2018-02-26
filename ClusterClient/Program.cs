@@ -28,7 +28,6 @@ namespace ClusterClient
                                   new RandomClusterClient(replicaAddresses),
                                   new RoundRobinClusterClient(replicaAddresses),
                                   new SmartClusterClient(replicaAddresses)
-
                               };
                 var queries = new[] { "От", "топота", "копыт", "пыль", "по", "полю", "летит", "На", "дворе", "трава", "на", "траве", "дрова" };
 
@@ -52,8 +51,8 @@ namespace ClusterClient
                             }
                         }).ToArray());
                     Console.WriteLine("Testing {0} finished", clientName);
-                    Console.WriteLine("Waiting 3s to cool down");
-                    Thread.Sleep(3000);
+                    //Console.WriteLine("Waiting 3s to cool down");
+                    //Thread.Sleep(3000);
                 }
             }
             catch (Exception e)

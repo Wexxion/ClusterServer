@@ -11,7 +11,7 @@ namespace ClusterServer
     {
         private static readonly ILog Log = LogManager.GetLogger(typeof(HttpListenerExtensions));
 
-        public static async Task StartProcessingRequestsAsync(this HttpListener listener, Func<HttpListenerContext, Task> callbackAsync)
+        public static void StartProcessingRequestsAsync(this HttpListener listener, Func<HttpListenerContext, Task> callbackAsync)
         {
             listener.Start();
 
@@ -50,21 +50,22 @@ namespace ClusterServer
         public static void StartProcessingRequestsSync(this HttpListener listener, Action<HttpListenerContext> callbackSync)
         {
             listener.Start();
-            var taskQueue = new Queue<HttpListenerContext>();
+            var taskQueue = new LinkedList<HttpListenerContext>();
             StartTaskReciever(listener, taskQueue);
+            StartTaskHandler(callbackSync, taskQueue);
+        }
+
+        private static void StartTaskHandler(Action<HttpListenerContext> callbackSync, LinkedList<HttpListenerContext> taskQueue)
+        {
             while (true)
             {
                 HttpListenerContext context;
                 lock (taskQueue)
                 {
                     if (taskQueue.Count == 0)
-                    {
                         Monitor.Wait(taskQueue);
-                        continue;
-                    }
                     context = taskQueue.Dequeue();
                 }
-                
                 try
                 {
                     callbackSync(context);
@@ -80,7 +81,7 @@ namespace ClusterServer
             }
         }
 
-        private static void StartTaskReciever(HttpListener listener, Queue<HttpListenerContext> taskQueue)
+        private static void StartTaskReciever(HttpListener listener, LinkedList<HttpListenerContext> taskQueue)
         {
             Task.Run(async () =>
             {
@@ -91,9 +92,18 @@ namespace ClusterServer
                         var context = await listener.GetContextAsync();
                         lock (taskQueue)
                         {
-                            taskQueue.Enqueue(context);
-                            if (taskQueue.Count == 1)
-                                Monitor.Pulse(taskQueue);
+                            if (context.Request.Headers["abort"] == "True")
+                            {
+                                taskQueue.RemoveAll(x =>
+                                    x.Request.QueryString["query"] == context.Request.QueryString["query"]);
+                                //context.SendResponse($"{context.Request.QueryString["query"]} is aborted!");
+                            }
+                            else
+                            {
+                                taskQueue.AddLast(context);
+                                if (taskQueue.Count == 1)
+                                    Monitor.Pulse(taskQueue);
+                            }
                         }
                     }
                     catch (Exception e)

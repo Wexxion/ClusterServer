@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -16,16 +17,20 @@ namespace ClusterClient.Clients
 
         public override async Task<string> ProcessRequestAsync(string query, TimeSpan timeout)
         {
+            var tasks = new Dictionary<Task<string>, string>();
             var orderArray = Enumerable.Range(0, ReplicaAddresses.Length).OrderBy(x => rnd.Next()).ToArray();
             var newTimeout = TimeSpan.FromMilliseconds(timeout.TotalMilliseconds / ReplicaAddresses.Length);
+
             foreach (var i in orderArray)
             {
-                var webRequest = CreateRequest(ReplicaAddresses[i] + "?query=" + query);
-                Log.InfoFormat("Processing {0}", webRequest.RequestUri);
-                var task = ProcessRequestAsync(webRequest);
-                if (await Task.WhenAny(task, Task.Delay(newTimeout)) == task)
-                    return await task;
+                var queryString = $"{ReplicaAddresses[i]}?query={query}";
+                var task = GetRequestTask(queryString);
+                tasks.Add(task, queryString);
+                if (await Task.WhenAny(task, Task.Delay(newTimeout)) != task) continue;
+                AbortAllUncomopletedTasks(tasks);
+                return await task;
             }
+            AbortAllUncomopletedTasks(tasks);
             throw new TimeoutException();
         }
 
