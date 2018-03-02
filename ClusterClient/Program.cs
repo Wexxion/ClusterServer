@@ -51,15 +51,12 @@ namespace ClusterClient
                             }
                         }).ToArray());
                     Console.WriteLine("Testing {0} finished", clientName);
-                    //Console.WriteLine("Waiting 3s to cool down");
-                    //Thread.Sleep(3000);
                 }
             }
             catch (Exception e)
             {
                 Log.Fatal(e);
             }
-
             Console.ReadKey();
         }
 

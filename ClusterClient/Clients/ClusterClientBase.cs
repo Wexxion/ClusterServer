@@ -14,29 +14,28 @@ namespace ClusterClient.Clients
         protected ClusterClientBase(string[] replicaAddresses)
         {
             ReplicaAddresses = replicaAddresses;
+            Helper = new ClientHelper(replicaAddresses);
         }
 
         protected string[] ReplicaAddresses { get; }
         protected abstract ILog Log { get; }
+        public static ClientHelper Helper;
 
         public abstract Task<string> ProcessRequestAsync(string query, TimeSpan timeout);
-
         protected Task<string> GetRequestTask(string queryString, bool abort = false)
         {
-            var webRequest = CreateRequest(queryString, abort);
-            Log.InfoFormat("Processing {0}", webRequest.RequestUri);
-            var task = ProcessRequestAsync(webRequest);
+            var request = CreateRequest(queryString, abort);
+            Log.InfoFormat("Processing {0}", request.RequestUri);
+
+            var timer = Stopwatch.StartNew();
+            var task = ProcessRequestAsync(request);
+            Log.InfoFormat("Response from {0} received in {1} ms", request.RequestUri, timer.ElapsedMilliseconds);
+
+            Helper.AddStatistics(request.Headers["uri"], timer.ElapsedMilliseconds);
+
             return task;
         }
-
-        protected void AbortAllUncomopletedTasks(Dictionary<Task<string>, string> tasks)
-        {
-            foreach (var pair in tasks)
-                if (!pair.Key.IsCompleted)
-                    Task.Run(() => GetRequestTask(pair.Value, abort: true));
-        }
-
-        private static HttpWebRequest CreateRequest(string uriStr, bool abort)
+        public static HttpWebRequest CreateRequest(string uriStr, bool abort)
         {
             var request = WebRequest.CreateHttp(Uri.EscapeUriString(uriStr));
             request.Proxy = null;
@@ -44,18 +43,14 @@ namespace ClusterClient.Clients
             request.ServicePoint.UseNagleAlgorithm = false;
             request.ServicePoint.ConnectionLimit = 100500;
             request.Headers.Add("abort", $"{abort}");
+            request.Headers.Add("uri", uriStr.Split('?')[0]);
             return request;
         }
 
-        private async Task<string> ProcessRequestAsync(WebRequest request)
+        public static async Task<string> ProcessRequestAsync(WebRequest request)
         {
-            var timer = Stopwatch.StartNew();
             using (var response = await request.GetResponseAsync())
-            {
-                var result = await new StreamReader(response.GetResponseStream(), Encoding.UTF8).ReadToEndAsync();
-                Log.InfoFormat("Response from {0} received in {1} ms", request.RequestUri, timer.ElapsedMilliseconds);
-                return result;
-            }
+                return await new StreamReader(response.GetResponseStream(), Encoding.UTF8).ReadToEndAsync();
         }
     }
 }
