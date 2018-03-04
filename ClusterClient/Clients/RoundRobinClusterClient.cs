@@ -7,7 +7,9 @@ namespace ClusterClient.Clients
 {
     public class RoundRobinClusterClient : ClusterClientBase
     {
-        public RoundRobinClusterClient(string[] replicaAddresses) : base(replicaAddresses) {}
+        public RoundRobinClusterClient(string[] replicaAddresses) : base(replicaAddresses)
+        {
+        }
 
         protected override ILog Log => LogManager.GetLogger(typeof(RoundRobinClusterClient));
 
@@ -15,9 +17,9 @@ namespace ClusterClient.Clients
         {
             var tasks = new Dictionary<Task<string>, string>();
             var newTimeout = TimeSpan.FromMilliseconds(timeout.TotalMilliseconds / ReplicaAddresses.Length);
-            using (Helper.AutoTaskAbort(tasks))
+            var roundTask = Task.Run(async () =>
             {
-                for (var i = 0; i < Helper.ServerСount; i++)
+                while (true)
                 {
                     var address = Helper.GetNextAddress();
                     var queryString = $"{address}?query={query}";
@@ -27,9 +29,13 @@ namespace ClusterClient.Clients
                         return await task;
                     Helper.AddToGrayList(address, newTimeout);
                 }
+            });
+            using (Helper.AutoTaskAbort(tasks))
+            {
+                if (await Task.WhenAny(roundTask, Task.Delay(timeout)) == roundTask)
+                    return await roundTask;
+                throw new TimeoutException();
             }
-
-            throw new TimeoutException();
         }
     }
 }

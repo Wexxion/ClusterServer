@@ -13,7 +13,7 @@ namespace ClusterClient.Helper
         public void Dispose()
         {
             foreach (var pair in tasks)
-                if (!pair.Key.IsCompleted && pair.Value != null)
+                if (!pair.Key.IsCompleted)
                     Task.Run(async () => 
                         await ClusterClientBase.ProcessRequestAsync(ClusterClientBase.CreateRequest(pair.Value, true)));
         }

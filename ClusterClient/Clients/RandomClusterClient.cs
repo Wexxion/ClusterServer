@@ -22,7 +22,6 @@ namespace ClusterClient.Clients
                 return task.Result;
             Helper.AddToGrayList(address, timeout);
             throw new TimeoutException();
-            
         }
     }
 }

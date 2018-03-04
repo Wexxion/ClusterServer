@@ -19,7 +19,7 @@ namespace ClusterClient.Clients
 
         protected string[] ReplicaAddresses { get; }
         protected abstract ILog Log { get; }
-        public static ClientHelper Helper;
+        protected static ClientHelper Helper;
 
         public abstract Task<string> ProcessRequestAsync(string query, TimeSpan timeout);
         protected Task<string> GetRequestTask(string queryString, bool abort = false)
