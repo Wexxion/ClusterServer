@@ -5,6 +5,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using ClusterClient.Helper;
 using log4net;
 
 namespace ClusterClient.Clients
@@ -26,14 +27,7 @@ namespace ClusterClient.Clients
         {
             var request = CreateRequest(queryString, abort);
             Log.InfoFormat("Processing {0}", request.RequestUri);
-
-            var timer = Stopwatch.StartNew();
-            var task = ProcessRequestAsync(request);
-            Log.InfoFormat("Response from {0} received in {1} ms", request.RequestUri, timer.ElapsedMilliseconds);
-
-            Helper.AddStatistics(request.Headers["uri"], timer.ElapsedMilliseconds);
-
-            return task;
+            return ProcessRequestAsync(request);
         }
         public static HttpWebRequest CreateRequest(string uriStr, bool abort)
         {
@@ -47,10 +41,16 @@ namespace ClusterClient.Clients
             return request;
         }
 
-        public static async Task<string> ProcessRequestAsync(WebRequest request)
+        private async Task<string> ProcessRequestAsync(WebRequest request)
         {
+            var timer = Stopwatch.StartNew();
             using (var response = await request.GetResponseAsync())
-                return await new StreamReader(response.GetResponseStream(), Encoding.UTF8).ReadToEndAsync();
+            {
+                var result = await new StreamReader(response.GetResponseStream(), Encoding.UTF8).ReadToEndAsync();
+                Log.InfoFormat("Response from {0} received in {1} ms", request.RequestUri, timer.ElapsedMilliseconds);
+                Helper.AddStatistics(request.Headers["uri"], timer.ElapsedMilliseconds);
+                return result;
+            }
         }
     }
 }

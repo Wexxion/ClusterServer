@@ -1,0 +1,1139 @@
+[Start of logging]
+04.03.2018 22:15:11.657 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=От  
+04.03.2018 22:15:11.709 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=От received in 42 ms  
+04.03.2018 22:15:11.711 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=От  
+04.03.2018 22:15:11.715 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=От received in 4 ms  
+04.03.2018 22:15:11.715 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=От  
+04.03.2018 22:15:11.715 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=От received in 0 ms  
+04.03.2018 22:15:11.716 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=От  
+04.03.2018 22:15:11.716 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=От received in 0 ms  
+04.03.2018 22:15:11.725 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=топота  
+04.03.2018 22:15:11.726 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:11.747 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:15:11.748 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:11.748 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=топота  
+04.03.2018 22:15:11.748 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:11.748 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=топота  
+04.03.2018 22:15:11.749 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:11.749 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=копыт  
+04.03.2018 22:15:11.749 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:11.749 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=копыт  
+04.03.2018 22:15:11.749 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:11.749 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 22:15:11.749 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:11.749 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=копыт  
+04.03.2018 22:15:11.749 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:11.750 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=пыль  
+04.03.2018 22:15:11.750 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:15:11.750 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=пыль  
+04.03.2018 22:15:11.750 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:15:11.750 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=пыль  
+04.03.2018 22:15:11.755 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=пыль received in 4 ms  
+04.03.2018 22:15:11.755 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=пыль  
+04.03.2018 22:15:11.755 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:15:11.755 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=по  
+04.03.2018 22:15:11.755 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=по received in 0 ms  
+04.03.2018 22:15:11.755 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=по  
+04.03.2018 22:15:11.760 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=по received in 4 ms  
+04.03.2018 22:15:11.760 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=по  
+04.03.2018 22:15:11.760 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=по received in 0 ms  
+04.03.2018 22:15:11.760 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=по  
+04.03.2018 22:15:11.760 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=по received in 0 ms  
+04.03.2018 22:15:11.763 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=полю  
+04.03.2018 22:15:11.770 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=полю received in 6 ms  
+04.03.2018 22:15:11.770 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=полю  
+04.03.2018 22:15:11.770 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:11.770 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=полю  
+04.03.2018 22:15:11.770 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:11.770 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=полю  
+04.03.2018 22:15:11.781 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=полю received in 10 ms  
+04.03.2018 22:15:11.781 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=летит  
+04.03.2018 22:15:11.784 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=летит received in 2 ms  
+04.03.2018 22:15:11.784 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=летит  
+04.03.2018 22:15:11.785 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:11.785 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=летит  
+04.03.2018 22:15:11.785 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:11.785 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=летит  
+04.03.2018 22:15:11.785 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:11.785 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=На  
+04.03.2018 22:15:11.785 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=На received in 0 ms  
+04.03.2018 22:15:11.785 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=На  
+04.03.2018 22:15:11.785 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=На received in 0 ms  
+04.03.2018 22:15:11.786 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=На  
+04.03.2018 22:15:11.786 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=На received in 0 ms  
+04.03.2018 22:15:11.786 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=На  
+04.03.2018 22:15:11.786 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=На received in 0 ms  
+04.03.2018 22:15:11.789 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=дворе  
+04.03.2018 22:15:11.789 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:11.789 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:15:11.789 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:11.789 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=дворе  
+04.03.2018 22:15:11.789 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:11.790 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=дворе  
+04.03.2018 22:15:11.791 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=дворе received in 1 ms  
+04.03.2018 22:15:11.792 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=трава  
+04.03.2018 22:15:11.792 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:11.792 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=трава  
+04.03.2018 22:15:11.792 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:11.792 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=трава  
+04.03.2018 22:15:11.792 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:11.792 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=трава  
+04.03.2018 22:15:11.792 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:11.792 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=на  
+04.03.2018 22:15:11.792 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:11.792 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=на  
+04.03.2018 22:15:11.792 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:11.792 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:15:11.793 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:11.793 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=на  
+04.03.2018 22:15:11.794 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:11.794 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:15:11.794 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:11.794 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=траве  
+04.03.2018 22:15:11.794 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:11.794 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=траве  
+04.03.2018 22:15:11.794 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:11.794 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=траве  
+04.03.2018 22:15:11.794 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:11.794 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=дрова  
+04.03.2018 22:15:11.794 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:11.794 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:15:11.794 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:11.794 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 22:15:11.794 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:11.794 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=дрова  
+04.03.2018 22:15:11.795 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:17.507 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=От  
+04.03.2018 22:15:17.507 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=От received in 0 ms  
+04.03.2018 22:15:17.508 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:15:17.508 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:17.509 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=копыт  
+04.03.2018 22:15:17.509 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:17.509 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=пыль  
+04.03.2018 22:15:17.509 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:15:17.516 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=по  
+04.03.2018 22:15:17.516 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=по received in 0 ms  
+04.03.2018 22:15:17.516 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=полю  
+04.03.2018 22:15:17.516 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:17.516 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=летит  
+04.03.2018 22:15:17.516 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:17.516 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=На  
+04.03.2018 22:15:17.516 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=На received in 0 ms  
+04.03.2018 22:15:17.517 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:15:17.517 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:17.517 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=трава  
+04.03.2018 22:15:17.518 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:17.519 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=на  
+04.03.2018 22:15:17.519 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:17.519 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:15:17.519 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:17.519 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:15:17.519 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:23.603 INFO     5 Processing http://127.0.0.1:8080/qqq/?query=От  
+04.03.2018 22:15:23.603 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=по  
+04.03.2018 22:15:23.604 INFO     5 Response from http://127.0.0.1:8080/qqq/?query=От received in 0 ms  
+04.03.2018 22:15:23.604 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=по received in 0 ms  
+04.03.2018 22:15:23.603 INFO     7 Processing http://127.0.0.1:8082/qqq/?query=пыль  
+04.03.2018 22:15:23.604 INFO     7 Response from http://127.0.0.1:8082/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:15:23.605 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=На  
+04.03.2018 22:15:23.605 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=На received in 0 ms  
+04.03.2018 22:15:23.604 INFO    13 Processing http://127.0.0.1:8082/qqq/?query=летит  
+04.03.2018 22:15:23.604 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=полю  
+04.03.2018 22:15:23.605 INFO    13 Response from http://127.0.0.1:8082/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:23.605 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:23.605 INFO     5 Processing http://127.0.0.1:8080/qqq/?query=дворе  
+04.03.2018 22:15:23.605 INFO    13 Processing http://127.0.0.1:8082/qqq/?query=трава  
+04.03.2018 22:15:23.605 INFO     5 Response from http://127.0.0.1:8080/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:23.605 INFO    13 Response from http://127.0.0.1:8082/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:23.605 INFO     5 Processing http://127.0.0.1:8083/qqq/?query=на  
+04.03.2018 22:15:23.605 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:15:23.607 INFO     5 Response from http://127.0.0.1:8083/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:23.607 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:23.607 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 22:15:23.607 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:23.603 INFO     4 Processing http://127.0.0.1:8083/qqq/?query=топота  
+04.03.2018 22:15:23.607 INFO     4 Response from http://127.0.0.1:8083/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:23.608 INFO     6 Processing http://127.0.0.1:8083/qqq/?query=копыт  
+04.03.2018 22:15:23.610 INFO     6 Response from http://127.0.0.1:8083/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:25.110 INFO     7 Processing http://127.0.0.1:8080/qqq/?query=топота  
+04.03.2018 22:15:25.110 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=дрова  
+04.03.2018 22:15:25.110 INFO     7 Response from http://127.0.0.1:8080/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:25.110 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:25.110 INFO     5 Processing http://127.0.0.1:8080/qqq/?query=копыт  
+04.03.2018 22:15:25.110 INFO     5 Response from http://127.0.0.1:8080/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:25.111 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=трава  
+04.03.2018 22:15:25.112 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:25.111 INFO     7 Processing http://127.0.0.1:8080/qqq/?query=на  
+04.03.2018 22:15:25.117 INFO     5 Processing http://127.0.0.1:8080/qqq/?query=дворе  
+04.03.2018 22:15:25.118 INFO     5 Response from http://127.0.0.1:8080/qqq/?query=дворе received in 1 ms  
+04.03.2018 22:15:25.120 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=полю  
+04.03.2018 22:15:25.120 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:25.121 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=летит  
+04.03.2018 22:15:25.123 INFO     7 Response from http://127.0.0.1:8080/qqq/?query=на received in 6 ms  
+04.03.2018 22:15:25.123 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=летит received in 1 ms  
+04.03.2018 22:15:26.613 INFO     5 Processing http://127.0.0.1:8083/qqq/?query=копыт  
+04.03.2018 22:15:26.613 INFO    13 Processing http://127.0.0.1:8083/qqq/?query=топота  
+04.03.2018 22:15:26.613 INFO     5 Response from http://127.0.0.1:8083/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:26.613 INFO    13 Response from http://127.0.0.1:8083/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:26.613 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=дрова  
+04.03.2018 22:15:26.613 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:26.613 INFO     6 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:15:26.614 INFO     6 Response from http://127.0.0.1:8080/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:26.628 INFO     6 Processing http://127.0.0.1:8083/qqq/?query=летит  
+04.03.2018 22:15:26.628 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=полю  
+04.03.2018 22:15:26.628 INFO     6 Response from http://127.0.0.1:8083/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:26.628 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:26.628 INFO    13 Processing http://127.0.0.1:8083/qqq/?query=дворе  
+04.03.2018 22:15:26.629 INFO    13 Response from http://127.0.0.1:8083/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:26.629 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=трава  
+04.03.2018 22:15:26.629 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:26.628 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=на  
+04.03.2018 22:15:26.629 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:28.127 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=дрова  
+04.03.2018 22:15:28.127 INFO    13 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 22:15:28.127 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:28.127 INFO    13 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:28.127 INFO     5 Processing http://127.0.0.1:8083/qqq/?query=траве  
+04.03.2018 22:15:28.127 INFO     5 Response from http://127.0.0.1:8083/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:28.127 INFO     6 Processing http://127.0.0.1:8082/qqq/?query=топота  
+04.03.2018 22:15:28.127 INFO     6 Response from http://127.0.0.1:8082/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:28.141 INFO     6 Processing http://127.0.0.1:8082/qqq/?query=трава  
+04.03.2018 22:15:28.141 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:15:28.141 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:28.141 INFO     7 Processing http://127.0.0.1:8082/qqq/?query=полю  
+04.03.2018 22:15:28.141 INFO     6 Response from http://127.0.0.1:8082/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:28.142 INFO     7 Response from http://127.0.0.1:8082/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:28.143 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=летит  
+04.03.2018 22:15:28.143 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:29.535 INFO    13 Processing http://127.0.0.1:8082/qqq/?query=дворе  
+04.03.2018 22:15:29.535 INFO    13 Response from http://127.0.0.1:8082/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:29.742 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=летит  
+04.03.2018 22:15:29.742 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:29.898 INFO     5 Processing http://127.0.0.1:8081/qqq/?query=трава  
+04.03.2018 22:15:29.899 INFO     5 Response from http://127.0.0.1:8081/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:29.899 INFO     5 Processing http://127.0.0.1:8083/qqq/?query=полю  
+04.03.2018 22:15:29.900 INFO     5 Response from http://127.0.0.1:8083/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:29.900 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=на  
+04.03.2018 22:15:29.900 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:29.900 INFO     6 Processing http://127.0.0.1:8083/qqq/?query=траве  
+04.03.2018 22:15:29.901 INFO     6 Response from http://127.0.0.1:8083/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:29.900 INFO     5 Processing http://127.0.0.1:8083/qqq/?query=топота  
+04.03.2018 22:15:29.901 INFO     5 Response from http://127.0.0.1:8083/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:29.901 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:15:29.902 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:29.902 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=копыт  
+04.03.2018 22:15:29.902 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:29.907 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=От  
+04.03.2018 22:15:29.907 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=От received in 0 ms  
+04.03.2018 22:15:29.907 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:15:29.907 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:29.907 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=копыт  
+04.03.2018 22:15:29.908 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:29.909 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=пыль  
+04.03.2018 22:15:29.909 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:15:29.910 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=по  
+04.03.2018 22:15:29.910 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=по received in 0 ms  
+04.03.2018 22:15:29.910 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=полю  
+04.03.2018 22:15:29.910 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:29.911 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=летит  
+04.03.2018 22:15:29.911 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:29.911 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=На  
+04.03.2018 22:15:29.911 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=На received in 0 ms  
+04.03.2018 22:15:29.911 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=дворе  
+04.03.2018 22:15:29.912 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:29.912 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=трава  
+04.03.2018 22:15:29.912 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:29.912 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=на  
+04.03.2018 22:15:29.912 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:29.912 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=траве  
+04.03.2018 22:15:29.912 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:29.913 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=дрова  
+04.03.2018 22:15:29.913 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:31.042 INFO     7 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:15:31.042 INFO     7 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:31.410 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=по  
+04.03.2018 22:15:31.410 INFO     7 Processing http://127.0.0.1:8081/qqq/?query=полю  
+04.03.2018 22:15:31.410 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:15:31.410 INFO     7 Response from http://127.0.0.1:8081/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:31.410 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:31.410 INFO     5 Processing http://127.0.0.1:8081/qqq/?query=пыль  
+04.03.2018 22:15:31.410 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=по received in 0 ms  
+04.03.2018 22:15:31.411 INFO     5 Response from http://127.0.0.1:8081/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:15:31.411 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:15:31.411 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:31.411 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:15:31.411 INFO     5 Processing http://127.0.0.1:8081/qqq/?query=траве  
+04.03.2018 22:15:31.411 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:31.411 INFO     5 Response from http://127.0.0.1:8081/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:31.412 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=на  
+04.03.2018 22:15:31.412 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:31.412 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=полю  
+04.03.2018 22:15:31.412 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:31.423 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=траве  
+04.03.2018 22:15:31.423 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:15:31.423 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:31.423 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:31.423 INFO     5 Processing http://127.0.0.1:8081/qqq/?query=на  
+04.03.2018 22:15:31.423 INFO     5 Response from http://127.0.0.1:8081/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:31.430 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=трава  
+04.03.2018 22:15:31.430 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:31.431 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:15:31.431 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:31.431 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=На  
+04.03.2018 22:15:31.432 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=На received in 0 ms  
+04.03.2018 22:15:31.432 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=летит  
+04.03.2018 22:15:31.432 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=летит received in 0 ms  
+04.03.2018 22:15:32.553 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:15:32.553 INFO     7 Processing http://127.0.0.1:8081/qqq/?query=копыт  
+04.03.2018 22:15:32.553 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:32.554 INFO     7 Response from http://127.0.0.1:8081/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:32.911 INFO     6 Processing http://127.0.0.1:8082/qqq/?query=топота  
+04.03.2018 22:15:32.911 INFO    13 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 22:15:32.911 INFO     6 Response from http://127.0.0.1:8082/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:32.911 INFO    13 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:32.911 INFO     7 Processing http://127.0.0.1:8082/qqq/?query=траве  
+04.03.2018 22:15:32.912 INFO     7 Response from http://127.0.0.1:8082/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:32.912 INFO     6 Processing http://127.0.0.1:8082/qqq/?query=пыль  
+04.03.2018 22:15:32.912 INFO     6 Response from http://127.0.0.1:8082/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:15:32.912 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=топота  
+04.03.2018 22:15:32.912 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=топота received in 0 ms  
+04.03.2018 22:15:32.913 INFO     6 Processing http://127.0.0.1:8082/qqq/?query=полю  
+04.03.2018 22:15:32.914 INFO     6 Response from http://127.0.0.1:8082/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:32.924 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=полю  
+04.03.2018 22:15:32.925 INFO     4 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:15:32.933 INFO     4 Response from http://127.0.0.1:8082/qqq/?query=на received in 8 ms  
+04.03.2018 22:15:32.937 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=полю received in 12 ms  
+04.03.2018 22:15:32.940 INFO     4 Processing http://127.0.0.1:8080/qqq/?query=На  
+04.03.2018 22:15:32.948 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:15:32.949 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:32.950 INFO     4 Response from http://127.0.0.1:8080/qqq/?query=На received in 10 ms  
+04.03.2018 22:15:32.951 INFO    16 Processing http://127.0.0.1:8083/qqq/?query=дворе  
+04.03.2018 22:15:32.951 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=трава  
+04.03.2018 22:15:32.951 INFO    15 Processing http://127.0.0.1:8082/qqq/?query=траве  
+04.03.2018 22:15:32.951 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=дрова  
+04.03.2018 22:15:32.953 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=дрова received in 1 ms  
+04.03.2018 22:15:32.954 INFO    16 Response from http://127.0.0.1:8083/qqq/?query=дворе received in 3 ms  
+04.03.2018 22:15:32.956 INFO    15 Response from http://127.0.0.1:8082/qqq/?query=траве received in 5 ms  
+04.03.2018 22:15:32.958 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=трава received in 6 ms  
+04.03.2018 22:15:34.053 INFO     6 Processing http://127.0.0.1:8082/qqq/?query=дворе  
+04.03.2018 22:15:34.053 INFO     4 Processing http://127.0.0.1:8080/qqq/?query=копыт  
+04.03.2018 22:15:34.053 INFO     6 Response from http://127.0.0.1:8082/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:34.053 INFO     4 Response from http://127.0.0.1:8080/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:34.412 INFO    19 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:15:34.414 INFO    17 Processing http://127.0.0.1:8080/qqq/?query=пыль  
+04.03.2018 22:15:34.414 INFO    16 Processing http://127.0.0.1:8080/qqq/?query=топота  
+04.03.2018 22:15:34.431 INFO     7 Processing http://127.0.0.1:8080/qqq/?query=полю  
+04.03.2018 22:15:34.457 INFO    18 Processing http://127.0.0.1:8080/qqq/?query=дрова  
+04.03.2018 22:15:34.471 INFO    19 Response from http://127.0.0.1:8080/qqq/?query=траве received in 59 ms  
+04.03.2018 22:15:34.471 INFO    17 Response from http://127.0.0.1:8080/qqq/?query=пыль received in 56 ms  
+04.03.2018 22:15:34.471 INFO    16 Response from http://127.0.0.1:8080/qqq/?query=топота received in 56 ms  
+04.03.2018 22:15:34.477 INFO    18 Response from http://127.0.0.1:8080/qqq/?query=дрова received in 18 ms  
+04.03.2018 22:15:34.501 INFO     7 Response from http://127.0.0.1:8080/qqq/?query=полю received in 69 ms  
+04.03.2018 22:15:34.501 INFO     4 Processing http://127.0.0.1:8080/qqq/?query=На  
+04.03.2018 22:15:34.502 INFO     4 Response from http://127.0.0.1:8080/qqq/?query=На received in 0 ms  
+04.03.2018 22:15:34.502 INFO    21 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:15:34.502 INFO    23 Processing http://127.0.0.1:8080/qqq/?query=дрова  
+04.03.2018 22:15:34.502 INFO    21 Response from http://127.0.0.1:8080/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:34.502 INFO    23 Response from http://127.0.0.1:8080/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:34.502 INFO    22 Processing http://127.0.0.1:8080/qqq/?query=на  
+04.03.2018 22:15:34.503 INFO    22 Response from http://127.0.0.1:8080/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:34.509 INFO     6 Processing http://127.0.0.1:8080/qqq/?query=трава  
+04.03.2018 22:15:34.509 INFO     6 Response from http://127.0.0.1:8080/qqq/?query=трава received in 0 ms  
+04.03.2018 22:15:34.945 INFO    13 Processing http://127.0.0.1:8080/qqq/?query=полю  
+04.03.2018 22:15:34.945 INFO    13 Response from http://127.0.0.1:8080/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:35.556 INFO     4 Processing http://127.0.0.1:8083/qqq/?query=копыт  
+04.03.2018 22:15:35.556 INFO     7 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:15:35.556 INFO     4 Response from http://127.0.0.1:8083/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:15:35.557 INFO     7 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:35.971 INFO    13 Processing http://127.0.0.1:8083/qqq/?query=траве  
+04.03.2018 22:15:35.971 INFO    13 Response from http://127.0.0.1:8083/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:36.002 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:15:36.002 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:36.031 INFO    13 Processing http://127.0.0.1:8083/qqq/?query=на  
+04.03.2018 22:15:36.134 INFO    13 Response from http://127.0.0.1:8083/qqq/?query=на received in 102 ms  
+04.03.2018 22:15:36.446 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=полю  
+04.03.2018 22:15:36.446 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:37.069 INFO     6 Processing http://127.0.0.1:8083/qqq/?query=дворе  
+04.03.2018 22:15:37.069 INFO     6 Response from http://127.0.0.1:8083/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:37.472 INFO     4 Processing http://127.0.0.1:8082/qqq/?query=траве  
+04.03.2018 22:15:37.473 INFO     4 Response from http://127.0.0.1:8082/qqq/?query=траве received in 0 ms  
+04.03.2018 22:15:37.502 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 22:15:37.502 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:37.636 INFO     4 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:15:37.636 INFO     4 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:37.946 INFO    13 Processing http://127.0.0.1:8082/qqq/?query=полю  
+04.03.2018 22:15:37.946 INFO    13 Response from http://127.0.0.1:8082/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:38.571 INFO     4 Processing http://127.0.0.1:8080/qqq/?query=дворе  
+04.03.2018 22:15:38.571 INFO     4 Response from http://127.0.0.1:8080/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:15:39.002 INFO    16 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 22:15:39.002 INFO    16 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:15:39.147 INFO     5 Processing http://127.0.0.1:8080/qqq/?query=на  
+04.03.2018 22:15:39.147 INFO     5 Response from http://127.0.0.1:8080/qqq/?query=на received in 0 ms  
+04.03.2018 22:15:39.454 INFO     7 Processing http://127.0.0.1:8080/qqq/?query=полю  
+04.03.2018 22:15:39.454 INFO     7 Response from http://127.0.0.1:8080/qqq/?query=полю received in 0 ms  
+04.03.2018 22:15:40.504 INFO     4 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:15:40.504 INFO     4 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+[Start of logging]
+04.03.2018 22:16:17.931 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=От  
+04.03.2018 22:16:17.972 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=От received in 31 ms  
+04.03.2018 22:16:17.980 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:16:17.981 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:16:17.981 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 22:16:17.985 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 3 ms  
+04.03.2018 22:16:17.985 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=пыль  
+04.03.2018 22:16:17.985 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:16:17.985 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=по  
+04.03.2018 22:16:17.985 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=по received in 0 ms  
+04.03.2018 22:16:17.985 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=полю  
+04.03.2018 22:16:17.985 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=полю received in 0 ms  
+04.03.2018 22:16:17.986 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=летит  
+04.03.2018 22:16:17.986 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=летит received in 0 ms  
+04.03.2018 22:16:17.986 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=На  
+04.03.2018 22:16:17.986 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=На received in 0 ms  
+04.03.2018 22:16:17.986 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:16:17.986 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:16:17.987 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=трава  
+04.03.2018 22:16:17.987 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=трава received in 0 ms  
+04.03.2018 22:16:17.987 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:16:17.987 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:16:17.987 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:16:17.987 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=траве received in 0 ms  
+04.03.2018 22:16:17.987 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:16:17.987 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:16:19.488 INFO     7 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:16:19.488 INFO     7 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:16:19.488 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=дворе  
+04.03.2018 22:16:19.489 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:16:19.490 INFO     7 Processing http://127.0.0.1:8082/qqq/?query=полю  
+04.03.2018 22:16:19.490 INFO     7 Response from http://127.0.0.1:8082/qqq/?query=полю received in 0 ms  
+04.03.2018 22:16:19.495 INFO     4 Processing http://127.0.0.1:8082/qqq/?query=по  
+04.03.2018 22:16:19.498 INFO     7 Processing http://127.0.0.1:8082/qqq/?query=пыль  
+04.03.2018 22:16:19.508 INFO     4 Response from http://127.0.0.1:8082/qqq/?query=по received in 11 ms  
+04.03.2018 22:16:19.508 INFO     7 Response from http://127.0.0.1:8082/qqq/?query=пыль received in 9 ms  
+04.03.2018 22:16:19.508 INFO     7 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 22:16:19.508 INFO     7 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:16:20.386 INFO     8 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 22:16:20.386 INFO     8 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:16:21.001 INFO     4 Processing http://127.0.0.1:8081/qqq/?query=полю  
+04.03.2018 22:16:21.001 INFO     4 Response from http://127.0.0.1:8081/qqq/?query=полю received in 0 ms  
+04.03.2018 22:16:21.275 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 38
+---> (Внутреннее исключение #0) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #1) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #2) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+  
+[Start of logging]
+04.03.2018 22:16:29.759 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=От  
+04.03.2018 22:16:29.811 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=От received in 40 ms  
+04.03.2018 22:16:29.819 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:16:29.819 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:16:29.820 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 22:16:29.823 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 3 ms  
+04.03.2018 22:16:29.823 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=пыль  
+04.03.2018 22:16:29.823 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:16:29.823 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=по  
+04.03.2018 22:16:29.824 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=по received in 0 ms  
+04.03.2018 22:16:29.824 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=полю  
+04.03.2018 22:16:29.824 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=полю received in 0 ms  
+04.03.2018 22:16:29.824 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=летит  
+04.03.2018 22:16:29.824 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=летит received in 0 ms  
+04.03.2018 22:16:29.825 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=На  
+04.03.2018 22:16:29.825 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=На received in 0 ms  
+04.03.2018 22:16:29.825 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:16:29.825 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:16:29.825 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=трава  
+04.03.2018 22:16:29.825 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=трава received in 0 ms  
+04.03.2018 22:16:29.826 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:16:29.826 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:16:29.826 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:16:29.826 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=траве received in 0 ms  
+04.03.2018 22:16:29.826 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:16:29.826 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:16:31.331 INFO     4 Processing http://127.0.0.1:8082/qqq/?query=дворе  
+04.03.2018 22:16:31.331 INFO     9 Processing http://127.0.0.1:8082/qqq/?query=трава  
+04.03.2018 22:16:31.331 INFO     4 Response from http://127.0.0.1:8082/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:16:31.332 INFO     9 Response from http://127.0.0.1:8082/qqq/?query=трава received in 0 ms  
+04.03.2018 22:16:31.331 INFO     8 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:16:31.332 INFO     4 Processing http://127.0.0.1:8082/qqq/?query=по  
+04.03.2018 22:16:31.332 INFO     8 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:16:31.332 INFO     4 Response from http://127.0.0.1:8082/qqq/?query=по received in 0 ms  
+04.03.2018 22:16:31.332 INFO     9 Processing http://127.0.0.1:8082/qqq/?query=пыль  
+04.03.2018 22:16:31.332 INFO     9 Response from http://127.0.0.1:8082/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:16:31.332 INFO     4 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 22:16:31.333 INFO     4 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:16:32.161 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 22:16:32.162 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:16:32.832 INFO     4 Processing http://127.0.0.1:8081/qqq/?query=по  
+04.03.2018 22:16:32.832 INFO     4 Response from http://127.0.0.1:8081/qqq/?query=по received in 0 ms  
+04.03.2018 22:16:32.845 INFO     9 Processing http://127.0.0.1:8083/qqq/?query=пыль  
+04.03.2018 22:16:32.845 INFO     9 Response from http://127.0.0.1:8083/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:16:33.070 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 38
+---> (Внутреннее исключение #0) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #1) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #2) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+  
+[Start of logging]
+04.03.2018 22:18:27.363 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=От  
+04.03.2018 22:18:27.407 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=От received in 34 ms  
+04.03.2018 22:18:27.423 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:18:27.424 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:18:27.424 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 22:18:27.424 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:18:27.424 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=пыль  
+04.03.2018 22:18:27.427 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=пыль received in 2 ms  
+04.03.2018 22:18:27.427 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=по  
+04.03.2018 22:18:27.430 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=по received in 2 ms  
+04.03.2018 22:18:27.431 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=полю  
+04.03.2018 22:18:27.431 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=полю received in 0 ms  
+04.03.2018 22:18:27.431 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=летит  
+04.03.2018 22:18:27.431 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=летит received in 0 ms  
+04.03.2018 22:18:27.431 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=На  
+04.03.2018 22:18:27.431 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=На received in 0 ms  
+04.03.2018 22:18:27.432 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=дворе  
+04.03.2018 22:18:27.432 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:18:27.432 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=трава  
+04.03.2018 22:18:27.432 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=трава received in 0 ms  
+04.03.2018 22:18:27.433 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=на  
+04.03.2018 22:18:27.433 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=на received in 0 ms  
+04.03.2018 22:18:27.433 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:18:27.433 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=траве received in 0 ms  
+04.03.2018 22:18:27.433 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:18:27.433 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:18:28.924 INFO     8 Processing http://127.0.0.1:8082/qqq/?query=топота  
+04.03.2018 22:18:28.924 INFO     8 Response from http://127.0.0.1:8082/qqq/?query=топота received in 0 ms  
+04.03.2018 22:18:28.939 INFO     8 Processing http://127.0.0.1:8080/qqq/?query=трава  
+04.03.2018 22:18:28.939 INFO     5 Processing http://127.0.0.1:8083/qqq/?query=дрова  
+04.03.2018 22:18:28.939 INFO     8 Response from http://127.0.0.1:8080/qqq/?query=трава received in 0 ms  
+04.03.2018 22:18:28.939 INFO     5 Response from http://127.0.0.1:8083/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:18:28.939 INFO     5 Processing http://127.0.0.1:8083/qqq/?query=полю  
+04.03.2018 22:18:28.939 INFO     8 Processing http://127.0.0.1:8080/qqq/?query=пыль  
+04.03.2018 22:18:28.940 INFO     5 Response from http://127.0.0.1:8083/qqq/?query=полю received in 0 ms  
+04.03.2018 22:18:28.939 INFO     9 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:18:28.940 INFO     8 Response from http://127.0.0.1:8080/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:18:28.941 INFO     9 Response from http://127.0.0.1:8082/qqq/?query=на received in 1 ms  
+04.03.2018 22:18:28.941 INFO     4 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:18:28.941 INFO     4 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:18:30.597 INFO     9 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:18:30.597 INFO     9 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:18:30.694 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 38
+---> (Внутреннее исключение #0) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #1) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #2) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #3) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+  
+[Start of logging]
+04.03.2018 22:19:46.817 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=От  
+04.03.2018 22:19:46.869 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=От received in 42 ms  
+04.03.2018 22:19:46.875 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:19:46.875 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=топота received in 0 ms  
+04.03.2018 22:19:46.875 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 22:19:46.879 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 3 ms  
+04.03.2018 22:19:46.904 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=пыль  
+04.03.2018 22:19:46.904 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:19:46.997 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=по  
+04.03.2018 22:19:46.997 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=по received in 0 ms  
+04.03.2018 22:19:46.997 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=полю  
+04.03.2018 22:19:46.997 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=полю received in 0 ms  
+04.03.2018 22:19:46.997 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=летит  
+04.03.2018 22:19:46.998 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=летит received in 0 ms  
+04.03.2018 22:19:46.998 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=На  
+04.03.2018 22:19:46.998 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=На received in 0 ms  
+04.03.2018 22:19:46.998 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дворе  
+04.03.2018 22:19:46.998 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:19:46.998 INFO     1 Processing http://127.0.0.1:8083/qqq/?query=трава  
+04.03.2018 22:19:46.998 INFO     1 Response from http://127.0.0.1:8083/qqq/?query=трава received in 0 ms  
+04.03.2018 22:19:46.998 INFO     1 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:19:46.999 INFO     1 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:19:46.999 INFO     1 Processing http://127.0.0.1:8080/qqq/?query=траве  
+04.03.2018 22:19:46.999 INFO     1 Response from http://127.0.0.1:8080/qqq/?query=траве received in 0 ms  
+04.03.2018 22:19:46.999 INFO     1 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:19:46.999 INFO     1 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:19:48.497 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=по  
+04.03.2018 22:19:48.497 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=по received in 0 ms  
+04.03.2018 22:19:48.501 INFO     4 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 22:19:48.501 INFO     8 Processing http://127.0.0.1:8082/qqq/?query=на  
+04.03.2018 22:19:48.501 INFO     4 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:19:48.501 INFO     8 Response from http://127.0.0.1:8082/qqq/?query=на received in 0 ms  
+04.03.2018 22:19:48.501 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=трава  
+04.03.2018 22:19:48.501 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=трава received in 0 ms  
+04.03.2018 22:19:48.502 INFO     4 Processing http://127.0.0.1:8082/qqq/?query=дворе  
+04.03.2018 22:19:48.502 INFO     5 Processing http://127.0.0.1:8082/qqq/?query=летит  
+04.03.2018 22:19:48.502 INFO     4 Response from http://127.0.0.1:8082/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:19:48.502 INFO     5 Response from http://127.0.0.1:8082/qqq/?query=летит received in 0 ms  
+04.03.2018 22:19:49.332 INFO     9 Processing http://127.0.0.1:8082/qqq/?query=пыль  
+04.03.2018 22:19:49.332 INFO     9 Response from http://127.0.0.1:8082/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:19:50.006 INFO     9 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 22:19:50.006 INFO     9 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:19:50.234 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 38
+---> (Внутреннее исключение #0) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #1) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #2) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+  
+[Start of logging]
+04.03.2018 22:22:37.084 INFO     3 Processing http://127.0.0.1:8080/qqq/?query=От  
+04.03.2018 22:22:37.097 INFO     3 Response from http://127.0.0.1:8080/qqq/?query=От received in 2 ms  
+04.03.2018 22:22:37.102 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=пыль  
+04.03.2018 22:22:37.103 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=пыль received in 0 ms  
+04.03.2018 22:22:37.104 INFO     6 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 22:22:37.104 INFO     6 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:22:37.085 INFO     4 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 22:22:37.107 INFO     4 Response from http://127.0.0.1:8081/qqq/?query=топота received in 2 ms  
+04.03.2018 22:22:37.113 INFO     3 Processing http://127.0.0.1:8080/qqq/?query=по  
+04.03.2018 22:22:37.113 INFO     3 Response from http://127.0.0.1:8080/qqq/?query=по received in 0 ms  
+04.03.2018 22:22:37.169 INFO     3 Processing http://127.0.0.1:8082/qqq/?query=дворе  
+04.03.2018 22:22:37.169 INFO     3 Response from http://127.0.0.1:8082/qqq/?query=дворе received in 0 ms  
+04.03.2018 22:22:37.169 INFO     3 Processing http://127.0.0.1:8083/qqq/?query=трава  
+04.03.2018 22:22:37.171 INFO     3 Response from http://127.0.0.1:8083/qqq/?query=трава received in 1 ms  
+04.03.2018 22:22:37.172 INFO     3 Processing http://127.0.0.1:8080/qqq/?query=на  
+04.03.2018 22:22:37.173 INFO     3 Response from http://127.0.0.1:8080/qqq/?query=на received in 0 ms  
+04.03.2018 22:22:37.174 INFO     3 Processing http://127.0.0.1:8081/qqq/?query=траве  
+04.03.2018 22:22:37.174 INFO     3 Response from http://127.0.0.1:8081/qqq/?query=траве received in 0 ms  
+04.03.2018 22:22:37.174 INFO     3 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 22:22:37.175 INFO     3 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:22:37.114 INFO     6 Processing http://127.0.0.1:8082/qqq/?query=летит  
+04.03.2018 22:22:37.176 INFO     6 Response from http://127.0.0.1:8082/qqq/?query=летит received in 0 ms  
+04.03.2018 22:22:37.136 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=На  
+04.03.2018 22:22:37.114 INFO     4 Processing http://127.0.0.1:8081/qqq/?query=полю  
+04.03.2018 22:22:37.194 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=На received in 16 ms  
+04.03.2018 22:22:37.195 INFO     4 Response from http://127.0.0.1:8081/qqq/?query=полю received in 15 ms  
+04.03.2018 22:22:38.674 INFO     6 Processing http://127.0.0.1:8083/qqq/?query=траве  
+04.03.2018 22:22:38.674 INFO     3 Processing http://127.0.0.1:8083/qqq/?query=дрова  
+04.03.2018 22:22:38.676 INFO     3 Response from http://127.0.0.1:8083/qqq/?query=дрова received in 0 ms  
+04.03.2018 22:22:38.676 INFO    14 Processing http://127.0.0.1:8083/qqq/?query=трава  
+04.03.2018 22:22:38.676 INFO    14 Response from http://127.0.0.1:8083/qqq/?query=трава received in 0 ms  
+04.03.2018 22:22:38.677 INFO     6 Response from http://127.0.0.1:8083/qqq/?query=траве received in 3 ms  
+04.03.2018 22:22:38.699 INFO     3 Processing http://127.0.0.1:8083/qqq/?query=полю  
+04.03.2018 22:22:38.699 INFO    14 Processing http://127.0.0.1:8083/qqq/?query=На  
+04.03.2018 22:22:38.700 INFO     3 Response from http://127.0.0.1:8083/qqq/?query=полю received in 0 ms  
+04.03.2018 22:22:38.700 INFO    14 Response from http://127.0.0.1:8083/qqq/?query=На received in 0 ms  
+04.03.2018 22:22:38.700 INFO    14 Processing http://127.0.0.1:8083/qqq/?query=летит  
+04.03.2018 22:22:38.700 INFO    14 Response from http://127.0.0.1:8083/qqq/?query=летит received in 0 ms  
+04.03.2018 22:22:39.455 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=копыт  
+04.03.2018 22:22:39.455 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=копыт received in 0 ms  
+04.03.2018 22:22:40.212 INFO     3 Processing http://127.0.0.1:8081/qqq/?query=летит  
+04.03.2018 22:22:40.212 INFO     3 Response from http://127.0.0.1:8081/qqq/?query=летит received in 0 ms  
+04.03.2018 22:22:40.793 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<>c__DisplayClass3_0.<<ProcessRequestAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 42
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 38
+---> (Внутреннее исключение #0) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<>c__DisplayClass3_0.<<ProcessRequestAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 42
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #1) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<>c__DisplayClass3_0.<<ProcessRequestAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 42
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+
+---> (Внутреннее исключение #2) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:8080
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__10.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\ClusterClientBase.cs:строка 52
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<>c__DisplayClass3_0.<<ProcessRequestAsync>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 35
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.SmartClusterClient.<ProcessRequestAsync>d__3.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Clients\SmartClusterClient.cs:строка 42
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterClient\Program.cs:строка 44<---
+  
+[Start of logging]
+04.03.2018 23:58:27.765 INFO     6 Processing http://127.0.0.1:8083/qqq/?query=пыль  
+04.03.2018 23:58:27.765 INFO     7 Processing http://127.0.0.1:8082/qqq/?query=копыт  
+04.03.2018 23:58:27.765 INFO     4 Processing http://127.0.0.1:8081/qqq/?query=топота  
+04.03.2018 23:58:27.765 INFO     3 Processing http://127.0.0.1:8080/qqq/?query=От  
+04.03.2018 23:58:27.777 INFO     6 Response from http://127.0.0.1:8083/qqq/?query=пыль received in 3 ms  
+04.03.2018 23:58:27.777 INFO     7 Response from http://127.0.0.1:8082/qqq/?query=копыт received in 3 ms  
+04.03.2018 23:58:27.777 INFO     3 Response from http://127.0.0.1:8080/qqq/?query=От received in 3 ms  
+04.03.2018 23:58:27.779 INFO     4 Response from http://127.0.0.1:8081/qqq/?query=топота received in 5 ms  
+04.03.2018 23:58:27.787 INFO     4 Processing http://127.0.0.1:8080/qqq/?query=по  
+04.03.2018 23:58:27.788 INFO     4 Response from http://127.0.0.1:8080/qqq/?query=по received in 0 ms  
+04.03.2018 23:58:27.788 INFO     6 Processing http://127.0.0.1:8081/qqq/?query=полю  
+04.03.2018 23:58:27.793 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=На  
+04.03.2018 23:58:27.793 INFO     3 Processing http://127.0.0.1:8082/qqq/?query=летит  
+04.03.2018 23:58:27.793 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=На received in 0 ms  
+04.03.2018 23:58:27.793 INFO     3 Response from http://127.0.0.1:8082/qqq/?query=летит received in 0 ms  
+04.03.2018 23:58:27.793 INFO     3 Processing http://127.0.0.1:8080/qqq/?query=дворе  
+04.03.2018 23:58:27.794 INFO     3 Response from http://127.0.0.1:8080/qqq/?query=дворе received in 0 ms  
+04.03.2018 23:58:27.794 INFO     3 Processing http://127.0.0.1:8082/qqq/?query=трава  
+04.03.2018 23:58:27.794 INFO     3 Response from http://127.0.0.1:8082/qqq/?query=трава received in 0 ms  
+04.03.2018 23:58:27.795 INFO     3 Processing http://127.0.0.1:8083/qqq/?query=на  
+04.03.2018 23:58:27.795 INFO     3 Response from http://127.0.0.1:8083/qqq/?query=на received in 0 ms  
+04.03.2018 23:58:27.795 INFO     3 Processing http://127.0.0.1:8081/qqq/?query=траве  
+04.03.2018 23:58:27.795 INFO     3 Response from http://127.0.0.1:8081/qqq/?query=траве received in 0 ms  
+04.03.2018 23:58:27.796 INFO     3 Processing http://127.0.0.1:8082/qqq/?query=дрова  
+04.03.2018 23:58:27.797 INFO     3 Response from http://127.0.0.1:8082/qqq/?query=дрова received in 1 ms  
+04.03.2018 23:58:27.811 INFO     6 Response from http://127.0.0.1:8081/qqq/?query=полю received in 22 ms  
+04.03.2018 23:58:29.290 INFO     3 Processing http://127.0.0.1:8083/qqq/?query=по  
+04.03.2018 23:58:29.290 INFO     3 Response from http://127.0.0.1:8083/qqq/?query=по received in 0 ms  
+04.03.2018 23:58:29.300 INFO     7 Processing http://127.0.0.1:8083/qqq/?query=дрова  
+04.03.2018 23:58:29.300 INFO     4 Processing http://127.0.0.1:8083/qqq/?query=траве  
+04.03.2018 23:58:29.300 INFO    13 Processing http://127.0.0.1:8083/qqq/?query=На  
+04.03.2018 23:58:29.300 INFO     4 Response from http://127.0.0.1:8083/qqq/?query=траве received in 0 ms  
+04.03.2018 23:58:29.300 INFO    13 Response from http://127.0.0.1:8083/qqq/?query=На received in 0 ms  
+04.03.2018 23:58:29.300 INFO     7 Response from http://127.0.0.1:8083/qqq/?query=дрова received in 0 ms  
+04.03.2018 23:58:29.300 INFO     4 Processing http://127.0.0.1:8083/qqq/?query=на  
+04.03.2018 23:58:29.301 INFO    13 Processing http://127.0.0.1:8083/qqq/?query=летит  
+04.03.2018 23:58:29.301 INFO     4 Response from http://127.0.0.1:8083/qqq/?query=на received in 0 ms  
+04.03.2018 23:58:29.301 INFO    13 Response from http://127.0.0.1:8083/qqq/?query=летит received in 0 ms  
+04.03.2018 23:58:29.323 INFO    13 Processing http://127.0.0.1:8083/qqq/?query=полю  
+04.03.2018 23:58:29.323 INFO    13 Response from http://127.0.0.1:8083/qqq/?query=полю received in 0 ms  
+04.03.2018 23:58:30.113 INFO     6 Processing http://127.0.0.1:8083/qqq/?query=копыт  
+04.03.2018 23:58:30.114 INFO     6 Response from http://127.0.0.1:8083/qqq/?query=копыт received in 0 ms  
+04.03.2018 23:58:30.815 INFO    13 Processing http://127.0.0.1:8081/qqq/?query=дрова  
+04.03.2018 23:58:30.815 INFO    13 Response from http://127.0.0.1:8081/qqq/?query=дрова received in 0 ms  

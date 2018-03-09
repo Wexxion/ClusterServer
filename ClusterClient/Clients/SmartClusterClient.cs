@@ -32,16 +32,14 @@ namespace ClusterClient.Clients
                     {
                         if (first != task)
                             Helper.AddToGrayList(address, newTimeout);
-                        return await await firstRequestTask;
+                        using (Helper.AutoTaskAbort(tasks))
+                            return await await firstRequestTask;
                     }
                 }
             });
-            using (Helper.AutoTaskAbort(tasks))
-            {
-                if (await Task.WhenAny(roundTask, Task.Delay(timeout)) == roundTask)
-                    return await roundTask;
-                throw new TimeoutException();
-            }
+            if (await Task.WhenAny(roundTask, Task.Delay(timeout)) == roundTask)
+                return await roundTask;
+            throw new TimeoutException();
         }
     }
 }

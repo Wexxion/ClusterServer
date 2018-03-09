@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using System.Threading.Tasks;
-using ClusterClient.Helper;
 
-namespace ClusterClient
+namespace ClusterClient.Helper
 {
     public class ClientHelper
     {
@@ -45,7 +43,8 @@ namespace ClusterClient
             }
         }
 
-        public void AddStatistics(string adress, long time) => statistics.AddStatistics(adress, time);
-        public void AddToGrayList(string adress, TimeSpan timeout) => grayList[adress] = Task.Delay(timeout);
+        //public void AddTask(string address) => 
+        public void AddStatistics(string address, long time) => statistics.AddStatistics(address, time);
+        public void AddToGrayList(string address, TimeSpan timeout) => grayList[address] = Task.Delay(timeout);
     }
 }
