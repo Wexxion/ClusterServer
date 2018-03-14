@@ -41,7 +41,7 @@ namespace ClusterServer
                 {
                     log.InfoFormat("Press ENTER to stop listening");
                     listener.StartProcessingRequestsAsync(CreateAsyncCallback(parsedArguments));
-
+                    Console.ReadLine();
                     log.InfoFormat("Server stopped!");
                 }
                 else
@@ -64,7 +64,6 @@ namespace ClusterServer
                     Thread.CurrentThread.ManagedThreadId, currentRequestNum, DateTime.Now.TimeOfDay);
 
                 await Task.Delay(parsedArguments.MethodDuration);
-                //				Thread.Sleep(parsedArguments.MethodDuration);
 
                 var encryptedBytes = GetBase64HashBytes(context.Request.QueryString["query"], Encoding.UTF8);
                 await context.Response.OutputStream.WriteAsync(encryptedBytes, 0, encryptedBytes.Length);

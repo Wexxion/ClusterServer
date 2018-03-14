@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
+using Fclp.Internals.Extensions;
 using log4net;
 
 namespace ClusterClient.Clients
 {
     public class RandomClusterClient : ClusterClientBase
     {
-        private readonly Random random = new Random();
+        private readonly Random random = new Random(Thread.CurrentContext.ContextID);
 
         public RandomClusterClient(string[] replicaAddresses) : base(replicaAddresses) {}
 
@@ -18,8 +20,12 @@ namespace ClusterClient.Clients
             var queryString = $"{address}?query={query}";
             var task = GetRequestTask(queryString);
             await Task.WhenAny(task, Task.Delay(timeout));
-            if (task.IsCompleted)
-                return task.Result;
+            if (task.IsCompleted && !task.Result.IsNullOrEmpty())
+            {
+                var res = await task;
+                if (!res.IsNullOrEmpty())
+                    return res;
+            }
             Helper.AddToGrayList(address, timeout);
             throw new TimeoutException();
         }

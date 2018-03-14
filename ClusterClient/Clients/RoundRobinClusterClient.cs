@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Fclp.Internals.Extensions;
 using log4net;
 
 namespace ClusterClient.Clients
@@ -17,8 +18,8 @@ namespace ClusterClient.Clients
             var newTimeout = TimeSpan.FromMilliseconds(timeout.TotalMilliseconds / ReplicaAddresses.Length);
             var roundTask = Task.Run(async () =>
             {
-                using (Helper.AutoTaskAbort(tasks))
-                    while (true)
+                while (true)
+                    using (Helper.AutoTaskAbort(tasks))
                     {
                         var address = Helper.GetNextAddress();
                         var queryString = $"{address}?query={query}";
@@ -30,7 +31,11 @@ namespace ClusterClient.Clients
                     }
             });
             if (await Task.WhenAny(roundTask, Task.Delay(timeout)) == roundTask)
-                return await roundTask;
+            {
+                var res = await roundTask;
+                if (!res.IsNullOrEmpty())
+                    return res;
+            }
             throw new TimeoutException();
         }
     }

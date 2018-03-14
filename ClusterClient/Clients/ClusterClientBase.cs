@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
@@ -43,13 +42,21 @@ namespace ClusterClient.Clients
 
         private async Task<string> ProcessRequestAsync(WebRequest request)
         {
-            var timer = Stopwatch.StartNew();
-            using (var response = await request.GetResponseAsync())
+            try
             {
-                var result = await new StreamReader(response.GetResponseStream(), Encoding.UTF8).ReadToEndAsync();
-                Log.InfoFormat("Response from {0} received in {1} ms", request.RequestUri, timer.ElapsedMilliseconds);
-                Helper.AddStatistics(request.Headers["uri"], timer.ElapsedMilliseconds);
-                return result;
+                var timer = Stopwatch.StartNew();
+                using (var response = await request.GetResponseAsync())
+                {
+                    var result = await new StreamReader(response.GetResponseStream(), Encoding.UTF8).ReadToEndAsync();
+                    Log.InfoFormat("Response from {0} received in {1} ms", request.RequestUri, timer.ElapsedMilliseconds);
+                    Helper.Statistics.AddStatistics(request.Headers["uri"], timer.ElapsedMilliseconds);
+                    return result;
+                }
+            }
+            catch (WebException)
+            {
+                Helper.Statistics.RemoveAddress(request.Headers["uri"]);
+                return null;
             }
         }
     }

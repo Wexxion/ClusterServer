@@ -1,0 +1,401 @@
+[Start of logging]
+13.03.2018 22:00:03.722 INFO     1 Server is starting listening prefixes: http://+:8082/qqq/  
+[Start of logging]
+13.03.2018 22:01:36.281 INFO     1 Server is starting listening prefixes: http://+:8081/qqq/  
+13.03.2018 22:01:36.292 INFO     1 Press ENTER to stop listening  
+13.03.2018 22:01:50.076 INFO     3 Thread #3 received request #1 at 22:01:50.0761199  
+13.03.2018 22:01:50.079 INFO     4 Thread #4 received request #2 at 22:01:50.0796291  
+13.03.2018 22:01:50.083 INFO     5 Thread #5 received request #3 at 22:01:50.0831384  
+13.03.2018 22:01:50.903 INFO     3 Thread #3 sent response #1 at 22:01:50.9032810  
+13.03.2018 22:01:50.903 INFO     6 Thread #6 sent response #3 at 22:01:50.9037820  
+13.03.2018 22:01:50.903 INFO     4 Thread #4 sent response #2 at 22:01:50.9032810  
+13.03.2018 22:01:51.106 INFO     5 Thread #5 received request #4 at 22:01:51.1068226  
+13.03.2018 22:01:51.112 INFO     5 Thread #5 received request #5 at 22:01:51.1123368  
+13.03.2018 22:01:51.117 INFO     5 Thread #5 received request #6 at 22:01:51.1178525  
+13.03.2018 22:01:51.146 INFO     6 Thread #6 received request #7 at 22:01:51.1469293  
+13.03.2018 22:01:51.146 INFO     4 Thread #4 received request #8 at 22:01:51.1469293  
+13.03.2018 22:01:51.158 INFO     5 Thread #5 received request #9 at 22:01:51.1584595  
+13.03.2018 22:01:51.158 INFO     5 Thread #5 received request #10 at 22:01:51.1589609  
+13.03.2018 22:01:51.158 INFO     5 Thread #5 received request #11 at 22:01:51.1589609  
+13.03.2018 22:01:51.158 INFO     5 Thread #5 received request #12 at 22:01:51.1589609  
+13.03.2018 22:01:51.161 INFO     5 Thread #5 received request #13 at 22:01:51.1614684  
+13.03.2018 22:01:51.161 INFO     5 Thread #5 received request #14 at 22:01:51.1614684  
+13.03.2018 22:01:51.161 INFO     5 Thread #5 received request #15 at 22:01:51.1619702  
+13.03.2018 22:01:51.161 INFO     5 Thread #5 received request #16 at 22:01:51.1619702  
+13.03.2018 22:01:51.813 INFO     4 Thread #4 received request #17 at 22:01:51.8130543  
+13.03.2018 22:01:51.819 INFO     6 Thread #6 received request #18 at 22:01:51.8195718  
+13.03.2018 22:01:51.835 INFO     3 Thread #3 received request #19 at 22:01:51.8352724  
+13.03.2018 22:01:51.883 INFO     5 Thread #5 received request #20 at 22:01:51.8839008  
+13.03.2018 22:01:51.884 INFO     6 Thread #6 received request #21 at 22:01:51.8849040  
+13.03.2018 22:01:51.892 INFO     6 Thread #6 received request #22 at 22:01:51.8924242  
+13.03.2018 22:01:51.893 INFO     6 Thread #6 received request #23 at 22:01:51.8934267  
+13.03.2018 22:01:51.894 INFO     6 Thread #6 received request #24 at 22:01:51.8944296  
+13.03.2018 22:01:51.895 INFO     6 Thread #6 received request #25 at 22:01:51.8959335  
+13.03.2018 22:01:51.900 INFO     6 Thread #6 received request #26 at 22:01:51.9009463  
+13.03.2018 22:01:51.902 INFO     6 Thread #6 received request #27 at 22:01:51.9024523  
+13.03.2018 22:01:51.904 INFO     6 Thread #6 received request #28 at 22:01:51.9044559  
+13.03.2018 22:01:51.908 INFO     6 Thread #6 received request #29 at 22:01:51.9084669  
+13.03.2018 22:01:51.908 INFO     6 Thread #6 sent response #4 at 22:01:51.9089680  
+13.03.2018 22:01:51.917 INFO     6 Thread #6 received request #30 at 22:01:51.9174907  
+13.03.2018 22:01:51.926 INFO     3 Thread #3 sent response #6 at 22:01:51.9260146  
+13.03.2018 22:01:51.926 INFO     6 Thread #6 sent response #5 at 22:01:51.9260146  
+13.03.2018 22:01:51.926 INFO     4 Thread #4 received request #31 at 22:01:51.9260146  
+13.03.2018 22:01:51.928 INFO     6 Thread #6 received request #32 at 22:01:51.9280188  
+13.03.2018 22:01:51.964 INFO     5 Thread #5 sent response #11 at 22:01:51.9641565  
+13.03.2018 22:01:51.964 INFO     6 Thread #6 sent response #8 at 22:01:51.9641565  
+13.03.2018 22:01:51.964 INFO     5 Thread #5 sent response #7 at 22:01:51.9646579  
+13.03.2018 22:01:51.964 INFO     3 Thread #3 sent response #10 at 22:01:51.9646579  
+13.03.2018 22:01:51.965 INFO     4 Thread #4 sent response #9 at 22:01:51.9651590  
+13.03.2018 22:01:51.973 INFO     5 Thread #5 sent response #15 at 22:01:51.9738961  
+13.03.2018 22:01:51.974 INFO     6 Thread #6 sent response #16 at 22:01:51.9743933  
+13.03.2018 22:01:51.974 INFO     5 Thread #5 sent response #13 at 22:01:51.9743933  
+13.03.2018 22:01:51.974 INFO     6 Thread #6 sent response #12 at 22:01:51.9748947  
+13.03.2018 22:01:51.973 INFO     3 Thread #3 sent response #14 at 22:01:51.9738961  
+13.03.2018 22:01:52.615 INFO     5 Thread #5 sent response #17 at 22:01:52.6154466  
+13.03.2018 22:01:52.632 INFO     4 Thread #4 sent response #18 at 22:01:52.6322340  
+13.03.2018 22:01:52.645 INFO     6 Thread #6 sent response #19 at 22:01:52.6452889  
+13.03.2018 22:01:52.691 INFO     3 Thread #3 sent response #20 at 22:01:52.6912145  
+13.03.2018 22:01:52.691 INFO     9 Thread #9 sent response #21 at 22:01:52.6912145  
+13.03.2018 22:01:52.705 INFO     3 Thread #3 sent response #25 at 22:01:52.7056595  
+13.03.2018 22:01:52.705 INFO     6 Thread #6 sent response #27 at 22:01:52.7056595  
+13.03.2018 22:01:52.705 INFO     5 Thread #5 sent response #26 at 22:01:52.7056595  
+13.03.2018 22:01:52.706 INFO     3 Thread #3 sent response #24 at 22:01:52.7061665  
+13.03.2018 22:01:52.705 INFO     4 Thread #4 sent response #28 at 22:01:52.7056595  
+13.03.2018 22:01:52.706 INFO     5 Thread #5 sent response #22 at 22:01:52.7061665  
+13.03.2018 22:01:52.706 INFO     6 Thread #6 sent response #23 at 22:01:52.7061665  
+13.03.2018 22:01:52.724 INFO     6 Thread #6 sent response #29 at 22:01:52.7243926  
+13.03.2018 22:01:52.729 INFO     4 Thread #4 sent response #30 at 22:01:52.7294629  
+13.03.2018 22:01:52.738 INFO     5 Thread #5 sent response #31 at 22:01:52.7382554  
+13.03.2018 22:01:52.738 INFO     3 Thread #3 sent response #32 at 22:01:52.7382554  
+13.03.2018 22:01:52.945 INFO     6 Thread #6 received request #33 at 22:01:52.9453077  
+13.03.2018 22:01:52.948 INFO     6 Thread #6 received request #34 at 22:01:52.9488159  
+13.03.2018 22:01:52.949 INFO     9 Thread #9 received request #35 at 22:01:52.9498187  
+13.03.2018 22:01:52.951 INFO     6 Thread #6 received request #36 at 22:01:52.9518233  
+13.03.2018 22:01:53.752 INFO     5 Thread #5 sent response #36 at 22:01:53.7528456  
+13.03.2018 22:01:53.752 INFO     4 Thread #4 sent response #33 at 22:01:53.7528456  
+13.03.2018 22:01:53.752 INFO     3 Thread #3 sent response #34 at 22:01:53.7528456  
+13.03.2018 22:01:53.752 INFO     9 Thread #9 sent response #35 at 22:01:53.7528456  
+[Start of logging]
+13.03.2018 22:07:43.725 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+13.03.2018 22:07:43.741 INFO     1 Press ENTER to stop listening  
+13.03.2018 22:07:55.416 INFO     3 Thread #3 received request #1 at 22:07:55.4166328  
+13.03.2018 22:07:55.426 INFO     4 Thread #4 received request #2 at 22:07:55.4266599  
+13.03.2018 22:07:55.434 INFO     6 Thread #6 received request #3 at 22:07:55.4346801  
+13.03.2018 22:07:55.447 INFO     5 Thread #5 received request #4 at 22:07:55.4472136  
+13.03.2018 22:07:55.479 INFO     5 Thread #5 received request #5 at 22:07:55.4792993  
+13.03.2018 22:07:56.162 INFO     3 Thread #3 sent response #2 at 22:07:56.1621158  
+13.03.2018 22:07:56.162 INFO     4 Thread #4 sent response #4 at 22:07:56.1621158  
+13.03.2018 22:07:56.168 INFO     6 Thread #6 sent response #1 at 22:07:56.1681325  
+13.03.2018 22:07:56.178 INFO     5 Thread #5 sent response #3 at 22:07:56.1786599  
+13.03.2018 22:07:56.192 INFO     3 Thread #3 sent response #5 at 22:07:56.1926976  
+13.03.2018 22:07:56.492 INFO     4 Thread #4 received request #6 at 22:07:56.4924949  
+13.03.2018 22:07:56.497 INFO     6 Thread #6 received request #7 at 22:07:56.4970066  
+13.03.2018 22:07:56.502 INFO     6 Thread #6 received request #8 at 22:07:56.5025216  
+13.03.2018 22:07:56.513 INFO     3 Thread #3 received request #10 at 22:07:56.5130493  
+13.03.2018 22:07:56.513 INFO     3 Thread #3 received request #11 at 22:07:56.5135518  
+13.03.2018 22:07:56.513 INFO     5 Thread #5 received request #9 at 22:07:56.5130493  
+13.03.2018 22:07:56.524 INFO     3 Thread #3 received request #12 at 22:07:56.5245803  
+13.03.2018 22:07:56.529 INFO     3 Thread #3 received request #13 at 22:07:56.5295941  
+13.03.2018 22:07:56.539 INFO     4 Thread #4 received request #14 at 22:07:56.5391187  
+13.03.2018 22:07:56.539 INFO     4 Thread #4 received request #15 at 22:07:56.5391187  
+13.03.2018 22:07:56.579 INFO     3 Thread #3 received request #16 at 22:07:56.5797271  
+13.03.2018 22:07:56.579 INFO     3 Thread #3 received request #17 at 22:07:56.5797271  
+13.03.2018 22:07:56.586 INFO     5 Thread #5 received request #18 at 22:07:56.5862442  
+13.03.2018 22:07:57.193 INFO     4 Thread #4 sent response #6 at 22:07:57.1933193  
+13.03.2018 22:07:57.206 INFO     3 Thread #3 sent response #8 at 22:07:57.2068555  
+13.03.2018 22:07:57.206 INFO     6 Thread #6 sent response #7 at 22:07:57.2068555  
+13.03.2018 22:07:57.221 INFO     5 Thread #5 sent response #11 at 22:07:57.2214285  
+13.03.2018 22:07:57.221 INFO     4 Thread #4 sent response #9 at 22:07:57.2214285  
+13.03.2018 22:07:57.223 INFO     3 Thread #3 sent response #10 at 22:07:57.2233982  
+13.03.2018 22:07:57.238 INFO     4 Thread #4 sent response #13 at 22:07:57.2384779  
+13.03.2018 22:07:57.238 INFO     6 Thread #6 sent response #14 at 22:07:57.2384779  
+13.03.2018 22:07:57.238 INFO     3 Thread #3 sent response #12 at 22:07:57.2384779  
+13.03.2018 22:07:57.238 INFO     5 Thread #5 sent response #15 at 22:07:57.2389391  
+13.03.2018 22:07:57.290 INFO     4 Thread #4 sent response #16 at 22:07:57.2900750  
+13.03.2018 22:07:57.290 INFO     5 Thread #5 sent response #17 at 22:07:57.2900750  
+13.03.2018 22:07:57.290 INFO     6 Thread #6 sent response #18 at 22:07:57.2900750  
+13.03.2018 22:07:57.314 INFO     9 Thread #9 received request #19 at 22:07:57.3141397  
+13.03.2018 22:07:57.321 INFO     4 Thread #4 received request #20 at 22:07:57.3216592  
+13.03.2018 22:07:57.323 INFO     9 Thread #9 received request #21 at 22:07:57.3231635  
+13.03.2018 22:07:57.326 INFO     4 Thread #4 received request #22 at 22:07:57.3266805  
+13.03.2018 22:07:58.015 INFO     3 Thread #3 sent response #19 at 22:07:58.0151220  
+13.03.2018 22:07:58.023 INFO     5 Thread #5 sent response #20 at 22:07:58.0237625  
+13.03.2018 22:07:58.023 INFO     6 Thread #6 sent response #21 at 22:07:58.0237625  
+13.03.2018 22:07:58.034 INFO     4 Thread #4 sent response #22 at 22:07:58.0340449  
+13.03.2018 22:07:58.352 INFO     3 Thread #3 received request #23 at 22:07:58.3520901  
+13.03.2018 22:07:58.354 INFO     9 Thread #9 received request #24 at 22:07:58.3540951  
+13.03.2018 22:07:58.356 INFO     3 Thread #3 received request #25 at 22:07:58.3561008  
+13.03.2018 22:07:59.052 INFO     6 Thread #6 sent response #23 at 22:07:59.0529191  
+13.03.2018 22:07:59.066 INFO     4 Thread #4 sent response #24 at 22:07:59.0662141  
+13.03.2018 22:07:59.066 INFO     5 Thread #5 sent response #25 at 22:07:59.0664574  
+[Start of logging]
+13.03.2018 22:08:13.616 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+13.03.2018 22:08:16.784 INFO     1 Thread #1 received request #1 at 22:08:16.7835413  
+13.03.2018 22:08:17.486 INFO     1 Thread #1 sent response #1 at 22:08:17.4864394  
+13.03.2018 22:08:21.807 INFO     1 Thread #1 received request #2 at 22:08:21.8076406  
+13.03.2018 22:08:22.508 INFO     1 Thread #1 sent response #2 at 22:08:22.5082745  
+13.03.2018 22:08:22.508 INFO     1 Thread #1 received request #3 at 22:08:22.5082745  
+13.03.2018 22:08:23.208 INFO     1 Thread #1 sent response #3 at 22:08:23.2089480  
+13.03.2018 22:08:23.208 INFO     1 Thread #1 received request #4 at 22:08:23.2089480  
+13.03.2018 22:08:23.910 INFO     1 Thread #1 sent response #4 at 22:08:23.9104462  
+13.03.2018 22:08:23.910 INFO     1 Thread #1 received request #5 at 22:08:23.9104462  
+13.03.2018 22:08:24.610 INFO     1 Thread #1 sent response #5 at 22:08:24.6106830  
+13.03.2018 22:08:24.610 INFO     1 Thread #1 received request #6 at 22:08:24.6106830  
+13.03.2018 22:08:25.311 INFO     1 Thread #1 sent response #6 at 22:08:25.3117398  
+13.03.2018 22:08:25.311 INFO     1 Thread #1 received request #7 at 22:08:25.3117398  
+13.03.2018 22:08:26.013 INFO     1 Thread #1 sent response #7 at 22:08:26.0130952  
+13.03.2018 22:08:26.013 INFO     1 Thread #1 received request #8 at 22:08:26.0130952  
+13.03.2018 22:08:26.713 INFO     1 Thread #1 sent response #8 at 22:08:26.7134590  
+13.03.2018 22:08:26.713 INFO     1 Thread #1 received request #9 at 22:08:26.7134590  
+13.03.2018 22:08:27.414 INFO     1 Thread #1 sent response #9 at 22:08:27.4141395  
+13.03.2018 22:08:27.414 INFO     1 Thread #1 received request #10 at 22:08:27.4144283  
+13.03.2018 22:08:28.114 INFO     1 Thread #1 sent response #10 at 22:08:28.1146937  
+13.03.2018 22:08:28.114 INFO     1 Thread #1 received request #11 at 22:08:28.1146937  
+13.03.2018 22:08:28.815 INFO     1 Thread #1 sent response #11 at 22:08:28.8154140  
+13.03.2018 22:08:28.815 INFO     1 Thread #1 received request #12 at 22:08:28.8154140  
+13.03.2018 22:08:29.515 INFO     1 Thread #1 sent response #12 at 22:08:29.5159323  
+13.03.2018 22:08:29.515 INFO     1 Thread #1 received request #13 at 22:08:29.5159323  
+13.03.2018 22:08:30.216 INFO     1 Thread #1 sent response #13 at 22:08:30.2165455  
+13.03.2018 22:08:32.645 INFO     1 Thread #1 received request #14 at 22:08:32.6453108  
+13.03.2018 22:08:33.345 INFO     1 Thread #1 sent response #14 at 22:08:33.3459659  
+13.03.2018 22:08:33.346 INFO     1 Thread #1 received request #15 at 22:08:33.3462102  
+13.03.2018 22:08:34.047 INFO     1 Thread #1 sent response #15 at 22:08:34.0470226  
+13.03.2018 22:08:34.047 INFO     1 Thread #1 received request #16 at 22:08:34.0470226  
+13.03.2018 22:08:34.747 INFO     1 Thread #1 sent response #16 at 22:08:34.7478145  
+13.03.2018 22:08:34.747 INFO     1 Thread #1 received request #17 at 22:08:34.7478145  
+13.03.2018 22:08:35.448 INFO     1 Thread #1 sent response #17 at 22:08:35.4484386  
+13.03.2018 22:08:35.448 INFO     1 Thread #1 received request #18 at 22:08:35.4484386  
+13.03.2018 22:08:36.148 INFO     1 Thread #1 sent response #18 at 22:08:36.1488024  
+13.03.2018 22:08:36.148 INFO     1 Thread #1 received request #19 at 22:08:36.1488024  
+13.03.2018 22:08:36.851 INFO     1 Thread #1 sent response #19 at 22:08:36.8516758  
+13.03.2018 22:08:36.852 INFO     1 Thread #1 received request #20 at 22:08:36.8521737  
+13.03.2018 22:08:37.552 INFO     1 Thread #1 sent response #20 at 22:08:37.5526489  
+13.03.2018 22:08:37.552 INFO     1 Thread #1 received request #21 at 22:08:37.5526489  
+13.03.2018 22:08:38.253 INFO     1 Thread #1 sent response #21 at 22:08:38.2531344  
+13.03.2018 22:08:38.253 INFO     1 Thread #1 received request #22 at 22:08:38.2531344  
+13.03.2018 22:08:38.953 INFO     1 Thread #1 sent response #22 at 22:08:38.9538103  
+13.03.2018 22:08:38.953 INFO     1 Thread #1 received request #23 at 22:08:38.9538103  
+13.03.2018 22:08:39.654 INFO     1 Thread #1 sent response #23 at 22:08:39.6543198  
+13.03.2018 22:08:39.654 INFO     1 Thread #1 received request #24 at 22:08:39.6543198  
+13.03.2018 22:08:40.355 INFO     1 Thread #1 sent response #24 at 22:08:40.3553018  
+13.03.2018 22:08:40.355 INFO     1 Thread #1 received request #25 at 22:08:40.3553018  
+13.03.2018 22:08:41.056 INFO     1 Thread #1 sent response #25 at 22:08:41.0567548  
+13.03.2018 22:08:41.057 INFO     1 Thread #1 received request #26 at 22:08:41.0572065  
+13.03.2018 22:08:41.757 INFO     1 Thread #1 sent response #26 at 22:08:41.7576987  
+13.03.2018 22:08:41.757 INFO     1 Thread #1 received request #27 at 22:08:41.7576987  
+13.03.2018 22:08:42.458 INFO     1 Thread #1 sent response #27 at 22:08:42.4581151  
+13.03.2018 22:08:42.458 INFO     1 Thread #1 received request #28 at 22:08:42.4584606  
+13.03.2018 22:08:43.158 INFO     1 Thread #1 sent response #28 at 22:08:43.1587494  
+13.03.2018 22:08:43.158 INFO     1 Thread #1 received request #29 at 22:08:43.1587494  
+13.03.2018 22:08:43.860 INFO     1 Thread #1 sent response #29 at 22:08:43.8604246  
+13.03.2018 22:08:45.128 INFO     1 Thread #1 received request #30 at 22:08:45.1281231  
+13.03.2018 22:08:45.828 INFO     1 Thread #1 sent response #30 at 22:08:45.8289803  
+[Start of logging]
+14.03.2018 20:55:29.860 INFO     1 Server is starting listening prefixes: http://+:8081/qqq/  
+14.03.2018 20:55:35.681 INFO     1 Thread #1 received request #1 at 20:55:35.6819385  
+14.03.2018 20:55:36.486 INFO     1 Thread #1 sent response #1 at 20:55:36.4860402  
+14.03.2018 20:55:41.671 INFO     1 Thread #1 received request #2 at 20:55:41.6715264  
+14.03.2018 20:55:42.472 INFO     1 Thread #1 sent response #2 at 20:55:42.4724468  
+14.03.2018 20:55:42.472 INFO     1 Thread #1 received request #3 at 20:55:42.4724468  
+14.03.2018 20:55:43.273 INFO     1 Thread #1 sent response #3 at 20:55:43.2730968  
+14.03.2018 20:55:43.273 INFO     1 Thread #1 received request #4 at 20:55:43.2730968  
+14.03.2018 20:55:44.073 INFO     1 Thread #1 sent response #4 at 20:55:44.0734435  
+14.03.2018 20:55:44.073 INFO     1 Thread #1 received request #5 at 20:55:44.0734435  
+14.03.2018 20:55:44.874 INFO     1 Thread #1 sent response #5 at 20:55:44.8741988  
+14.03.2018 20:55:44.874 INFO     1 Thread #1 received request #6 at 20:55:44.8741988  
+14.03.2018 20:55:45.674 INFO     1 Thread #1 sent response #6 at 20:55:45.6746795  
+14.03.2018 20:55:45.674 INFO     1 Thread #1 received request #7 at 20:55:45.6746795  
+14.03.2018 20:55:46.475 INFO     1 Thread #1 sent response #7 at 20:55:46.4751972  
+14.03.2018 20:55:46.475 INFO     1 Thread #1 received request #8 at 20:55:46.4751972  
+14.03.2018 20:55:47.276 INFO     1 Thread #1 sent response #8 at 20:55:47.2760496  
+14.03.2018 20:55:47.276 INFO     1 Thread #1 received request #9 at 20:55:47.2760496  
+14.03.2018 20:55:48.076 INFO     1 Thread #1 sent response #9 at 20:55:48.0765782  
+14.03.2018 20:55:48.076 INFO     1 Thread #1 received request #10 at 20:55:48.0765782  
+14.03.2018 20:55:48.877 INFO     1 Thread #1 sent response #10 at 20:55:48.8771436  
+14.03.2018 20:55:48.877 INFO     1 Thread #1 received request #11 at 20:55:48.8771436  
+14.03.2018 20:55:49.678 INFO     1 Thread #1 sent response #11 at 20:55:49.6783669  
+14.03.2018 20:55:49.678 INFO     1 Thread #1 received request #12 at 20:55:49.6788676  
+14.03.2018 20:55:50.479 INFO     1 Thread #1 sent response #12 at 20:55:50.4795373  
+14.03.2018 20:55:50.479 INFO     1 Thread #1 received request #13 at 20:55:50.4795373  
+14.03.2018 20:55:51.280 INFO     1 Thread #1 sent response #13 at 20:55:51.2804626  
+14.03.2018 20:55:51.280 INFO     1 Thread #1 received request #14 at 20:55:51.2804626  
+14.03.2018 20:55:52.080 INFO     1 Thread #1 sent response #14 at 20:55:52.0807952  
+14.03.2018 20:55:52.080 INFO     1 Thread #1 received request #15 at 20:55:52.0807952  
+14.03.2018 20:55:52.881 INFO     1 Thread #1 sent response #15 at 20:55:52.8811373  
+14.03.2018 20:55:52.881 INFO     1 Thread #1 received request #16 at 20:55:52.8811373  
+14.03.2018 20:55:53.681 INFO     1 Thread #1 sent response #16 at 20:55:53.6816448  
+14.03.2018 20:55:53.681 INFO     1 Thread #1 received request #17 at 20:55:53.6816448  
+14.03.2018 20:55:54.482 INFO     1 Thread #1 sent response #17 at 20:55:54.4823642  
+14.03.2018 20:55:54.482 INFO     1 Thread #1 received request #18 at 20:55:54.4823642  
+14.03.2018 20:55:55.282 INFO     1 Thread #1 sent response #18 at 20:55:55.2827684  
+14.03.2018 20:55:55.282 INFO     1 Thread #1 received request #19 at 20:55:55.2827684  
+14.03.2018 20:55:56.083 INFO     1 Thread #1 sent response #19 at 20:55:56.0833044  
+14.03.2018 20:55:56.083 INFO     1 Thread #1 received request #20 at 20:55:56.0833044  
+14.03.2018 20:55:56.883 INFO     1 Thread #1 sent response #20 at 20:55:56.8837075  
+14.03.2018 20:55:56.883 INFO     1 Thread #1 received request #21 at 20:55:56.8837075  
+14.03.2018 20:55:57.684 INFO     1 Thread #1 sent response #21 at 20:55:57.6843793  
+14.03.2018 20:55:57.684 INFO     1 Thread #1 received request #22 at 20:55:57.6843793  
+14.03.2018 20:55:58.484 INFO     1 Thread #1 sent response #22 at 20:55:58.4846615  
+14.03.2018 20:55:58.484 INFO     1 Thread #1 received request #23 at 20:55:58.4846615  
+14.03.2018 20:55:59.285 INFO     1 Thread #1 sent response #23 at 20:55:59.2850509  
+14.03.2018 20:55:59.285 INFO     1 Thread #1 received request #24 at 20:55:59.2850509  
+14.03.2018 20:56:00.085 INFO     1 Thread #1 sent response #24 at 20:56:00.0858366  
+14.03.2018 20:56:00.085 INFO     1 Thread #1 received request #25 at 20:56:00.0858366  
+14.03.2018 20:56:00.886 INFO     1 Thread #1 sent response #25 at 20:56:00.8865369  
+14.03.2018 20:56:00.887 INFO     1 Thread #1 received request #26 at 20:56:00.8870383  
+14.03.2018 20:56:01.688 INFO     1 Thread #1 sent response #26 at 20:56:01.6881767  
+14.03.2018 20:56:01.688 INFO     1 Thread #1 received request #27 at 20:56:01.6881767  
+14.03.2018 20:56:02.489 INFO     1 Thread #1 sent response #27 at 20:56:02.4891401  
+14.03.2018 20:56:02.489 INFO     1 Thread #1 received request #28 at 20:56:02.4891401  
+14.03.2018 20:56:03.289 INFO     1 Thread #1 sent response #28 at 20:56:03.2895055  
+14.03.2018 20:56:03.289 INFO     1 Thread #1 received request #29 at 20:56:03.2895055  
+14.03.2018 20:56:04.090 INFO     1 Thread #1 sent response #29 at 20:56:04.0900091  
+14.03.2018 20:56:04.090 INFO     1 Thread #1 received request #30 at 20:56:04.0900091  
+14.03.2018 20:56:04.890 INFO     1 Thread #1 sent response #30 at 20:56:04.8902800  
+14.03.2018 20:56:04.890 INFO     1 Thread #1 received request #31 at 20:56:04.8902800  
+14.03.2018 20:56:05.691 INFO     1 Thread #1 sent response #31 at 20:56:05.6910956  
+14.03.2018 20:56:05.691 INFO     1 Thread #1 received request #32 at 20:56:05.6915949  
+14.03.2018 20:56:06.492 ERROR    1 System.Net.HttpListenerException (0x80004005): ѕопытка выполнить операцию дл€ несуществующего сетевого подключени€
+   в System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   в ClusterServer.Program.<>c__DisplayClass6_0.<CreateSyncCallback>b__0(HttpListenerContext context) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 89
+   в ClusterServer.HttpListenerExtensions.StartTaskHandlerSync(Action`1 callbackSync, LinkedList`1 taskQueue) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 71  
+14.03.2018 21:57:29.294 INFO     1 Thread #1 received request #33 at 21:57:29.2947498  
+14.03.2018 21:57:30.106 INFO     1 Thread #1 sent response #33 at 21:57:30.1069917  
+14.03.2018 21:57:30.106 INFO     1 Thread #1 received request #34 at 21:57:30.1069917  
+14.03.2018 21:57:30.907 INFO     1 Thread #1 sent response #34 at 21:57:30.9075859  
+14.03.2018 21:57:30.907 INFO     1 Thread #1 received request #35 at 21:57:30.9075859  
+14.03.2018 21:57:31.708 INFO     1 Thread #1 sent response #35 at 21:57:31.7084231  
+14.03.2018 21:57:31.708 INFO     1 Thread #1 received request #36 at 21:57:31.7084231  
+14.03.2018 21:57:32.509 INFO     1 Thread #1 sent response #36 at 21:57:32.5098266  
+14.03.2018 21:57:33.317 INFO     1 Thread #1 received request #37 at 21:57:33.3171667  
+14.03.2018 21:57:34.117 INFO     1 Thread #1 sent response #37 at 21:57:34.1176781  
+14.03.2018 21:57:34.117 INFO     1 Thread #1 received request #38 at 21:57:34.1176781  
+14.03.2018 21:57:34.918 INFO     1 Thread #1 sent response #38 at 21:57:34.9180075  
+14.03.2018 21:57:34.918 INFO     1 Thread #1 received request #39 at 21:57:34.9180075  
+14.03.2018 21:57:35.718 INFO     1 Thread #1 sent response #39 at 21:57:35.7183986  
+14.03.2018 21:57:35.718 INFO     1 Thread #1 received request #40 at 21:57:35.7183986  
+14.03.2018 21:57:36.518 INFO     1 Thread #1 sent response #40 at 21:57:36.5187510  
+14.03.2018 21:57:36.518 INFO     1 Thread #1 received request #41 at 21:57:36.5187510  
+14.03.2018 21:57:37.320 INFO     1 Thread #1 sent response #41 at 21:57:37.3200688  
+14.03.2018 21:57:37.320 INFO     1 Thread #1 received request #42 at 21:57:37.3200688  
+14.03.2018 21:57:38.120 INFO     1 Thread #1 sent response #42 at 21:57:38.1207935  
+14.03.2018 21:57:38.120 INFO     1 Thread #1 received request #43 at 21:57:38.1207935  
+14.03.2018 21:57:38.921 INFO     1 Thread #1 sent response #43 at 21:57:38.9212788  
+14.03.2018 21:57:38.921 INFO     1 Thread #1 received request #44 at 21:57:38.9217893  
+14.03.2018 21:57:39.722 INFO     1 Thread #1 sent response #44 at 21:57:39.7228564  
+14.03.2018 21:57:39.722 INFO     1 Thread #1 received request #45 at 21:57:39.7228564  
+14.03.2018 21:57:40.523 INFO     1 Thread #1 sent response #45 at 21:57:40.5233332  
+14.03.2018 21:57:40.523 INFO     1 Thread #1 received request #46 at 21:57:40.5233332  
+14.03.2018 21:57:41.323 INFO     1 Thread #1 sent response #46 at 21:57:41.3238227  
+14.03.2018 21:57:41.323 INFO     1 Thread #1 received request #47 at 21:57:41.3238227  
+14.03.2018 21:57:42.124 INFO     1 Thread #1 sent response #47 at 21:57:42.1243189  
+14.03.2018 21:57:42.124 INFO     1 Thread #1 received request #48 at 21:57:42.1243189  
+14.03.2018 21:57:42.924 INFO     1 Thread #1 sent response #48 at 21:57:42.9247362  
+14.03.2018 21:57:44.020 INFO     1 Thread #1 received request #49 at 21:57:44.0206541  
+14.03.2018 21:57:44.821 INFO     1 Thread #1 sent response #49 at 21:57:44.8212180  
+14.03.2018 21:57:44.821 INFO     1 Thread #1 received request #50 at 21:57:44.8212180  
+14.03.2018 21:57:45.622 INFO     1 Thread #1 sent response #50 at 21:57:45.6229698  
+14.03.2018 21:57:45.622 INFO     1 Thread #1 received request #51 at 21:57:45.6229698  
+14.03.2018 21:57:46.423 INFO     1 Thread #1 sent response #51 at 21:57:46.4235884  
+14.03.2018 21:57:46.423 INFO     1 Thread #1 received request #52 at 21:57:46.4235884  
+14.03.2018 21:57:47.224 INFO     1 Thread #1 sent response #52 at 21:57:47.2241230  
+14.03.2018 21:57:47.270 INFO     1 Thread #1 received request #53 at 21:57:47.2702009  
+14.03.2018 21:57:48.070 INFO     1 Thread #1 sent response #53 at 21:57:48.0708326  
+14.03.2018 21:57:48.070 INFO     1 Thread #1 received request #54 at 21:57:48.0708326  
+14.03.2018 21:57:48.871 INFO     1 Thread #1 sent response #54 at 21:57:48.8712166  
+14.03.2018 21:57:48.871 INFO     1 Thread #1 received request #55 at 21:57:48.8712166  
+14.03.2018 21:57:49.671 INFO     1 Thread #1 sent response #55 at 21:57:49.6717992  
+14.03.2018 21:57:49.671 INFO     1 Thread #1 received request #56 at 21:57:49.6717992  
+14.03.2018 21:57:50.472 INFO     1 Thread #1 sent response #56 at 21:57:50.4724403  
+14.03.2018 21:57:50.472 INFO     1 Thread #1 received request #57 at 21:57:50.4724403  
+14.03.2018 21:57:51.272 INFO     1 Thread #1 sent response #57 at 21:57:51.2727923  
+14.03.2018 21:57:51.272 INFO     1 Thread #1 received request #58 at 21:57:51.2727923  
+14.03.2018 21:57:52.073 INFO     1 Thread #1 sent response #58 at 21:57:52.0731619  
+[Start of logging]
+14.03.2018 23:34:42.199 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+14.03.2018 23:34:42.216 INFO     1 Press ENTER to stop listening  
+14.03.2018 23:34:42.245 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:34:42.287 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:34:42.396 INFO     1 Server is starting listening prefixes: http://+:8083/qqq/  
+14.03.2018 23:34:42.417 INFO     1 Press ENTER to stop listening  
+14.03.2018 23:34:42.430 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:34:52.107 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+14.03.2018 23:34:52.132 FATAL    1 System.Net.HttpListenerException (0x80004005): ќтказано в доступе
+   в System.Net.HttpListener.AddAllPrefixes()
+   в System.Net.HttpListener.Start()
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 65
+   в ClusterServer.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 49  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:38:58.505 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+14.03.2018 23:38:58.685 FATAL    1 System.Net.HttpListenerException (0x80004005): ќтказано в доступе
+   в System.Net.HttpListener.AddAllPrefixes()
+   в System.Net.HttpListener.Start()
+   в ClusterServer.HttpListenerExtensions.StartProcessingRequestsSync(HttpListener listener, Action`1 callbackSync) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\HttpListenerExtensions.cs:строка 65
+   в ClusterServer.Program.Main(String[] args) в C:\Users\wexxi\Desktop\Shpora\Shpora-10.Async\hw\ClusterServer\ClusterServer\Program.cs:строка 49  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:40:57.773 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+[Start of logging]
+14.03.2018 23:41:26.567 INFO     1 Server is starting listening prefixes: http://+:8081/qqq/  
+14.03.2018 23:41:26.577 INFO     1 Press ENTER to stop listening  
+14.03.2018 23:41:26.593 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:41:26.648 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:41:31.786 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+14.03.2018 23:41:31.800 INFO     1 Press ENTER to stop listening  
+14.03.2018 23:41:31.824 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:41:31.831 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:41:31.872 INFO     1 Server is starting listening prefixes: http://+:8083/qqq/  
+14.03.2018 23:41:31.889 INFO     1 Press ENTER to stop listening  
+14.03.2018 23:41:31.902 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:42:18.408 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+[Start of logging]
+14.03.2018 23:42:45.577 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+14.03.2018 23:42:45.588 INFO     1 Press ENTER to stop listening  
+14.03.2018 23:42:45.604 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:42:53.197 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+14.03.2018 23:42:53.208 INFO     1 Press ENTER to stop listening  
+14.03.2018 23:43:04.358 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:57:01.359 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+14.03.2018 23:57:01.378 INFO     1 Press ENTER to stop listening  
+14.03.2018 23:57:11.931 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+14.03.2018 23:57:21.383 INFO     1 Server is starting listening prefixes: http://+:8080/qqq/  
+14.03.2018 23:57:21.395 INFO     1 Press ENTER to stop listening  
+14.03.2018 23:57:29.175 INFO     1 Server stopped!  
+[End of logging]
+

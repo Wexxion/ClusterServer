@@ -6,18 +6,18 @@ namespace ClusterClient.Helper
 {
     public class ClientHelper
     {
-        private readonly ServerStatistics statistics;
+        public ServerStatistics Statistics { get; }
         private readonly Dictionary<string, Task> grayList;
         private readonly IEnumerator<string> enumerator;
         public int ServerСount { get; }
         public ClientHelper(string[] replicaAddresses)
         {
-            statistics = new ServerStatistics(replicaAddresses);
+            Statistics = new ServerStatistics(replicaAddresses);
             grayList = new Dictionary<string, Task>();
             foreach (var address in replicaAddresses)
                 grayList.Add(address, Task.Delay(0));
             ServerСount = replicaAddresses.Length;
-            enumerator = GetAddresses();
+            enumerator = GetAddressesEnumerator();
             enumerator.MoveNext();
         }
 
@@ -28,23 +28,20 @@ namespace ClusterClient.Helper
             enumerator.MoveNext();
             return res;
         }
-        private IEnumerator<string> GetAddresses()
+        private IEnumerator<string> GetAddressesEnumerator()
         {
             var pointer = 0;
-            var currStat = statistics.GetSorterAddresses();
+            var currStat = Statistics.GetSortedAddresses();
             while (true)
             {
                 if (pointer == 0)
-                    currStat = statistics.GetSorterAddresses();
-                var currAddr = currStat[pointer++];
+                    currStat = Statistics.GetSortedAddresses();
+                var currAddr = currStat[pointer];
                 if (grayList[currAddr].IsCompleted)
                     yield return currAddr;
-                pointer %= ServerСount;
+                pointer = (pointer + 1) % currStat.Length;
             }
         }
-
-        //public void AddTask(string address) => 
-        public void AddStatistics(string address, long time) => statistics.AddStatistics(address, time);
         public void AddToGrayList(string address, TimeSpan timeout) => grayList[address] = Task.Delay(timeout);
     }
 }

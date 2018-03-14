@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Fclp.Internals.Extensions;
 using log4net;
 
 namespace ClusterClient.Clients
@@ -38,7 +39,11 @@ namespace ClusterClient.Clients
                 }
             });
             if (await Task.WhenAny(roundTask, Task.Delay(timeout)) == roundTask)
-                return await roundTask;
+            {
+                var res = await roundTask;
+                if (!res.IsNullOrEmpty())
+                    return res;
+            }
             throw new TimeoutException();
         }
     }

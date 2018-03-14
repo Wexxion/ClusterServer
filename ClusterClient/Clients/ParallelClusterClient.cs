@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Fclp.Internals.Extensions;
 using log4net;
 
 namespace ClusterClient.Clients
@@ -25,7 +26,11 @@ namespace ClusterClient.Clients
 
                 var requestsTask = Task.WhenAny(tasks.Keys);
                 if (await Task.WhenAny(requestsTask, Task.Delay(timeout)) == requestsTask)
-                    return await await requestsTask;
+                {
+                    var res = await await requestsTask;
+                    if (!res.IsNullOrEmpty())
+                        return res;
+                }
                 throw new TimeoutException();
             }
         }

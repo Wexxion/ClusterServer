@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading;
@@ -11,51 +12,61 @@ namespace ClusterServer
     {
         private static readonly ILog Log = LogManager.GetLogger(typeof(HttpListenerExtensions));
 
-        public static void StartProcessingRequestsAsync(this HttpListener listener, Func<HttpListenerContext, Task> callbackAsync)
+        public static async Task StartProcessingRequestsAsync(this HttpListener listener,
+            Func<HttpListenerContext, Task> callbackAsync)
         {
             listener.Start();
+            var taskCancellationTokens = new ConcurrentDictionary<string, CancellationTokenSource>();
 
             while (true)
-            {
                 try
                 {
-                    var context = listener.GetContext();
-
-                    Task.Run(
-                        async () =>
-                        {
-                            var ctx = context;
-                            try
+                    var context = await listener.GetContextAsync();
+                    var query = context.Request.QueryString["query"];
+                    if (context.Request.Headers["abort"] == "True")
+                        taskCancellationTokens[query].Cancel();
+                    else
+                    {
+                        var cancellationTokenSource = new CancellationTokenSource();
+                        if (!taskCancellationTokens.ContainsKey(query))
+                            taskCancellationTokens.TryAdd(query, cancellationTokenSource);
+                        else
+                            taskCancellationTokens[query] = cancellationTokenSource;
+                        Task.Run(async () =>
                             {
-                                await callbackAsync(ctx);
-                            }
-                            catch (Exception e)
-                            {
-                                Log.Error(e);
-                            }
-                            finally
-                            {
-                                ctx.Response.Close();
-                            }
-                        }
-                    );
+                                try
+                                {
+                                    await callbackAsync(context);
+                                }
+                                catch (Exception e)
+                                {
+                                    Log.Error(e);
+                                }
+                                finally
+                                {
+                                    context.Response.Close();
+                                }
+                            }, cancellationTokenSource.Token
+                        );
+                    }
                 }
                 catch (Exception e)
                 {
                     Log.Error(e);
                 }
-            }
         }
 
-        public static void StartProcessingRequestsSync(this HttpListener listener, Action<HttpListenerContext> callbackSync)
+        public static void StartProcessingRequestsSync(this HttpListener listener,
+            Action<HttpListenerContext> callbackSync)
         {
             listener.Start();
             var taskQueue = new LinkedList<HttpListenerContext>();
-            StartTaskReciever(listener, taskQueue);
-            StartTaskHandler(callbackSync, taskQueue);
+            StartTaskRecieverSync(listener, taskQueue);
+            StartTaskHandlerSync(callbackSync, taskQueue);
         }
 
-        private static void StartTaskHandler(Action<HttpListenerContext> callbackSync, LinkedList<HttpListenerContext> taskQueue)
+        private static void StartTaskHandlerSync(Action<HttpListenerContext> callbackSync,
+            LinkedList<HttpListenerContext> taskQueue)
         {
             while (true)
             {
@@ -66,6 +77,7 @@ namespace ClusterServer
                         Monitor.Wait(taskQueue);
                     context = taskQueue.Dequeue();
                 }
+
                 try
                 {
                     callbackSync(context);
@@ -81,15 +93,14 @@ namespace ClusterServer
             }
         }
 
-        private static void StartTaskReciever(HttpListener listener, LinkedList<HttpListenerContext> taskQueue)
+        private static void StartTaskRecieverSync(HttpListener listener, LinkedList<HttpListenerContext> taskQueue)
         {
-            Task.Run(async () =>
+            Task.Run(() =>
             {
                 while (true)
-                {
                     try
                     {
-                        var context = await listener.GetContextAsync();
+                        var context = listener.GetContext();
                         lock (taskQueue)
                         {
                             if (context.Request.Headers["abort"] == "True")
@@ -110,7 +121,6 @@ namespace ClusterServer
                     {
                         Log.Error(e);
                     }
-                }
             });
         }
     }
