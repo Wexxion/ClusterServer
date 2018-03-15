@@ -22,7 +22,7 @@ namespace ClusterClient.Clients
                 {
                     var address = Helper.GetNextAddress();
                     var queryString = $"{address}?query={query}";
-                    var task = GetRequestTask(queryString);
+                    var task = GetResultTask(queryString);
                     var delayTask = Task.Delay(newTimeout);
 
                     tasks.Add(task, queryString);
@@ -32,7 +32,7 @@ namespace ClusterClient.Clients
                     if (first != delayTask)
                     {
                         if (first != task)
-                            Helper.AddToGrayList(address, newTimeout);
+                            Helper.GrayList.Add(address, newTimeout);
                         using (Helper.AutoTaskAbort(tasks))
                             return await await firstRequestTask;
                     }

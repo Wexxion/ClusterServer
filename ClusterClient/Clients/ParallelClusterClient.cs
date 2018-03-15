@@ -20,7 +20,7 @@ namespace ClusterClient.Clients
                 foreach (var uri in ReplicaAddresses)
                 {
                     var queryString = $"{uri}?query={query}";
-                    var task = GetRequestTask(queryString);
+                    var task = GetResultTask(queryString);
                     tasks.Add(task, queryString);
                 }
 

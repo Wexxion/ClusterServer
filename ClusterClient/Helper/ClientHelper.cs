@@ -7,15 +7,15 @@ namespace ClusterClient.Helper
     public class ClientHelper
     {
         public ServerStatistics Statistics { get; }
-        private readonly Dictionary<string, Task> grayList;
-        private readonly IEnumerator<string> enumerator;
+        public GrayList GrayList { get; }
         public int ServerСount { get; }
+
+        private readonly IEnumerator<string> enumerator;
         public ClientHelper(string[] replicaAddresses)
         {
             Statistics = new ServerStatistics(replicaAddresses);
-            grayList = new Dictionary<string, Task>();
-            foreach (var address in replicaAddresses)
-                grayList.Add(address, Task.Delay(0));
+            GrayList = new GrayList(replicaAddresses);
+            
             ServerСount = replicaAddresses.Length;
             enumerator = GetAddressesEnumerator();
             enumerator.MoveNext();
@@ -37,11 +37,16 @@ namespace ClusterClient.Helper
                 if (pointer == 0)
                     currStat = Statistics.GetSortedAddresses();
                 var currAddr = currStat[pointer];
-                if (grayList[currAddr].IsCompleted)
+                if (GrayList.IsReady(currAddr))
                     yield return currAddr;
                 pointer = (pointer + 1) % currStat.Length;
             }
         }
-        public void AddToGrayList(string address, TimeSpan timeout) => grayList[address] = Task.Delay(timeout);
+
+        public void RemoveAddress(string address)
+        {
+            Statistics.RemoveAddress(address);
+            GrayList.Remove(address);
+        }
     }
 }

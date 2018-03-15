@@ -23,11 +23,11 @@ namespace ClusterClient.Clients
                     {
                         var address = Helper.GetNextAddress();
                         var queryString = $"{address}?query={query}";
-                        var task = GetRequestTask(queryString);
+                        var task = GetResultTask(queryString);
                         tasks.Add(task, queryString);
                         if (await Task.WhenAny(task, Task.Delay(newTimeout)) == task)
                             return await task;
-                        Helper.AddToGrayList(address, newTimeout);
+                        Helper.GrayList.Add(address, newTimeout);
                     }
             });
             if (await Task.WhenAny(roundTask, Task.Delay(timeout)) == roundTask)

@@ -13,10 +13,8 @@ namespace ClusterClient.Helper
             foreach (var replicaAddress in replicaAddresses)
                 statistics.TryAdd(replicaAddress, new Stat());
         }
-        public string[] GetSortedAddresses()
-        {
-            return statistics.OrderBy(pair => pair.Value.Average).Select(pair => pair.Key).ToArray();
-        }
+        public string[] GetSortedAddresses() 
+            => statistics.OrderBy(pair => pair.Value.Average).Select(pair => pair.Key).ToArray();
 
         public void RemoveAddress(string replicaAddress) => statistics.TryRemove(replicaAddress, out _);
 

@@ -18,7 +18,7 @@ namespace ClusterClient.Clients
         {
             var address = ReplicaAddresses[random.Next(Helper.ServerСount)];
             var queryString = $"{address}?query={query}";
-            var task = GetRequestTask(queryString);
+            var task = GetResultTask(queryString);
             await Task.WhenAny(task, Task.Delay(timeout));
             if (task.IsCompleted && !task.Result.IsNullOrEmpty())
             {
@@ -26,7 +26,7 @@ namespace ClusterClient.Clients
                 if (!res.IsNullOrEmpty())
                     return res;
             }
-            Helper.AddToGrayList(address, timeout);
+            Helper.GrayList.Add(address, timeout);
             throw new TimeoutException();
         }
     }

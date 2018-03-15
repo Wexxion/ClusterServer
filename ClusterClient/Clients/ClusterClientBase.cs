@@ -22,7 +22,7 @@ namespace ClusterClient.Clients
         protected static ClientHelper Helper;
 
         public abstract Task<string> ProcessRequestAsync(string query, TimeSpan timeout);
-        protected Task<string> GetRequestTask(string queryString, bool abort = false)
+        protected Task<string> GetResultTask(string queryString, bool abort = false)
         {
             var request = CreateRequest(queryString, abort);
             Log.InfoFormat("Processing {0}", request.RequestUri);
@@ -55,7 +55,8 @@ namespace ClusterClient.Clients
             }
             catch (WebException)
             {
-                Helper.Statistics.RemoveAddress(request.Headers["uri"]);
+
+                Helper.RemoveAddress(request.Headers["uri"]);
                 return null;
             }
         }

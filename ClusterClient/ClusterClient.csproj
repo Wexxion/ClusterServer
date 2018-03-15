@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clients\EmergencyAsyncClient.cs" />
     <Compile Include="Helper\AutoTaskAbort.cs" />
     <Compile Include="Clients\ClusterClientBase.cs" />
     <Compile Include="Clients\ParallelClusterClient.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Clients\RoundRobinClusterClient.cs" />
     <Compile Include="Clients\SmartClusterClient.cs" />
     <Compile Include="Helper\ClientHelper.cs" />
+    <Compile Include="Helper\GrayList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Helper\ServerStatistics.cs" />
